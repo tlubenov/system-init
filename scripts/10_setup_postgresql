@@ -1,0 +1,10 @@
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install postgresql postgresql-contrib -y
+# sudo sed ''
+# sudo nano /etc/postgresql/14/main/pg_hba.conf 
+sudo systemctl restart postgresql
+sudo systemctl status postgresql
+sudo ufw allow 5432/tcp
+sudo ufw reload
+ 
