@@ -1,3 +1,7 @@
+
+2023-03-07 21:46:51.000000000 +0200
+
+
 smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-67-generic] (local build)
 Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
 
@@ -210,4 +214,44 @@ SMART Selective self-test log data structure revision number 1
 Selective self-test flags (0x0):
   After scanning selected spans, do NOT read-scan remainder of disk.
 If Selective self-test is pending on power-up, resume after 0 minute delay.
+
+
+Distributor ID:	Ubuntu
+Description:	Ubuntu 22.04.2 LTS
+Release:	22.04
+Codename:	jammy
+v20230308-v2204LTS
+
+
+    1  sudo apt-get update
+    2  sudo apt-get install git
+    3  sudo apt-get install git -y
+    4  git clone https://github.com/tlubenov/system-init.git
+    5  cd system-init/
+    6  ls
+    7  cd scripts/
+    8  ls
+    9  ./01_setup_remote_machine 
+   10  ./02_sys_init_script 
+   11  ./10_setup_postgresql 
+   12  sudo apt-get install /home/maps/Downloads/code_1.76.0-1677667493_amd64.deb 
+   13  code .
+   14  cd ../
+   15  code .
+   16  stat -c %w /
+   17  stat -c %w / >> v20230308-v2204LTS 
+   18  echo -e
+   19  echo -e lsb_release -a
+   20  lsb_release -a
+   21  lsb_release -a >> v20230308-v2204LTS 
+   22  lsb_release -a
+   23  lsb_release -a > tt
+   24  lsb_release -a >> v20230308-v2204LTS 
+   25  host
+   26  hostname
+   27  hostname >> v20230308-v2204LTS 
+   28  echo >> v20230308-v2204LTS 
+   29  history >> v20230308-v2204LTS 
+
+
 
