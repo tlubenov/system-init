@@ -14,6 +14,7 @@ https://code.visualstudio.com/docs/setup/linux
 
 https://computingforgeeks.com/how-to-install-postgis-on-ubuntu-linux/
 
+https://www.linuxtechi.com/assign-static-ip-address-ubuntu-20-04-lts/#google_vignette
 
 
 
