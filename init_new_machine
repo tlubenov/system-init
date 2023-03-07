@@ -708,3 +708,63 @@ maps-thinkcentre-m93p
    44  history >> init_new_machine 
 
 
+
+
+    1  lsb_release -a
+    2  sudo apt-get update
+    3  sudo apt-get upgrade
+    4  sudo apt-get update
+    5  sudo apt-get upgrade
+    6  sudo apt autoremove
+    7  sudo shutdown now
+    8  lshw
+    9  htop
+   10  sudo apt-get install htop
+   11  htop
+   12  sudo shutdown
+   13  sudo apt-get update
+   14  sudo apt-get upgrade
+   15  sudo apt-get update
+   16  sudo apt-get upgrade
+   17  sudo apt-get autoremove
+   18  sudo apt-get install /home/maps/Downloads/code_1.76.0-1677667493_amd64.deb 
+   19  git
+   20  sudo apt-get install git
+   21  history >> init_new_machine 
+   22  echo "\n\n\n" >> init_new_machine 
+   23  echo  >> init_new_machine 
+   24  lshw
+   25  lshw >> init_new_machine 
+   26  sudo lshw >> init_new_machine 
+   27  sudo apt-get install openssh-server
+   28  sudo systemctl enable ssh
+   29  sudo systemctl enable ssh --now
+   30  sudo systemctl start ssh
+   31  sudo systemctl status ssh
+   32  sudo apt-get install postgresql postgresql-contrib
+   33  psql -V
+   34  sudo -u postgres psql -c "SELECT VERSION();"
+   35  sudo systemctl status postgresql
+   36  ss -pnltue
+   37  ss -pnltue | grep postgresql
+   38  sudo code
+   39  sudo nano /etc/postgresql/14/main/pg_hba.conf 
+   40  sudo systemctl restart postgresql
+   41  sudo systemctl status postgresql
+   42  sudo ufw allow 5432/tcp
+   43  sudo ufw reload
+   44  history >> init_new_machine 
+   45  git clone https://github.com/tlubenov/system-init.git
+   46  cd system-init/
+   47  ls
+   48  git status
+   49  code .
+   50  sudo chmod +x sys_init_script 
+   51  ls -la
+   52  ./sys_init_script 
+   53  ls -la
+   54  history 
+   55  sudo chmod +x postgresql_setup 
+   56  ./postgresql_setup 
+   57  echo >> init_new_machine 
+   58  history >> init_new_machine 
