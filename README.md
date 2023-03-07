@@ -12,6 +12,10 @@ https://www.cyberciti.biz/faq/ubuntu-linux-install-openssh-server/
 
 https://code.visualstudio.com/docs/setup/linux
 
+https://computingforgeeks.com/how-to-install-postgis-on-ubuntu-linux/
+
+
+
 
 
 ### Tasks
