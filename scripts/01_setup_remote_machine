@@ -1,7 +1,7 @@
 sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt autoremove -y
-sudo apt-get install htop openssh-server smartmontools -y
+sudo apt-get install git htop openssh-server smartmontools -y
 sudo systemctl enable ssh
 sudo systemctl enable ssh --now
 sudo systemctl start ssh
