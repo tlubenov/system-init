@@ -124,3 +124,38 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
    19  code .
    20  echo >> v20230306-v2004LTS 
    21  history >>v20230306-v2004LTS 
+
+
+
+
+
+v2023-03-06T20:34
+    1  sudo apt-get update
+    2  git clone https://github.com/tlubenov/system-init.git
+    3  sudo apt-get install git
+    4  git clone https://github.com/tlubenov/system-init.git
+    5  cd system-init/
+    6  sudo apt-get install /home/maps/Downloads/code_1.76.0-1677667493_amd64.deb 
+    7  iostat -En
+    8  cfgadm
+    9  hdparm -i /dev/sda
+   10  sudo hdparm -i /dev/sda
+   11  smartctl -a /dev/sda
+   12  sudo apt-get install smartctl
+   13  sudo apt-get install smartmontools
+   14  sudo smartctl -i /dev/sda
+   15  sudo smartctl -a /dev/sda
+   16  ls
+   17  sudo smartctl -a /dev/sda >> v20230306-v2004LTS
+   18  ls
+   19  code .
+   20  echo >> v20230306-v2004LTS 
+   21  history >>v20230306-v2004LTS 
+   22  ./sys_init_script 
+   23  ./postgresql_setup 
+   24  history 
+   25  sudo apt-get install postgis
+   26  echo >> v20230306-v2004LTS 
+   27  echo "v2023-03-06T20:34">> v20230306-v2004LTS 
+   28  code .
+   29  history >> v20230306-v2004LTS 
