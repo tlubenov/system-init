@@ -1,3 +1,0 @@
-
-sudo mkdir -p /srv/projects /srv/data/source /srv/data/processed /srv/www/api && \
-sudo chown -R $USER /srv
