@@ -1,0 +1,469 @@
+2022-10-25 17:46:06.000000000 +0300
+    1  sudo apt-get update
+    2  sudo apt-get upgrade
+    3  sudo apt-get update
+    4  sudo apt-get upgrade
+    5  sudo apt autoremove
+    6  sudo apt-get install python3-venv
+    7  sudo apt install software-properties-common apt-transport-https wget gpg
+    8  sudo apt-get install code
+    9  snap install code
+   10  wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+   11  sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+   12  sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+   13  sudo apt-get update
+   14  sudo apt-get upgrade
+   15  sudo apt-get install code
+   16  history 
+   17  history > history_20221025T1910.txt
+   18  sudo apt-get update
+   19  sudo apt-get upgrade
+   20  exit
+   21  source /home/mapslabio/apps/venv/bin/activate
+   22  uvicorn main:app --reload
+   23  python3
+   24  ls
+   25  mkdir apps
+   26  cd apps/
+   27  python3 -m venv venv
+   28  ls
+   29  source venv/bin/activate
+   30  history 
+   31  history > pip_20221025T1910.txt
+   32  pip freeze
+   33  git
+   34  sudo apt-get install git
+   35  pip install fastapi
+   36  pip install "uvicorn[standard]"
+   37  pip freeze
+   38  exit
+   39  sudo apt-get update
+   40  sudo apt-get upgrade
+   41  ip -a
+   42  ip config
+   43  ifconfig
+   44  ifconfig -a
+   45  sudo apt-get update
+   46  sudo apt-get install net-tools
+   47  ifconfig -a
+   48  ls
+   49  cd apps/
+   50  ls
+   51  source venv/bin/activate
+   52  cd mapslabio_api/
+   53  ls
+   54  uvicorn main:app --reload
+   55  uvicorn main:app --host 0.0.0.0 --reload
+   56  uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+   57  exit
+   58  source /home/mapslabio/apps/venv/bin/activate
+   59  sudo ss -tulwn | grep LISTEN
+   60  sudo ss -ltnp
+   61  sudo ufw status verbose
+   62  sudo apt-get install ufw
+   63  sudo apt autoremove
+   64  ufw enable
+   65  sudo ufw enable
+   66  sudo ufw status verbose
+   67  sudo ufw allow http
+   68  sudo ufw status verbose
+   69  sudo ufw allow 8000
+   70  sudo ufw status verbose
+   71  sudo ufw allow 8080
+   72  sudo ufw status verbose
+   73  sudo apt-get update
+   74  sudo shutdown now
+   75  sudo apt-get update
+   76  sudo apt-get upgrade
+   77  sudo apt-get update
+   78  sudo apt-get upgrade
+   79  lsb_release -a
+   80  sudo reboot now
+   81  sudo apt-get update
+   82  sudo apt-get upgrade
+   83  sudo nano /etc/systemd/logind.conf 
+   84  sudo sed -i -e 's/#HandleLidSwitch=suspend/HandleLidSwitch=ignore/g' /etc/systemd/logind.conf 
+   85  sudo nano /etc/systemd/logind.conf 
+   86  sudo apt-get update
+   87  sudo apt-get upgrade
+   88  sudo apt-get install openssh-client
+   89  sudo apt-get install openssh-server
+   90  sudo sed -i "\$aRAILS_ENV=\"production\"" /etc/environment
+   91  sudo nano /etc/environment
+   92  sudo mkdir -p /srv/planet /srv/styles /srv/tools /srv/www/api /srv/www/tiles /srv/www/rails /srv/www/search
+   93  sudo chown -R $USER /srv/
+   94  sudo chown -R $USER /srv
+   95  cd /srv/
+   96  ls
+   97  cd www/
+   98  ls
+   99  cd ../
+  100  sudo apt-get update
+  101  sudo apt-get upgrade
+  102  sudo add-apt-repository ppa:osmadmin/ppa
+  103  sudo add-apt-repository ppa:osmadmins/ppa
+  104  sudo apt-get update
+  105  sudo apt-get upgrade
+  106  sudo apt remove popularity-contest
+  107  sudo apt-get update
+  108  sudo apt-get upgrade
+  109  sudo apt autoremove
+  110  reboot
+  111  sudo apt-get update
+  112  sudo apt-get upgrade
+  113  sudo apt-get install python3
+  114  sudo apt-get install build-essential
+  115  sudo apt-get install python3-dev
+  116  sudo apt-get install python3-pip
+  117  sudo apt-get install postgresql
+  118  sudo apt-get install nodejs
+  119  sudo apt-get install npm
+  120  history 
+  121  sudo apt-get install bundler
+  122  sudo apt-get install firefox-geckodriver
+  123  sudo apt-get install git
+  124  sudo apt-get install git-core
+  125  sudo apt-get install imagemagick
+  126  sudo apt-get install libboost-dev
+  127  sudo apt-get install libboost-filesystem-dev
+  128  sudo apt-get install libboost-system-dev
+  129  sudo apt-get install python3-
+  130  sudo npm install yarn
+  131  git clone -b live --depth=1 https://github.com/openstreetmap/openstreetmap-website.git /srv/www/rails
+  132  cd /srv/www/rails/
+  133  ls
+  134  mkdir tmp
+  135  chmod -R 777 tmp
+  136  rm app/assets/images/banners/*.png
+  137  echo -e 'blank:\n id: blank' > config/banners.yml 
+  138  nano config/banners.yml 
+  139  cp config/example.database.yml config/database.yml
+  140  cp config/example.storage.yml config/storage.yml
+  141  nano config/settings.yml 
+  142  rm Gemfile.lock 
+  143  bundle install
+  144  sudo apt-get install postgresql-dev
+  145  sudo apt-get install postgresql-contrib
+  146  history 
+  147  sudo apt-get libboost-locale-dev
+  148  sudo apt-get install libboost-locale-dev
+  149  sudo apt-get install gnupg
+  150  sudo apt-get install ruby-dev
+  151  sudo apt-get install apt-transport-https
+  152  sudo apt-get install ca-certificates
+  153  sudo apt-get install libboost-program-options-dev
+  154  sudo apt-get install cmake
+  155  sudo apt-get install g++
+  156  sudo apt-get install dirmngr
+  157  sudo apt-get install postgresql-dever-dev
+  158  sudo apt-get install postgresql-sever-dev
+  159  sudo apt-get install postgresql-server-dev
+  160  sudo apt-get install postgresql-server-dev-14
+  161  bundle install
+  162  bundle fund
+  163  bundle exec rake yarn:install
+  164  touch config/settings.local.yml
+  165  nano config/settings.local.yml 
+  166  sudo apt-get install postgresql-contrib-14
+  167  sudo apt-get install postgresql-14
+  168  sudo apt-get install postgresql-14-postgis-3.3
+  169  sudo apt-get install postgresql-14-postgis-3
+  170  sudo apt-get install postgresql-14-postgis-scripts
+  171  sudo apt-get install postgresql-14-postgis-3-scripts
+  172  sudo apt-get install ruby
+  173  sudo apt-get install ruby-dev
+  174  sudo apt-get install libruby
+  175  sudo apt-get install python3-psycopg2
+  176  sudo apt-get install python3-setuptools
+  177  sudo apt-get install python3-tidylib
+  178  sudo apt-get install zlib1g-dev
+  179  sudo apt-get install libgd-dev
+  180  htop
+  181  sudo apt-get install htop
+  182  htop
+  183  sudo apt-get install libffi-dev
+  184  sudo apt-get install libbz2-dev
+  185  sudo apt-get install libarchive-dev
+  186  sudo apt-get install libpq-dev
+  187  sudo apt-get install libsasl2-dev
+  188  sudo apt-get install libxml2-dev
+  189  sudo apt-get install libxslt1-dev
+  190  sudo apt-get install libpqxx-dev
+  191  sudo apt-get install libproj-dev
+  192  sudo apt-get install libexpat1-dev
+  193  sudo apt-get install libyajl-dev
+  194  sudo apt-get install libfcgi-dev
+  195  sudo apt-get install libcrypto++-dev
+  196  sudo apt-get install libmemcached-dev
+  197  sudo apt-get install libmagickwand-dev
+  198  sudo apt-get install php
+  199  sudo apt-get install apache2
+  200  sudo apt-get install apache2-dev
+  201  sudo apt-get install libapache2-mod-php
+  202  sudo apt-get install php-intl
+  203  sudo apt-get install php-pgsql
+  204  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 561F9B9CAC40B2F7
+  205  lbs_release -a
+  206  lsb_release -a
+  207  sudo sh -c 'echo deb https://oss-binaries.phusionpassenger.com/apt/passenger jammy main > /etc/apt/sources.list.d/passenger.list'
+  208  sudo apt-get update
+  209  sudo apt-get upgrade
+  210  sudo apt-get install libapache2-mod-passenger
+  211  a2enmod passenger
+  212  apache2ctl restart
+  213  sudo apache2ctl restart
+  214  sudo reboot
+  215  sudo apt-get update
+  216  sudo apt-get upgrade
+  217  sudo shutdown now
+  218  cd system-init/
+  219  code .
+  220  history 
+  221  hostname
+  222  hostname >> instances/mapslabio-ThinkPad-X230
+  223  echo >> instances/mapslabio-ThinkPad-X230 
+  224  stat -c %w / >> instances/mapslabio-ThinkPad-X230 
+  225  echo >> instances/mapslabio-ThinkPad-X230 
+  226  lsb_release -a >> instances/mapslabio-ThinkPad-X230 
+  227  echo >> instances/mapslabio-ThinkPad-X230 
+  228  sudo smartctl -a /dev/sda >> instances/mapslabio-ThinkPad-X230 
+  229  stat -c %w / >> instances/mapslabio-ThinkPad-X230-log
+  230  history >> instances/mapslabio-ThinkPad-X230-log 
+
+
+2022-10-25 17:46:06.000000000 +0300
+    1  sudo apt-get update
+    2  sudo apt-get upgrade
+    3  sudo apt-get update
+    4  sudo apt-get upgrade
+    5  sudo apt autoremove
+    6  sudo apt-get install python3-venv
+    7  sudo apt install software-properties-common apt-transport-https wget gpg
+    8  sudo apt-get install code
+    9  snap install code
+   10  wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+   11  sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+   12  sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+   13  sudo apt-get update
+   14  sudo apt-get upgrade
+   15  sudo apt-get install code
+   16  history 
+   17  history > history_20221025T1910.txt
+   18  sudo apt-get update
+   19  sudo apt-get upgrade
+   20  exit
+   21  source /home/mapslabio/apps/venv/bin/activate
+   22  uvicorn main:app --reload
+   23  python3
+   24  ls
+   25  mkdir apps
+   26  cd apps/
+   27  python3 -m venv venv
+   28  ls
+   29  source venv/bin/activate
+   30  history 
+   31  history > pip_20221025T1910.txt
+   32  pip freeze
+   33  git
+   34  sudo apt-get install git
+   35  pip install fastapi
+   36  pip install "uvicorn[standard]"
+   37  pip freeze
+   38  exit
+   39  sudo apt-get update
+   40  sudo apt-get upgrade
+   41  ip -a
+   42  ip config
+   43  ifconfig
+   44  ifconfig -a
+   45  sudo apt-get update
+   46  sudo apt-get install net-tools
+   47  ifconfig -a
+   48  ls
+   49  cd apps/
+   50  ls
+   51  source venv/bin/activate
+   52  cd mapslabio_api/
+   53  ls
+   54  uvicorn main:app --reload
+   55  uvicorn main:app --host 0.0.0.0 --reload
+   56  uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+   57  exit
+   58  source /home/mapslabio/apps/venv/bin/activate
+   59  sudo ss -tulwn | grep LISTEN
+   60  sudo ss -ltnp
+   61  sudo ufw status verbose
+   62  sudo apt-get install ufw
+   63  sudo apt autoremove
+   64  ufw enable
+   65  sudo ufw enable
+   66  sudo ufw status verbose
+   67  sudo ufw allow http
+   68  sudo ufw status verbose
+   69  sudo ufw allow 8000
+   70  sudo ufw status verbose
+   71  sudo ufw allow 8080
+   72  sudo ufw status verbose
+   73  sudo apt-get update
+   74  sudo shutdown now
+   75  sudo apt-get update
+   76  sudo apt-get upgrade
+   77  sudo apt-get update
+   78  sudo apt-get upgrade
+   79  lsb_release -a
+   80  sudo reboot now
+   81  sudo apt-get update
+   82  sudo apt-get upgrade
+   83  sudo nano /etc/systemd/logind.conf 
+   84  sudo sed -i -e 's/#HandleLidSwitch=suspend/HandleLidSwitch=ignore/g' /etc/systemd/logind.conf 
+   85  sudo nano /etc/systemd/logind.conf 
+   86  sudo apt-get update
+   87  sudo apt-get upgrade
+   88  sudo apt-get install openssh-client
+   89  sudo apt-get install openssh-server
+   90  sudo sed -i "\$aRAILS_ENV=\"production\"" /etc/environment
+   91  sudo nano /etc/environment
+   92  sudo mkdir -p /srv/planet /srv/styles /srv/tools /srv/www/api /srv/www/tiles /srv/www/rails /srv/www/search
+   93  sudo chown -R $USER /srv/
+   94  sudo chown -R $USER /srv
+   95  cd /srv/
+   96  ls
+   97  cd www/
+   98  ls
+   99  cd ../
+  100  sudo apt-get update
+  101  sudo apt-get upgrade
+  102  sudo add-apt-repository ppa:osmadmin/ppa
+  103  sudo add-apt-repository ppa:osmadmins/ppa
+  104  sudo apt-get update
+  105  sudo apt-get upgrade
+  106  sudo apt remove popularity-contest
+  107  sudo apt-get update
+  108  sudo apt-get upgrade
+  109  sudo apt autoremove
+  110  reboot
+  111  sudo apt-get update
+  112  sudo apt-get upgrade
+  113  sudo apt-get install python3
+  114  sudo apt-get install build-essential
+  115  sudo apt-get install python3-dev
+  116  sudo apt-get install python3-pip
+  117  sudo apt-get install postgresql
+  118  sudo apt-get install nodejs
+  119  sudo apt-get install npm
+  120  history 
+  121  sudo apt-get install bundler
+  122  sudo apt-get install firefox-geckodriver
+  123  sudo apt-get install git
+  124  sudo apt-get install git-core
+  125  sudo apt-get install imagemagick
+  126  sudo apt-get install libboost-dev
+  127  sudo apt-get install libboost-filesystem-dev
+  128  sudo apt-get install libboost-system-dev
+  129  sudo apt-get install python3-
+  130  sudo npm install yarn
+  131  git clone -b live --depth=1 https://github.com/openstreetmap/openstreetmap-website.git /srv/www/rails
+  132  cd /srv/www/rails/
+  133  ls
+  134  mkdir tmp
+  135  chmod -R 777 tmp
+  136  rm app/assets/images/banners/*.png
+  137  echo -e 'blank:\n id: blank' > config/banners.yml 
+  138  nano config/banners.yml 
+  139  cp config/example.database.yml config/database.yml
+  140  cp config/example.storage.yml config/storage.yml
+  141  nano config/settings.yml 
+  142  rm Gemfile.lock 
+  143  bundle install
+  144  sudo apt-get install postgresql-dev
+  145  sudo apt-get install postgresql-contrib
+  146  history 
+  147  sudo apt-get libboost-locale-dev
+  148  sudo apt-get install libboost-locale-dev
+  149  sudo apt-get install gnupg
+  150  sudo apt-get install ruby-dev
+  151  sudo apt-get install apt-transport-https
+  152  sudo apt-get install ca-certificates
+  153  sudo apt-get install libboost-program-options-dev
+  154  sudo apt-get install cmake
+  155  sudo apt-get install g++
+  156  sudo apt-get install dirmngr
+  157  sudo apt-get install postgresql-dever-dev
+  158  sudo apt-get install postgresql-sever-dev
+  159  sudo apt-get install postgresql-server-dev
+  160  sudo apt-get install postgresql-server-dev-14
+  161  bundle install
+  162  bundle fund
+  163  bundle exec rake yarn:install
+  164  touch config/settings.local.yml
+  165  nano config/settings.local.yml 
+  166  sudo apt-get install postgresql-contrib-14
+  167  sudo apt-get install postgresql-14
+  168  sudo apt-get install postgresql-14-postgis-3.3
+  169  sudo apt-get install postgresql-14-postgis-3
+  170  sudo apt-get install postgresql-14-postgis-scripts
+  171  sudo apt-get install postgresql-14-postgis-3-scripts
+  172  sudo apt-get install ruby
+  173  sudo apt-get install ruby-dev
+  174  sudo apt-get install libruby
+  175  sudo apt-get install python3-psycopg2
+  176  sudo apt-get install python3-setuptools
+  177  sudo apt-get install python3-tidylib
+  178  sudo apt-get install zlib1g-dev
+  179  sudo apt-get install libgd-dev
+  180  htop
+  181  sudo apt-get install htop
+  182  htop
+  183  sudo apt-get install libffi-dev
+  184  sudo apt-get install libbz2-dev
+  185  sudo apt-get install libarchive-dev
+  186  sudo apt-get install libpq-dev
+  187  sudo apt-get install libsasl2-dev
+  188  sudo apt-get install libxml2-dev
+  189  sudo apt-get install libxslt1-dev
+  190  sudo apt-get install libpqxx-dev
+  191  sudo apt-get install libproj-dev
+  192  sudo apt-get install libexpat1-dev
+  193  sudo apt-get install libyajl-dev
+  194  sudo apt-get install libfcgi-dev
+  195  sudo apt-get install libcrypto++-dev
+  196  sudo apt-get install libmemcached-dev
+  197  sudo apt-get install libmagickwand-dev
+  198  sudo apt-get install php
+  199  sudo apt-get install apache2
+  200  sudo apt-get install apache2-dev
+  201  sudo apt-get install libapache2-mod-php
+  202  sudo apt-get install php-intl
+  203  sudo apt-get install php-pgsql
+  204  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 561F9B9CAC40B2F7
+  205  lbs_release -a
+  206  lsb_release -a
+  207  sudo sh -c 'echo deb https://oss-binaries.phusionpassenger.com/apt/passenger jammy main > /etc/apt/sources.list.d/passenger.list'
+  208  sudo apt-get update
+  209  sudo apt-get upgrade
+  210  sudo apt-get install libapache2-mod-passenger
+  211  a2enmod passenger
+  212  apache2ctl restart
+  213  sudo apache2ctl restart
+  214  sudo reboot
+  215  sudo apt-get update
+  216  sudo apt-get upgrade
+  217  sudo shutdown now
+  218  cd system-init/
+  219  code .
+  220  history 
+  221  hostname
+  222  hostname >> instances/mapslabio-ThinkPad-X230
+  223  echo >> instances/mapslabio-ThinkPad-X230 
+  224  stat -c %w / >> instances/mapslabio-ThinkPad-X230 
+  225  echo >> instances/mapslabio-ThinkPad-X230 
+  226  lsb_release -a >> instances/mapslabio-ThinkPad-X230 
+  227  echo >> instances/mapslabio-ThinkPad-X230 
+  228  sudo smartctl -a /dev/sda >> instances/mapslabio-ThinkPad-X230 
+  229  stat -c %w / >> instances/mapslabio-ThinkPad-X230-log
+  230  history >> instances/mapslabio-ThinkPad-X230-log 
+  231  git status
+  232  git add .
+  233  echo >> instances/mapslabio-ThinkPad-X230-log 
+  234  stat -c %w / >> instances/mapslabio-ThinkPad-X230-log
+  235  history >> instances/mapslabio-ThinkPad-X230-log 
