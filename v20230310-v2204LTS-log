@@ -1,0 +1,24 @@
+
+setup ubuntu 22.04LTS
+
+sudo apt-get install git
+git clone https://github.com/tlubenov/system-init.git
+cd system-init
+./scripts/01_setup_remote_machine 
+./scripts/02_sys_init_script 
+./scripts/10_setup_postgresql 
+./scripts/20_setup_postgis 
+
+# log into hostname-file -> hostname; stat -c %w /; lsb_release -a; sudo smartctl -a /dev/sda;
+
+
+tune the system
+- setup firewall with following rules
+- setup postgresql port, access, users, passwords
+- create gis user and database and grant privileges
+- create extension postgis into gis database
+- create extension ...
+- create extension ...
+- create extension ...
+
+log all changes into hostname-file with ts metadata
