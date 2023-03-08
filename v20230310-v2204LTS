@@ -1,0 +1,216 @@
+v20230310-v2204LTS
+
+
+
+2023-03-08 01:00:58.000000000 +0200
+
+
+
+Distributor ID:	Ubuntu
+Description:	Ubuntu 22.04.2 LTS
+Release:	22.04
+Codename:	jammy
+
+
+
+smartctl 7.2 2020-12-30 r5155 [x86_64-linux-5.15.0-67-generic] (local build)
+Copyright (C) 2002-20, Bruce Allen, Christian Franke, www.smartmontools.org
+
+=== START OF INFORMATION SECTION ===
+Model Family:     Hitachi Travelstar 5K500.B
+Device Model:     Hitachi HTS545050B9A300
+Serial Number:    120223PBN406P7J7EDUE
+LU WWN Device Id: 5 000cca 6addf8ff5
+Firmware Version: PB4OC64G
+User Capacity:    500,107,862,016 bytes [500 GB]
+Sector Size:      512 bytes logical/physical
+Rotation Rate:    5400 rpm
+Form Factor:      2.5 inches
+Device is:        In smartctl database [for details use: -P show]
+ATA Version is:   ATA8-ACS T13/1699-D revision 6
+SATA Version is:  SATA 2.6, 3.0 Gb/s
+Local Time is:    Wed Mar  8 07:22:08 2023 EET
+SMART support is: Available - device has SMART capability.
+SMART support is: Enabled
+
+=== START OF READ SMART DATA SECTION ===
+SMART overall-health self-assessment test result: PASSED
+
+General SMART Values:
+Offline data collection status:  (0x00)	Offline data collection activity
+					was never started.
+					Auto Offline Data Collection: Disabled.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
+Total time to complete Offline 
+data collection: 		(  645) seconds.
+Offline data collection
+capabilities: 			 (0x5b) SMART execute Offline immediate.
+					Auto Offline data collection on/off support.
+					Suspend Offline collection upon new
+					command.
+					Offline surface scan supported.
+					Self-test supported.
+					No Conveyance Self-test supported.
+					Selective Self-test supported.
+SMART capabilities:            (0x0003)	Saves SMART data before entering
+					power-saving mode.
+					Supports SMART auto save timer.
+Error logging capability:        (0x01)	Error logging supported.
+					General Purpose Logging supported.
+Short self-test routine 
+recommended polling time: 	 (   2) minutes.
+Extended self-test routine
+recommended polling time: 	 ( 158) minutes.
+SCT capabilities: 	       (0x003d)	SCT Status supported.
+					SCT Error Recovery Control supported.
+					SCT Feature Control supported.
+					SCT Data Table supported.
+
+SMART Attributes Data Structure revision number: 16
+Vendor Specific SMART Attributes with Thresholds:
+ID# ATTRIBUTE_NAME          FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
+  1 Raw_Read_Error_Rate     0x000b   100   100   062    Pre-fail  Always       -       0
+  2 Throughput_Performance  0x0005   100   100   040    Pre-fail  Offline      -       0
+  3 Spin_Up_Time            0x0007   143   143   033    Pre-fail  Always       -       1
+  4 Start_Stop_Count        0x0012   099   099   000    Old_age   Always       -       2058
+  5 Reallocated_Sector_Ct   0x0033   100   100   005    Pre-fail  Always       -       0
+  7 Seek_Error_Rate         0x000b   100   100   067    Pre-fail  Always       -       0
+  8 Seek_Time_Performance   0x0005   100   100   040    Pre-fail  Offline      -       0
+  9 Power_On_Hours          0x0012   087   087   000    Old_age   Always       -       5951
+ 10 Spin_Retry_Count        0x0013   100   100   060    Pre-fail  Always       -       0
+ 12 Power_Cycle_Count       0x0032   099   099   000    Old_age   Always       -       2044
+191 G-Sense_Error_Rate      0x000a   100   100   000    Old_age   Always       -       0
+192 Power-Off_Retract_Count 0x0032   100   100   000    Old_age   Always       -       3307798576
+193 Load_Cycle_Count        0x0012   095   095   000    Old_age   Always       -       51694
+194 Temperature_Celsius     0x0002   166   166   000    Old_age   Always       -       33 (Min/Max 6/49)
+196 Reallocated_Event_Count 0x0032   100   100   000    Old_age   Always       -       0
+197 Current_Pending_Sector  0x0022   100   100   000    Old_age   Always       -       0
+198 Offline_Uncorrectable   0x0008   100   100   000    Old_age   Offline      -       0
+199 UDMA_CRC_Error_Count    0x000a   200   200   000    Old_age   Always       -       0
+223 Load_Retry_Count        0x000a   100   100   000    Old_age   Always       -       0
+
+SMART Error Log Version: 1
+ATA Error Count: 57 (device log contains only the most recent five errors)
+	CR = Command Register [HEX]
+	FR = Features Register [HEX]
+	SC = Sector Count Register [HEX]
+	SN = Sector Number Register [HEX]
+	CL = Cylinder Low Register [HEX]
+	CH = Cylinder High Register [HEX]
+	DH = Device/Head Register [HEX]
+	DC = Device Command Register [HEX]
+	ER = Error register [HEX]
+	ST = Status register [HEX]
+Powered_Up_Time is measured from power on, and printed as
+DDd+hh:mm:SS.sss where DD=days, hh=hours, mm=minutes,
+SS=sec, and sss=millisec. It "wraps" after 49.710 days.
+
+Error 57 occurred at disk power-on lifetime: 5914 hours (246 days + 10 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 02 f6 32 8a e4  Error: UNC 2 sectors at LBA = 0x048a32f6 = 76165878
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  25 00 08 f0 32 8a e0 00      01:11:36.200  READ DMA EXT
+  25 00 02 f6 32 8a e4 04      01:11:35.800  READ DMA EXT
+  25 00 08 f0 32 8a e0 00      01:11:29.900  READ DMA EXT
+  25 00 02 f6 32 8a e4 04      01:11:29.700  READ DMA EXT
+  25 00 08 f0 32 8a e0 00      01:11:23.800  READ DMA EXT
+
+Error 56 occurred at disk power-on lifetime: 5914 hours (246 days + 10 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 02 f6 32 8a e4  Error: UNC 2 sectors at LBA = 0x048a32f6 = 76165878
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  25 00 08 f0 32 8a e0 00      01:11:29.900  READ DMA EXT
+  25 00 02 f6 32 8a e4 04      01:11:29.700  READ DMA EXT
+  25 00 08 f0 32 8a e0 00      01:11:23.800  READ DMA EXT
+  25 00 02 f6 32 8a e4 04      01:11:23.400  READ DMA EXT
+  25 00 08 f0 32 8a e0 00      01:11:17.500  READ DMA EXT
+
+Error 55 occurred at disk power-on lifetime: 5914 hours (246 days + 10 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 02 f6 32 8a e4  Error: UNC 2 sectors at LBA = 0x048a32f6 = 76165878
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  25 00 08 f0 32 8a e0 00      01:11:23.800  READ DMA EXT
+  25 00 02 f6 32 8a e4 04      01:11:23.400  READ DMA EXT
+  25 00 08 f0 32 8a e0 00      01:11:17.500  READ DMA EXT
+  25 00 02 f6 32 8a e4 04      01:11:17.300  READ DMA EXT
+  25 00 08 f0 32 8a e0 00      01:11:11.400  READ DMA EXT
+
+Error 54 occurred at disk power-on lifetime: 5914 hours (246 days + 10 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 02 f6 32 8a e4  Error: UNC 2 sectors at LBA = 0x048a32f6 = 76165878
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  25 00 08 f0 32 8a e0 00      01:11:17.500  READ DMA EXT
+  25 00 02 f6 32 8a e4 04      01:11:17.300  READ DMA EXT
+  25 00 08 f0 32 8a e0 00      01:11:11.400  READ DMA EXT
+  25 00 02 f6 32 8a e4 04      01:11:11.000  READ DMA EXT
+  25 00 08 f0 32 8a e0 00      01:11:05.100  READ DMA EXT
+
+Error 53 occurred at disk power-on lifetime: 5914 hours (246 days + 10 hours)
+  When the command that caused the error occurred, the device was active or idle.
+
+  After command completion occurred, registers were:
+  ER ST SC SN CL CH DH
+  -- -- -- -- -- -- --
+  40 51 02 f6 32 8a e4  Error: UNC 2 sectors at LBA = 0x048a32f6 = 76165878
+
+  Commands leading to the command that caused the error were:
+  CR FR SC SN CL CH DH DC   Powered_Up_Time  Command/Feature_Name
+  -- -- -- -- -- -- -- --  ----------------  --------------------
+  25 00 08 f0 32 8a e0 00      01:11:11.400  READ DMA EXT
+  25 00 02 f6 32 8a e4 04      01:11:11.000  READ DMA EXT
+  25 00 08 f0 32 8a e0 00      01:11:05.100  READ DMA EXT
+  25 00 02 f6 32 8a e4 04      01:11:04.900  READ DMA EXT
+  25 00 08 f0 32 8a e0 00      01:10:59.000  READ DMA EXT
+
+SMART Self-test log structure revision number 1
+Num  Test_Description    Status                  Remaining  LifeTime(hours)  LBA_of_first_error
+# 1  Short offline       Completed without error       00%      5257         -
+# 2  Short offline       Completed without error       00%      2805         -
+# 3  Short offline       Completed without error       00%      2339         -
+# 4  Short offline       Completed without error       00%      1823         -
+# 5  Short offline       Completed without error       00%      1397         -
+# 6  Short offline       Completed without error       00%       921         -
+# 7  Short offline       Completed without error       00%       493         -
+# 8  Short offline       Aborted by host               90%        92         -
+
+SMART Selective self-test log data structure revision number 1
+ SPAN  MIN_LBA  MAX_LBA  CURRENT_TEST_STATUS
+    1        0        0  Not_testing
+    2        0        0  Not_testing
+    3        0        0  Not_testing
+    4        0        0  Not_testing
+    5        0        0  Not_testing
+Selective self-test flags (0x0):
+  After scanning selected spans, do NOT read-scan remainder of disk.
+If Selective self-test is pending on power-up, resume after 0 minute delay.
+
