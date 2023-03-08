@@ -272,3 +272,96 @@ If Selective self-test is pending on power-up, resume after 0 minute delay.
    27  sudo hwclock >> v20230310-v2204LTS 
    28  echo >> v20230310-v2204LTS 
    29  history >> v20230310-v2204LTS 
+
+
+
+2023-03-08 08:38:43.655405+02:00
+
+    1  hostname
+    2  git status
+    3  git add .
+    4  git status
+    5  git commit -m 'add new system as log v20230310-v2204LTS'
+    6  git config --local user.name "Todor Lubenov"
+    7  git config --local user.email "tlubenov@gmail.com"
+    8  git commit -m 'add new system as log v20230310-v2204LTS'
+    9  git push
+   10  git status
+   11  git add .
+   12  git status
+   13  git commit -m 'update v20230310-v2204LTS log'
+   14  git push
+   15  git status
+   16  git add .
+   17  git status
+   18  git commit -m 'update v20230310-v2204LTS log'
+   19  git push
+   20  git pull --rebase origin
+   21  sudo apt-get install git
+   22  sudo apt-get install /home/maps/Downloads/code_1.76.0-1677667493_amd64.deb 
+   23  git clone https://github.com/tlubenov/system-init.git
+   24  cd system-init/
+   25  ls
+   26  ./scripts/01_setup_remote_machine 
+   27  code .
+   28  ./scripts/02_sys_init_script 
+   29  ./scripts/10_setup_postgresql 
+   30  history 
+   31  hostname >> v20230310-v2204LTS
+   32  echo >> v20230310-v2204LTS 
+   33  lsb_release -a >> v20230310-v2204LTS 
+   34  sudo smartctl -a /dev/sda >> v20230310-v2204LTS 
+   35  stat -c %w /
+   36  stat -c %w / >> v20230310-v2204LTS 
+   37  ./scripts/20_setup_postgis 
+   38  echo >> v20230310-v2204LTS 
+   39  history >> v20230310-v2204LTS 
+   40  now
+   41  systime
+   42  date
+   43  hwclock
+   44  sudo hwclock
+   45  sudo hwclock >> v20230310-v2204LTS 
+   46  echo >> v20230310-v2204LTS 
+   47  sudo hwclock >> v20230310-v2204LTS 
+   48  echo >> v20230310-v2204LTS 
+   49  history >> v20230310-v2204LTS 
+   50  sudo shutdown now
+   51  cd system-init/
+   52  code .
+   53  ss -pnltue | grep postgresql
+   54  nano /etc/postgresql/14/main/postgresql.conf 
+   55  sudo nano /etc/postgresql/14/main/postgresql.conf 
+   56  sudo systemctl restart postgresql
+   57  sudo systemctl status postgresql
+   58  ss -pnltue | grep postgresql
+   59  sudo su - postgres
+   60  history 
+   61  sudo su - postgres
+   62  ss -pnltue | grep postgresql
+   63  sudo ufw allow 5445/tcp
+   64  sudo ufw reload
+   65  sudo ufw status
+   66  sudo ufw default allow outgoing
+   67  sudo ufw status
+   68  sudo ufw default deny incoming
+   69  grep IPV6 /etc/default/ufw 
+   70  sudo ufw allow ssh
+   71  sudo ufw limit 5432/tcp
+   72  sudo ufw enable
+   73  sudo ufw status
+   74  sudo systemctl status ufw.service 
+   75  sudo ufw allow 80/tcp
+   76  sudo ufw allow 443/tcp
+   77  sudo systemctl status ufw.service 
+   78  sudo ufw status
+   79  sudo ufw status numbered
+   80  sudo more /var/log/ufw.log 
+   81  sudo ufw show listening
+   82  history 
+   83  sudo su - postgres
+   84  history 
+   85  echo >> v20230310-v2204LTS 
+   86  sudo hwclock >> v20230310-v2204LTS 
+   87  echo >> v20230310-v2204LTS 
+   88  history >> v20230310-v2204LTS 
