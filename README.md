@@ -16,6 +16,9 @@ https://computingforgeeks.com/how-to-install-postgis-on-ubuntu-linux/
 
 https://www.linuxtechi.com/assign-static-ip-address-ubuntu-20-04-lts/#google_vignette
 
+https://linuxhint.com/change-default-port-postgresql/
+
+https://www.cyberciti.biz/faq/ubuntu-22-04-lts-set-up-ufw-firewall-in-5-minutes/
 
 
 
