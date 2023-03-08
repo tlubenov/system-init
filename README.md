@@ -20,6 +20,10 @@ https://linuxhint.com/change-default-port-postgresql/
 
 https://www.cyberciti.biz/faq/ubuntu-22-04-lts-set-up-ufw-firewall-in-5-minutes/
 
+https://stackoverflow.com/questions/50971849/put-automatically-password-of-user-in-pg-restore-command-line-windows
+
+
+
 
 
 ### Tasks
