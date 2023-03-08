@@ -214,3 +214,28 @@ Selective self-test flags (0x0):
   After scanning selected spans, do NOT read-scan remainder of disk.
 If Selective self-test is pending on power-up, resume after 0 minute delay.
 
+
+
+
+2023-03-08 07:33:09.686433+02:00
+
+    1  sudo apt-get install git
+    2  sudo apt-get install /home/maps/Downloads/code_1.76.0-1677667493_amd64.deb 
+    3  git clone https://github.com/tlubenov/system-init.git
+    4  cd system-init/
+    5  ls
+    6  ./scripts/01_setup_remote_machine 
+    7  code .
+    8  ./scripts/02_sys_init_script 
+    9  ./scripts/10_setup_postgresql 
+   10  history 
+   11  hostname >> v20230310-v2204LTS
+   12  echo >> v20230310-v2204LTS 
+   13  lsb_release -a >> v20230310-v2204LTS 
+   14  sudo smartctl -a /dev/sda >> v20230310-v2204LTS 
+   15  stat -c %w /
+   16  stat -c %w / >> v20230310-v2204LTS 
+   17  ./scripts/20_setup_postgis 
+   18  echo >> v20230310-v2204LTS 
+   19  history >> v20230310-v2204LTS 
+
