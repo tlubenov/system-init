@@ -24,6 +24,10 @@ https://stackoverflow.com/questions/50971849/put-automatically-password-of-user-
 
 
 
+https://ostechnix.com/how-to-enable-timestamp-in-bash-history-in-linux/
+
+
+
 
 
 ### Tasks
