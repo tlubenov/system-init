@@ -1,0 +1,135 @@
+2023-02-07 18:35:13.000000000 +0200
+
+
+    1  lsb_release -a
+    2  sudo apt-get update
+    3  sudo apt-get upgrade
+    4  sudo apt-get update
+    5  sudo apt-get upgrade
+    6  sudo apt autoremove
+    7  sudo shutdown now
+    8  lshw
+    9  htop
+   10  sudo apt-get install htop
+   11  htop
+   12  sudo shutdown
+   13  stat -c %w /
+   14  ls -l /root/anaconda-ks.cfg
+   15  sudo ls -l /root/anaconda-ks.cfg
+   16  stat -c %w /
+   17  stat -c %w / > init_new_machine 
+   18  nano init_new_machine 
+   19  ls -la init_new_machine 
+   20  stat -c %w / > init_new_machine 
+   21  nano init_new_machine 
+   22  stat -c %w / >> init_new_machine 
+   23  nano init_new_machine 
+   24  stat -c %w / >> init_new_machine 
+   25  nano init_new_machine 
+   26  history 
+   27  python3
+   28  exit
+   29  ls
+   30  git status
+   31  git add init_new_machine postgresql_setup 
+   32  git status
+   33  git commit -m 'add init scripts'
+   34  git config --local user.name "Todor Lubenov"
+   35  git config --local user.email "tlubenov@gmail.com"
+   36  git commit -m 'add init scripts'
+   37  git push
+   38  git add sys_init_script 
+   39  git add init_new_machine 
+   40  git status
+   41  git commit -m 'add and update scripts'
+   42  git push
+   43  sudo apt-get update
+   44  sudo apt-get upgrade
+   45  sudo apt-get update
+   46  sudo apt-get upgrade
+   47  sudo apt-get autoremove
+   48  sudo apt-get install /home/maps/Downloads/code_1.76.0-1677667493_amd64.deb 
+   49  git
+   50  sudo apt-get install git
+   51  history >> init_new_machine 
+   52  echo "\n\n\n" >> init_new_machine 
+   53  echo  >> init_new_machine 
+   54  lshw
+   55  lshw >> init_new_machine 
+   56  sudo lshw >> init_new_machine 
+   57  sudo apt-get install openssh-server
+   58  sudo systemctl enable ssh
+   59  sudo systemctl enable ssh --now
+   60  sudo systemctl start ssh
+   61  sudo systemctl status ssh
+   62  sudo apt-get install postgresql postgresql-contrib
+   63  psql -V
+   64  sudo -u postgres psql -c "SELECT VERSION();"
+   65  sudo systemctl status postgresql
+   66  ss -pnltue
+   67  ss -pnltue | grep postgresql
+   68  sudo code
+   69  sudo nano /etc/postgresql/14/main/pg_hba.conf 
+   70  sudo systemctl restart postgresql
+   71  sudo systemctl status postgresql
+   72  sudo ufw allow 5432/tcp
+   73  sudo ufw reload
+   74  history >> init_new_machine 
+   75  git clone https://github.com/tlubenov/system-init.git
+   76  cd system-init/
+   77  ls
+   78  git status
+   79  code .
+   80  sudo chmod +x sys_init_script 
+   81  ls -la
+   82  ./sys_init_script 
+   83  ls -la
+   84  history 
+   85  sudo chmod +x postgresql_setup 
+   86  ./postgresql_setup 
+   87  echo >> init_new_machine 
+   88  history >> init_new_machine 
+   89  exit
+   90  ls
+   91  cd system-init/
+   92  git status
+   93  git add README.md 
+   94  git commit -m 'update README.md'
+   95  git push
+   96  cd system-init/
+   97  ls
+   98  git pull --rebase origin
+   99  ls
+  100  ./scripts/01_setup_remote_machine 
+  101  ls
+  102  cd scripts/
+  103  ls
+  104  ./02_sys_init_script 
+  105  ./10_setup_postgresql 
+  106  ./20_setup_postgis 
+  107  cd ../
+  108  ls
+  109  hostname
+  110  hostname >> maps-ThinkCentre-M93p
+  111  echo >> maps-ThinkCentre-M93p 
+  112  code .
+  113  lsb_release -a >> maps-ThinkCentre-M93p 
+  114  echo >> maps-ThinkCentre-M93p 
+  115  stat -c %w / >> maps-ThinkCentre-M93p 
+  116  echo >> maps-ThinkCentre-M93p 
+  117  sudo smartctl -a /dev/sda >> maps-ThinkCentre-M93p 
+  118  code .
+  119  sudo shutdown now
+  120  git status
+  121  git add .
+  122  git commit -m 'add maps-ThinkCentre-M93p'
+  123  git pull--rebase origin
+  124  git pull --rebase origin
+  125  git push
+  126  git status
+  127  git add .
+  128  stat -c %w / >> instances/maps-ThinkCentre-M93p-history-log
+  129  echo >> instances/maps-ThinkCentre-M93p-history-log
+  130  history >> instances/maps-ThinkCentre-M93p-history-log 
+
+
