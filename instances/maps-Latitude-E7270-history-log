@@ -1,0 +1,1006 @@
+
+2023-03-10 19:34:06.106931+02:00
+
+ 1003  pip install --upgrade pip
+ 1004  wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo gpg --dearmor -o /usr/share/keyrings/elasticsearch-keyring.gpg
+ 1005  sudo apt-get install apt-transport-https
+ 1006  echo "deb [signed-by=/usr/share/keyrings/elasticsearch-keyring.gpg] https://artifacts.elastic.co/packages/8.x/apt stable main" | sudo tee /etc/apt/sources.list.d/elastic-8.x.list
+ 1007  sudo apt-get update && sudo apt-get install elasticsearch
+ 1008  cp .env.example .env
+ 1009  python ./manage.py migrate
+ 1010  python ./manage.py createcachetable
+ 1011  python ./manage.py import_charities
+ 1012  python ./manage.py import_companies
+ 1013  python ./manage.py import_all
+ 1014  deactivate 
+ 1015  sudo apt-get update
+ 1016  sudo apt-get upgrade
+ 1017  ls
+ 1018  cd /
+ 1019  cd home/
+ 1020  ls
+ 1021  cd /mapslabio/
+ 1022  ls
+ 1023  cd dev_projects/
+ 1024  ls
+ 1025  mkdir ftc
+ 1026  cd ftc/
+ 1027  python
+ 1028  python3
+ 1029  python3 -m venv venv
+ 1030  source venv/bin/activate
+ 1031  pip freeze
+ 1032  pip install --upgrade pip
+ 1033  pip install sqlalchemy
+ 1034  pip install pandas
+ 1035  pip install psycopg2-binary
+ 1036  pip freeze
+ 1037  pip install jupyterlab
+ 1038  jupyter lab
+ 1039  sudo apt-get update
+ 1040  sudo apt-get upgrade
+ 1041  sudo apt-get update
+ 1042  sudo apt-get upgrade
+ 1043  sudo apt autoremove
+ 1044  sudo apt-get update
+ 1045  sudo apt-get upgrade
+ 1046  sudo apt-get update
+ 1047  sudo apt-get upgrade
+ 1048  sudo apt-get update
+ 1049  sudo apt-get upgrade
+ 1050  sudo apt-get update
+ 1051  sudo apt-get upgrade
+ 1052  cd /mapslabio/
+ 1053  cd aquagis-valve-backend/
+ 1054  ls
+ 1055  source jlab/bin/activate
+ 1056  jupyter lab
+ 1057  exit
+ 1058  sudo apt-get update
+ 1059  sudo apt-get upgrade
+ 1060  history 
+ 1061  history | grep ssh
+ 1062  ssh gisadmin@192.168.99.141
+ 1063  exit
+ 1064  sudo apt-get update
+ 1065  sudo apt-get upgrade
+ 1066  sudo apt-get update
+ 1067  sudo apt-get upgrade
+ 1068  ls
+ 1069  cd /cytora/
+ 1070  ls
+ 1071  cd apps/
+ 1072  ls
+ 1073  git clone https://github.com/cytora/data-processing.git
+ 1074  cd data-processing/
+ 1075  ls
+ 1076  python3
+ 1077  python3 -m venv venv
+ 1078  source venv/bin/activate
+ 1079  pip install --upgrade pip
+ 1080  pip install -r requirements.txt 
+ 1081  nano requirements.txt 
+ 1082  pip install -r requirements.txt 
+ 1083  code .
+ 1084  pip install -r requirements.txt 
+ 1085  ssh mapserver@192.168.1.56
+ 1086  cd ../
+ 1087  ls
+ 1088  mkdir ur_models
+ 1089  cd ur_models/
+ 1090  scp mapserver@192.168.1.56:/home/mapserver/cytora_apps/universal-resolver-service/ur_models/postprocessor.pkl .
+ 1091  scp mapserver@192.168.1.56:/home/mapserver/cytora_apps/universal-resolver-service/ur_models/fast_matcher.pkl
+ 1092  scp mapserver@192.168.1.56:/home/mapserver/cytora_apps/universal-resolver-service/ur_models/fast_matcher.pkl .
+ 1093  scp mapserver@192.168.1.56:/home/mapserver/cytora_apps/universal-resolver-service/ur_models/fuzzy_matcher.pkl .
+ 1094  pwd
+ 1095  sudo apt-get install openssh-server
+ 1096  sudo systemctl enable ssh
+ 1097  sudo systemctl start ssh
+ 1098  sudo systemctl restart ssh
+ 1099  df
+ 1100  scp mapserver@192.168.1.56:/home/mapserver/cytora_apps/universal-resolver-service/ur_models/fuzzy_matcher.pkl .
+ 1101  scp mapserver@192.168.1.56:/home/mapserver/cytora_apps/universal-resolver-service/ur_models/fast_matcher.pkl .
+ 1102  scp mapserver@192.168.1.56:/home/mapserver/cytora_apps/universal-resolver-service/ur_models/postprocessor.pkl .
+ 1103  ssh mapserver@192.168.1.56
+ 1104  cd ../
+ 1105  cd data-processing/
+ 1106  ls
+ 1107  scp -r data_source/ mapserver@192.168.1.56:/home/mapserver/cytora_apps/data-processing/
+ 1108  ssh mapserver@192.168.1.56
+ 1109  deactivate 
+ 1110  exit
+ 1111  cd /dev_tgl/
+ 1112  ls
+ 1113  cd pytorch/
+ 1114  source venv/bin/activate
+ 1115  pip freeze
+ 1116  pip list
+ 1117  pip list > requirements.txt
+ 1118  pip freeze > requirements.txt
+ 1119  pip list > req_list.txt
+ 1120  deactivate 
+ 1121  ls
+ 1122  rm -r venv/
+ 1123  sudo apt-get install python3-scipy
+ 1124  ssh mapserver@192.168.1.56
+ 1125  htop
+ 1126  ssh mapserver@192.168.1.56
+ 1127  exit
+ 1128  ssh mapserver@192.168.1.56
+ 1129  exit
+ 1130  ssh gisadmin@192.168.99.141
+ 1131  exit
+ 1132  ssh mapserver@192.168.1.56
+ 1133  ssh mapserver@192.168.1.56
+ 1134  pip uninstall scipy
+ 1135  pip install scipy==1.7.1
+ 1136  pip uninstall scipy
+ 1137  pip install scipy
+ 1138  pip install scipy==1.6.1
+ 1139  pip install libs/polymatheia-2022.4.6-py2.py3-none-any.whl 
+ 1140  pip freeze
+ 1141  git status
+ 1142  git add libs/
+ 1143  git commit -m 'add polymatheia whl files'
+ 1144  git config --local user.name "Todor Lubenov"
+ 1145  git config --local user.email "todor.lubenov2cytora.com"
+ 1146  git config --local user.email "todor.lubenov@cytora.com"
+ 1147  git commit -m 'add polymatheia whl files'
+ 1148  git branch
+ 1149  git push
+ 1150  git status
+ 1151  git add .
+ 1152  git commit -m 'edit paths and requirements.txt'
+ 1153  git pull --rebase origin
+ 1154  git push
+ 1155  git status
+ 1156  sudo apt-get update
+ 1157  git status
+ 1158  sudo apt-get update
+ 1159  sudo apt-get upgrade
+ 1160  ruby --version
+ 1161  sudo apt-get install ruby-full
+ 1162  node -v
+ 1163  npm -v
+ 1164  pwd
+ 1165  ls
+ 1166  cd /mapslabio/
+ 1167  ls
+ 1168  cd dev_projects/
+ 1169  ls
+ 1170  mkdir rails-getting-started
+ 1171  cd rails-getting-started/
+ 1172  rails new wiki
+ 1173  $ sudo apt install git curl libssl-dev libreadline-dev zlib1g-dev autoconf bison build-essential        libyaml-dev libreadline-dev libncurses5-dev libffi-dev libgdbm-dev
+ 1174  $ sudo apt install git curl libssl-dev libreadline-dev zlib1g-dev autoconf bison build-essential libyaml-dev libreadline-dev libncurses5-dev libffi-dev libgdbm-dev
+ 1175  sudo apt install git curl libssl-dev libreadline-dev zlib1g-dev autoconf bison build-essential libyaml-dev libreadline-dev libncurses5-dev libffi-dev libgdbm-dev
+ 1176  sudo apt autoremove
+ 1177  curl -sL curl -fsSL https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-installer | bash
+ 1178  ls
+ 1179  nano ~/.bashrc 
+ 1180  rbenv init
+ 1181  exit
+ 1182  rbenv init
+ 1183  nano ~/.bashrc 
+ 1184  source ~/.bashrc 
+ 1185  rbenv init
+ 1186  eval "$(rbenv init - bash)"
+ 1187  nano ~/.bash_profile 
+ 1188  rbenv init
+ 1189  nano ~/.bash_profile 
+ 1190  wget -q "https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-doctor" -O- | bash
+ 1191  rbenv init
+ 1192  nano ~/.bash_profile 
+ 1193  rbenv install 3.1.1
+ 1194  ruby --version
+ 1195  sqlite --version
+ 1196  sqlite3 --version
+ 1197  yarn --version
+ 1198  gem install rails
+ 1199  sudo gem install rails
+ 1200  rails --version
+ 1201  ls
+ 1202  cd ror_projects/
+ 1203  ls
+ 1204  rails new wiki
+ 1205  ls
+ 1206  cd wiki/
+ 1207  code .
+ 1208  bin/rails s
+ 1209  git status
+ 1210  cd hydrolt-test/
+ 1211  git status
+ 1212  git pull --rebase origin
+ 1213  python3 -m venv venv
+ 1214  source venv/bin/activate
+ 1215  git status
+ 1216  git branch
+ 1217  git origin
+ 1218  git --help
+ 1219  git status
+ 1220  touch .gitignore
+ 1221  echo .idea/ >> .gitignore 
+ 1222  echo venv/ >> .gitignore 
+ 1223  git status
+ 1224  git add .gitignore 
+ 1225  git commit -m 'add .gitignore'
+ 1226  git status
+ 1227  cp cad2sql_v130519.py cad2sql_all_in_one.py 
+ 1228  git status
+ 1229  git add .
+ 1230  git status
+ 1231  git commit -m 'some minor typos and updates'
+ 1232  cd aquagis-valve-backend/
+ 1233  git status
+ 1234  cd ../
+ 1235  git clone https://github.com/aqua-gis/cadzem_backend.git
+ 1236  cd cadzem_backend/
+ 1237  ls
+ 1238  ls -la
+ 1239  git status
+ 1240  git status
+ 1241  git pull --rebase origin
+ 1242  pip freeze
+ 1243  pip install psycopg2-binary
+ 1244  python -m compileall cad2sql_v130519.py 
+ 1245  python3 -m venv venv
+ 1246  history | grep cad
+ 1247  history | grep zem
+ 1248  history | grep cad2
+ 1249  sudo apt-get update
+ 1250  sudo apt-get upgrade
+ 1251  sudo apt-get update
+ 1252  sudo apt-get upgrade
+ 1253  sudo apt-get update
+ 1254  sudo apt-get upgrade
+ 1255  history | grep uvi
+ 1256  history | ssh
+ 1257  history | grep ssh
+ 1258  ssh gisadmin@192.168.99.141
+ 1259  cd /home/maps/apps/solr-9.0.0/
+ 1260  ./bin/solr start
+ 1261  ./bin/solr create -c cytora_companies
+ 1262  history 
+ 1263  ssh gisadmin@192.168.99.141
+ 1264  exit
+ 1265  python3
+ 1266  python3 -m venv venv
+ 1267  touch .gitignore
+ 1268  git init
+ 1269  git status
+ 1270  git add .gitignore 
+ 1271  git status
+ 1272  git commit -m "init commit"
+ 1273  git config --local user.name "Todor Lubenov"
+ 1274  git config --local user.email "tlubenov@gmail.com"
+ 1275  git commit -m "init commit"
+ 1276  git status
+ 1277  sudo apt-get update
+ 1278  sudo apt-get upgrade
+ 1279  sudo apt-get update
+ 1280  sudo apt-get upgrade
+ 1281  sudo apt-get update
+ 1282  sudo apt-get upgrade
+ 1283  htop
+ 1284  sudo apt-get update
+ 1285  sudo apt-get upgrade
+ 1286  sudo apt-get update
+ 1287  sudo apt-get upgrade
+ 1288  sudo apt-get autoremove
+ 1289  sudo apt autoremove
+ 1290  htop
+ 1291  sudo shutdown now
+ 1292  python3
+ 1293  python3 -m venv venv
+ 1294  ls
+ 1295  cd apps/
+ 1296  ls
+ 1297  cd ../
+ 1298  ls
+ 1299  cd /
+ 1300  ls
+ 1301  cd mapslab
+ 1302  ls
+ 1303  cd ../mapslabio/
+ 1304  ls
+ 1305  ls -la
+ 1306  cd dev_projects/
+ 1307  ls
+ 1308  cd ../
+ 1309  ls -la
+ 1310  git clone https://github.com/tlubenov/mapslabio-api.git
+ 1311  ls
+ 1312  sudo apt-get update
+ 1313  lshw 
+ 1314  exit
+ 1315  cd /mapslabio/dev_projects/
+ 1316  ls
+ 1317  python3
+ 1318  python3-m venv venv
+ 1319  python3 -m venv venv
+ 1320  source venv/bin/activate
+ 1321  source /apis/envs/venv/bin/activate
+ 1322  poetry add pandas-profiling
+ 1323  pip list
+ 1324  poetry add numpy==1.23.5
+ 1325  poetry add pydantic
+ 1326  poetry add networkx
+ 1327  poetry add scipy
+ 1328  poetry add statsmodels
+ 1329  poetry add statsmodels==0.13.5
+ 1330  poetry add scipy==1.9.3
+ 1331  poetry add statsmodels==0.13.5
+ 1332  poetry add scipy==1.8.9
+ 1333  pip list scipy
+ 1334  pip install scipy==
+ 1335  poetry add scipy==1.8.1
+ 1336  poetry add scipy==1.9.3
+ 1337  poetry add ipywidgets
+ 1338  sudo apt-get update
+ 1339  sudo apt-get upgrade
+ 1340  sudo mkdir -p /apis/ /apis/envs/ /apis/projects/
+ 1341  sudo chown -R $USER /apis/
+ 1342  cd /
+ 1343  ls -la
+ 1344  cd apis/
+ 1345  ls
+ 1346  cd envs/
+ 1347  python3 -m venv venv
+ 1348  source venv/bin/activate
+ 1349  pip install poetry
+ 1350  cd ../
+ 1351  ls
+ 1352  cd projects/
+ 1353  ls
+ 1354  poetry new notebooks
+ 1355  cd notebooks/
+ 1356  ls
+ 1357  poetry add jupyterlab
+ 1358  poetry add pandas
+ 1359  poetry add numpy
+ 1360  poetry add seaborn
+ 1361  poetry add pillow
+ 1362  poetry add wheel
+ 1363  poetry add pillow
+ 1364  deactivate 
+ 1365  source /apis/envs/venv/bin/activate
+ 1366  pip install wheel
+ 1367  poetry add matplotlib
+ 1368  poetry add p
+ 1369  poetry add matplotlib
+ 1370  poetry add wheel
+ 1371  poetry add pillow
+ 1372  poetry add pillow==9.0.0
+ 1373  poetry add pillow==9.1.0
+ 1374  poetry add pillow==9.2.0
+ 1375  poetry add pillow==9.1.10
+ 1376  poetry add pillow==9.1.9
+ 1377  poetry add pillow==9.1.8
+ 1378  poetry add pillow==9.1.1
+ 1379  poetry add pillow==9.1.2
+ 1380  poetry add seaborn
+ 1381  poetry add matplotlib
+ 1382  pip list
+ 1383  ls
+ 1384  cd notebooks/
+ 1385  ls
+ 1386  cd ../
+ 1387  jupyter lab
+ 1388  exit
+ 1389  sudo apt-get purge anydesk
+ 1390  sudo apt-get autoclean
+ 1391  sudo apt-get autoremove
+ 1392  ls -la /etc/apt/sources.list.d/
+ 1393  sudo rm /etc/apt/sources.list.d/anydesk-stable.list
+ 1394  sudo rm /etc/apt/sources.list.d/anydesk-stable.list.save 
+ 1395  sudo rm /etc/apt/sources.list.d/teamviewer.list
+ 1396  sudo rm /etc/apt/sources.list.d/teamviewer.list.save 
+ 1397  sudo apt-get purge teamviewer
+ 1398  sudo apt-get autoclean
+ 1399  sudo apt-get autoremove
+ 1400  sudo apt-get update
+ 1401  sudo apt-get upgarde
+ 1402  sudo apt-get upgrade
+ 1403  cd /apis/
+ 1404  ls
+ 1405  cd projects/
+ 1406  ls
+ 1407  source ../envs/venv/bin/activate
+ 1408  pip list
+ 1409  poetry new zesi_api
+ 1410  exit
+ 1411  cd /apis/projects/notebooks/
+ 1412  ls
+ 1413  cd notebooks/
+ 1414  source ../../../envs/venv/bin/activate
+ 1415  jupyter lab
+ 1416  deactivate 
+ 1417  exit
+ 1418  poetry add "fastapi[all]"
+ 1419  source /apis/envs/venv/bin/activate
+ 1420  poetry add "fastapi[all]"
+ 1421  pip install orjson==
+ 1422  poetry add orjson==3.8.2
+ 1423  pip install certifi
+ 1424  poetry add orjson==3.8.2
+ 1425  pip install idna
+ 1426  deactivate 
+ 1427  cd ../../
+ 1428  cd envs/
+ 1429  ls
+ 1430  python3 -m devenv
+ 1431  python3 -m venv devenv
+ 1432  ls
+ 1433  source devenv/bin/activate
+ 1434  pip install poetry
+ 1435  cd ../projects/zesi_api/
+ 1436  ls
+ 1437  poetry add "fastapi[all]"
+ 1438  pip install orjson==
+ 1439  pip install orjson==3.8.1
+ 1440  poetry add "fastapi[all]"
+ 1441  poetry add orjson==3.8.1
+ 1442  poetry remove orjson
+ 1443  poetry add idna
+ 1444  pip install idna
+ 1445  pip install certifi
+ 1446  pip install idna
+ 1447  poetry add idna
+ 1448  pip install six
+ 1449  poetry add idna
+ 1450  poetry add six
+ 1451  poetry add certifi
+ 1452  poetry remove orjson
+ 1453  poetry add "fastapi[all]"
+ 1454  pip install orjson
+ 1455  poetry add "fastapi[all]"
+ 1456  ls
+ 1457  touch .gitignore
+ 1458  docker-compose up -d
+ 1459  sudo apt-get update
+ 1460  docker-compose up -d
+ 1461  sudo -get install docker-compose
+ 1462  sudo apt-get install docker-compose
+ 1463  docker-compose up -d
+ 1464  docker ps -a
+ 1465  uvicorn zesi_api/main:app --host localhost --port 8000 --reload
+ 1466  uvicorn zesi_api.main:app --host localhost --port 8000 --reload
+ 1467  uvicorn zesi_api.app.main:app --host localhost --port 8000 --reload
+ 1468  poetry add psycopg2-binary
+ 1469  poetry add sqlalchemy
+ 1470  docker exec -it postgres bash
+ 1471  cd  /apis/
+ 1472  ls
+ 1473  source envs/devenv/bin/activate
+ 1474  pip install cookiecutter
+ 1475  cookiecutter https://github.com/tiangolo/full-stack-fastapi-postgresql
+ 1476  ls
+ 1477  cd mapslabio_base/
+ 1478  ls
+ 1479  exit
+ 1480  python classes_and_object_orientation/shipping.py 
+ 1481  python3 classes_and_object_orientation/shipping.py 
+ 1482  touch README.rst
+ 1483  mkdir src
+ 1484  mkdir src/zemcad_converter
+ 1485  mkdir tests
+ 1486  touch setup.py
+ 1487  sudo apt-get update
+ 1488  sudo apt-get upgrade
+ 1489  sudo apt-get update
+ 1490  sudo apt-get upgrade
+ 1491  sudo apt-get autoremove
+ 1492  sudo apt-get update
+ 1493  sudo apt-get upgrade
+ 1494  exit
+ 1495  cd /apis/
+ 1496  ls
+ 1497  cd sandboxes/
+ 1498  ls
+ 1499  cd ../
+ 1500  ls
+ 1501  source envs/devenv/bin/activate
+ 1502  pip list
+ 1503  deactivate 
+ 1504  source envs/venv/bin/activate
+ 1505  pip list
+ 1506  jupyter lab
+ 1507  deactivate 
+ 1508  ls
+ 1509  cd envs/
+ 1510  ls
+ 1511  python3 -m venv jenv
+ 1512  ls
+ 1513  cd ../
+ 1514  source envs/jenv/bin/activate
+ 1515  pip install jupyterlab
+ 1516  jupyter lab
+ 1517  deactivate 
+ 1518  sudo shutdown now
+ 1519  sudo sutdown now
+ 1520  sudo shutdown now
+ 1521  htop
+ 1522  sudo apt-get update
+ 1523  sudo apt-get upgrade
+ 1524  sudo apt-get update
+ 1525  sudo apt-get upgrade
+ 1526  sudo apt-get autoremove
+ 1527  sudo apt-get update
+ 1528  sudo apt-get upgrade
+ 1529  sudo apt-get autoremove
+ 1530  cd /apis/
+ 1531  ls
+ 1532  source envs/jenv/bin/activate
+ 1533  jupyter lab
+ 1534  deactivate 
+ 1535  ls
+ 1536  cd projects/
+ 1537  ls
+ 1538  node --v
+ 1539  node -v
+ 1540  npm -v
+ 1541  yarn -v
+ 1542  vue --version
+ 1543  ls
+ 1544  vue ui
+ 1545  vue create client
+ 1546  sudo n latest
+ 1547  sudo npm install -g n
+ 1548  sudo n stable
+ 1549  node -v
+ 1550  sudo -E env "PATH=$PATH" n stable
+ 1551  node -v
+ 1552  exit
+ 1553  node -v
+ 1554  sudo n stable
+ 1555  node -v
+ 1556  sudo n stable
+ 1557  node -v
+ 1558  sudo apt-get update
+ 1559  sudo apt-get upgrade
+ 1560  sudo apt-get upgrade nodejs
+ 1561  node -v
+ 1562  sudo npm install --upgrade node
+ 1563  sudo npm install --upgrade nodejs
+ 1564  node -v
+ 1565  sudo npm install --upgrade npm
+ 1566  node -v
+ 1567  npm -v
+ 1568  sudo reboot now
+ 1569  npm -v
+ 1570  node -v
+ 1571  npm cache cean -f
+ 1572  sudo npm cache cean -f
+ 1573  npm cache cean -f
+ 1574  sudo npm install -g n
+ 1575  n -v
+ 1576  n --version
+ 1577  sudo n stable
+ 1578  sudo n latest
+ 1579  node -v
+ 1580  sudo apt-get purge nodejs
+ 1581  node -v
+ 1582  sudo apt-get purge node
+ 1583  sudo apt-get purge nodejs
+ 1584  sudo apt-get autoremove
+ 1585  node -v
+ 1586  sudo reboot now
+ 1587  node -v
+ 1588  sudo apt-get remove nodejs
+ 1589  sudo apt-get update
+ 1590  sudo apt-get upgrade
+ 1591  which node
+ 1592  nvm
+ 1593  sudo n stable
+ 1594  nvm install 18.13.0
+ 1595  node -v
+ 1596  npm -v
+ 1597  yarn -v
+ 1598  cd /apis/projects/
+ 1599  ls
+ 1600  vue create client
+ 1601  npm install -g @vue/cli
+ 1602  npm install -g npm@9.2.0
+ 1603  npm -v
+ 1604  node -v
+ 1605  vue create client
+ 1606  cd client/
+ 1607  yarn serve
+ 1608  cd ../
+ 1609  rm -r client/
+ 1610  y
+ 1611  rm -r client/
+ 1612  y
+ 1613  mkdir vue_mongo
+ 1614  cd vue_mongo/
+ 1615  vue create client
+ 1616  cd client/
+ 1617  code .
+ 1618  cd ../
+ 1619  rm -r client/
+ 1620  ls
+ 1621  rm -r client/
+ 1622  y
+ 1623  ls
+ 1624  vue create client
+ 1625  cd client/
+ 1626  code .
+ 1627  cd ../
+ 1628  rm -R client/
+ 1629  y
+ 1630  ls
+ 1631  vue create client
+ 1632  cd li
+ 1633  cd client/
+ 1634  code .
+ 1635  cd ../
+ 1636  md server
+ 1637  mkdir server
+ 1638  ls
+ 1639  touch docker-compose.yml
+ 1640  code .
+ 1641  ls
+ 1642  docker-compose up -d
+ 1643  docker ps
+ 1644  docker volume ls
+ 1645  mongo admin -u gis rootpass gis
+ 1646  sudo apt-get install mongodb-client
+ 1647  sudo apt-get install mongodb-clients
+ 1648  mongo admin -u gis rootpass gis
+ 1649  mongo admin -u gis rootpass
+ 1650  mongo admin -u gis -p gis
+ 1651  docker-compose stop
+ 1652  docker-compose down
+ 1653  docker-compose up -d
+ 1654  mongo admin -u gis -p gis
+ 1655  cd server/
+ 1656  npm init -f
+ 1657  l
+ 1658  ls
+ 1659  yarn add eslint
+ 1660  node ./node_modules/eslint/bin/eslint.js --init
+ 1661  yarn add mongoose
+ 1662  cd ../
+ 1663  mkdir fastapi
+ 1664  cd fastapi/
+ 1665  ls
+ 1666  mkdir models
+ 1667  touch models/__init__.py
+ 1668  touch __init__.py
+ 1669  touch main.py
+ 1670  touch app.py
+ 1671  touch README.md
+ 1672  cd ../server/
+ 1673  yarn add express
+ 1674  exit
+ 1675  deactivate 
+ 1676  ls
+ 1677  python3
+ 1678  python3 -m venv venv
+ 1679  source venv/bin/activate
+ 1680  pip install --upgrade pip
+ 1681  pip list
+ 1682  pip install fastapi
+ 1683  pip install uvicorn
+ 1684  cd /apis/
+ 1685  ls
+ 1686  cd sandboxes/
+ 1687  ls
+ 1688  cd ../
+ 1689  ls
+ 1690  cd envs/
+ 1691  ls
+ 1692  cd ../
+ 1693  source envs/jenv/bin/activate
+ 1694  jupyter lab
+ 1695  deactivate 
+ 1696  cd /apis/geto_project/
+ 1697  ls
+ 1698  cd processing_data/
+ 1699  ls
+ 1700  cd bg_utm35n_40_ascii_grid/
+ 1701  ls
+ 1702  gdaldem aspect /apis/geto_project/source_data/bg_data_100m_u35n/bg_dem.tif /apis/geto_project/source_data/bg_data_100m_u35n/bg_asp.tif -of GTiff -b 1
+ 1703  cd ../
+ 1704  ls
+ 1705  cd ../
+ 1706  ls
+ 1707  cd apps/
+ 1708  ls
+ 1709  ./maxent/maxent.sh 
+ 1710  cd maxent/
+ 1711  ./maxent.sh 
+ 1712  exit
+ 1713  cd /apis/
+ 1714  ls
+ 1715  cd geto_project/
+ 1716  ls
+ 1717  source venv/bin/activate
+ 1718  jupyter lab
+ 1719  deactivate 
+ 1720  exit
+ 1721  htop
+ 1722  cd /apis/
+ 1723  ls
+ 1724  cd apps/
+ 1725  ls
+ 1726  cd ../
+ 1727  ls
+ 1728  source envs/jenv/bin/activate
+ 1729  jupyter lab
+ 1730  deactivate 
+ 1731  sudo apt-get update
+ 1732  sudo apt-get upgrade
+ 1733  sudo apt-get update
+ 1734  sudo apt-get upgrade
+ 1735  sudo apt-get update
+ 1736  sudo apt-get upgrade
+ 1737  sudo apt-get update
+ 1738  sudo apt-get upgrade
+ 1739  htop
+ 1740  sudo apt-get update
+ 1741  sudo apt-get upgrade
+ 1742  sudo apt-get autoremove
+ 1743  exit
+ 1744  pip list
+ 1745  touch .env
+ 1746  sudo apt-get update
+ 1747  sudo apt-get upgrade
+ 1748  sudo apt autoremove
+ 1749  ls
+ 1750  cd ml_projects/
+ 1751  ls
+ 1752  touch leaks_env
+ 1753  git clone https://github.com/hydro-lt/leaks.git
+ 1754  ls
+ 1755  cd leaks/
+ 1756  ls
+ 1757  cd src/
+ 1758  ls
+ 1759  cd ../
+ 1760  ls
+ 1761  python
+ 1762  python3
+ 1763  python3 -m venv venv
+ 1764  source venv/bin/activate
+ 1765  pip list
+ 1766  pip install --upgrade pip
+ 1767  pip install geopandas
+ 1768  pip install jupyterlab
+ 1769  jupyter lab
+ 1770  ls
+ 1771  git status
+ 1772  ls
+ 1773  ls -la
+ 1774  git status
+ 1775  git commit -m 'exclude .idea folder (PyCharm generated)'
+ 1776  git sttaus
+ 1777  git add .gitignore 
+ 1778  git commit -m 'exclude .idea folder (PyCharm generated)'
+ 1779  git status
+ 1780  git push
+ 1781  jupyter lab
+ 1782  ls
+ 1783  deactivate 
+ 1784  source venv/bin/activate
+ 1785  jupyter lab
+ 1786  source .env 
+ 1787  jupyter lab
+ 1788  source .env 
+ 1789  nano .env 
+ 1790  jupyter lab
+ 1791  deactivate 
+ 1792  exit
+ 1793  which python
+ 1794  poetry install
+ 1795  poetry add magic
+ 1796  poetry add python3-magic
+ 1797  pip list
+ 1798  deactivate 
+ 1799  source ../venv/bin/activate
+ 1800  poetry add magic
+ 1801  poetry add python3-magic
+ 1802  pip install magic
+ 1803  poetry add python3-magic
+ 1804  pip install python3-magic
+ 1805  pip install chardet
+ 1806  poetry add chardet
+ 1807  sudo mkdir -p /mapsdata/data/bg /mapsdata/data/eu /mapsdata/sources
+ 1808  sudo chown -R $USER /mapsdata
+ 1809  sudo mkdir -p /mapsapps/sources /mapsapps/projects /mapsapps/system
+ 1810  sudo chown -R $USER /mapsapps/
+ 1811  cd ml_projects/
+ 1812  ls
+ 1813  cd leaks/
+ 1814  ls
+ 1815  git status
+ 1816  git add pyproject.toml poetry.lock 
+ 1817  git commit -m 'add app requirements'
+ 1818  git status
+ 1819  git stash
+ 1820  git status
+ 1821  git pull --rebase origin
+ 1822  git push
+ 1823  ls
+ 1824  cd ../
+ 1825  cd /mapsapps/
+ 1826  ls
+ 1827  cd projects/
+ 1828  ls
+ 1829  git clone https://github.com/tlubenov/bg-zemcad-lib.git
+ 1830  git clone https://github.com/tlubenov/bg-ekatte-lib.git
+ 1831  ls
+ 1832  cd bg-zemcad-lib/
+ 1833  cd ../
+ 1834  ls
+ 1835  python3
+ 1836  python3 -m venv venv
+ 1837  source venv/bin/activate
+ 1838  pip install --upgrade pip
+ 1839  pip install poetry
+ 1840  cd bg-zemcad-lib/
+ 1841  poetry init
+ 1842  ls
+ 1843  git status
+ 1844  ls -la
+ 1845  git add pyproject.toml 
+ 1846  git commit -m 'init project'
+ 1847  git push
+ 1848  cd ../bg-ekatte-lib/
+ 1849  poetry init
+ 1850  git status
+ 1851  git add pyproject.toml 
+ 1852  git commit -m 'init project'
+ 1853  git push
+ 1854  sudo apt-get update
+ 1855  sudo apt-get upgrade
+ 1856  sudo apt-get update
+ 1857  sudo apt-get upgrade
+ 1858  sudo apt-get install magic
+ 1859  sudo apt-get install python3-magic
+ 1860  pip list
+ 1861  jupyter lab
+ 1862  cd ../../
+ 1863  ls
+ 1864  deactivate 
+ 1865  cd /home/maps/
+ 1866  ls
+ 1867  cd ml_projects/
+ 1868  ls
+ 1869  cd leaks/
+ 1870  ls
+ 1871  source venv/bin/activate
+ 1872  pip list
+ 1873  jupyter lab
+ 1874  sudo apt-get update
+ 1875  sudo apt-get upgrade
+ 1876  sudo apt-get update
+ 1877  sudo apt-get upgrade
+ 1878  jupyter lab
+ 1879  deactivate 
+ 1880  exit
+ 1881  touch Makefile
+ 1882  git status
+ 1883  git add .gitignore Makefile 
+ 1884  git commit -m 'add Makegile and edit .gitignore'
+ 1885  git status
+ 1886  git push
+ 1887  make venv
+ 1888  make setup
+ 1889  touch .init_project
+ 1890  make venv
+ 1891  make source
+ 1892  make entry
+ 1893  source venv/bin/activate
+ 1894  poetry init
+ 1895  make setup 
+ 1896  make venv/bin/activate 
+ 1897  pip list
+ 1898  make setup
+ 1899  mkdir macc_system
+ 1900  make setup
+ 1901  touch macc_system/__init__.py
+ 1902  make setup
+ 1903  git status
+ 1904  git add macc_system/ poetry.lock pyproject.toml 
+ 1905  git commit -m 'setup macc_system'
+ 1906  git status
+ 1907  git add Makefile 
+ 1908  git status
+ 1909  git commit -m 'update Makefile'
+ 1910  git status
+ 1911  git push
+ 1912  poetry add django
+ 1913  poetry add gunicorn
+ 1914  poetry add python-dotenv
+ 1915  git status
+ 1916  git add poetry.lock pyproject.toml 
+ 1917  git commit -m 'update poetry files'
+ 1918  git add macc_system/dim/ macc_system/macc_system/ macc_system/website/
+ 1919  git status
+ 1920  git add macc_system/fact/
+ 1921  git status
+ 1922  git add macc_system/manage.py 
+ 1923  git status
+ 1924  git commit -m 'add most of django macc_system codebase'
+ 1925  git status
+ 1926  git pull --rebase origin
+ 1927  git push
+ 1928  ls
+ 1929  cd macc_system/
+ 1930  python manage.py runserver
+ 1931  poetry add grappelli
+ 1932  poetry add django-grappelli
+ 1933  poetry add django-cors-headers
+ 1934  poetry add geopandas
+ 1935  poetry add django-extensions
+ 1936  poetry add sqlalchemy
+ 1937  poetry add rtree
+ 1938  python manage.py runserver
+ 1939  poetry add django-filebrowser
+ 1940  python manage.py runserver
+ 1941  poetry add django-formtools
+ 1942  python manage.py runserver
+ 1943  poetry add psycopg2-binary
+ 1944  python manage.py runserver
+ 1945  git add report/
+ 1946  git status
+ 1947  git commit -m 'add report to project'
+ 1948  git status
+ 1949  git add utils/
+ 1950  git commit -m 'add utils to project'
+ 1951  git status
+ 1952  python manage.py runserver
+ 1953  cd ../
+ 1954  git status
+ 1955  git add pyproject.toml poetry.lock 
+ 1956  git status
+ 1957  git commit -m 'update poetry files'
+ 1958  git add macc_system/bin/
+ 1959  git add macc_system/root/
+ 1960  git status
+ 1961  git commit -m 'add root and bin to macc_system'
+ 1962  git status
+ 1963  git add macc_system/website/views.py 
+ 1964  git status
+ 1965  git add macc_system/macc_system/settings.py 
+ 1966  git status
+ 1967  git commit -m 'update python files'
+ 1968  git status
+ 1969  git pull --rebase origin
+ 1970  git push
+ 1971  cd /mapsapps/projects/
+ 1972  ls
+ 1973  git clone https://github.com/tlubenov/macc-system.git
+ 1974  pg_restore -U gis -d macc-system-db /mapsapps/projects/niggg_20230205/macc_sys_2020.dump 
+ 1975  cd macc-system/
+ 1976  source venv/bin/activate
+ 1977  cd ml_projects/
+ 1978  ls
+ 1979  cd leaks/
+ 1980  ls
+ 1981  source venv/bin/activate
+ 1982  pip list
+ 1983  jupyter lab
+ 1984  which python
+ 1985  deactivate 
+ 1986  source venv/bin/activate
+ 1987  jupyter lab
+ 1988  deactivate 
+ 1989  cd /mapsapps/
+ 1990  ls
+ 1991  cd projects/
+ 1992  ls
+ 1993  cd bg-ekatte-lib/
+ 1994  ls
+ 1995  source venv/bin/activate
+ 1996  poetry add jupyterlab --dev
+ 1997  poetry update
+ 1998  jupyter lab
+ 1999  git clone https://github.com/tlubenov/system-init.git
+ 2000  cd system-init/
+ 2001  ls
+ 2002  ./01_history 
+
+
+
