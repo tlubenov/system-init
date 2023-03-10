@@ -1,0 +1,7 @@
+echo >> instances/$HOSTNAME-history-log
+sudo hwclock >> instances/$HOSTNAME-history-log
+echo >> instances/$HOSTNAME-history-log
+history >> instances/$HOSTNAME-history-log
+echo >> instances/$HOSTNAME-history-log
+echo >> instances/$HOSTNAME-history-log
+echo >> instances/$HOSTNAME-history-log
