@@ -28,6 +28,14 @@ https://ostechnix.com/how-to-enable-timestamp-in-bash-history-in-linux/
 
 
 
+https://www.atlantic.net/vps-hosting/find-top-10-running-processes-by-memory-and-cpu-usage/
+
+
+https://www.cyberciti.biz/faq/how-do-i-find-the-largest-filesdirectories-on-a-linuxunixbsd-filesystem/
+
+
+https://medium.com/geekculture/how-to-monitor-docker-metrics-using-prometheus-grafana-707b970f1f06
+
 
 
 ### Tasks
