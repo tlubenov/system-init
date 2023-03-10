@@ -1,2 +1,14 @@
 
 
+hostname >> instances/$HOSTNAME
+echo >> instances/$HOSTNAME
+echo >> instances/$HOSTNAME
+stat -c %w / >> instances/$HOSTNAME
+echo >> instances/$HOSTNAME
+sudo lsb_release -a >> instances/$HOSTNAME
+echo >> instances/$HOSTNAME
+echo >> instances/$HOSTNAME
+echo >> instances/$HOSTNAME
+sudo smartctl -a /dev/sda >> instances/$HOSTNAME
+echo >> instances/$HOSTNAME
+echo >> instances/$HOSTNAME

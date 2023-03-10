@@ -1004,3 +1004,1009 @@
 
 
 
+
+10.03.2023 (пт) 14:28:55 EET  .561797 seconds
+
+ 1039  ls
+ 1040  cd django-vuex-coreui-free-vue-admin-template/
+ 1041  ls
+ 1042  cd frontend/
+ 1043  ls
+ 1044  ls -la
+ 1045  yarn install
+ 1046  ls
+ 1047  pwd
+ 1048  yarn serve
+ 1049  cd ../
+ 1050  ls
+ 1051  cd ../
+ 1052  ls
+ 1053  vue create mapslab.io
+ 1054  cd mapslab.io/
+ 1055  yarn install
+ 1056  yarn serve
+ 1057  cd ../
+ 1058  ls
+ 1059  vue create mapslabio
+ 1060  cd mapslabio
+ 1061  yarn add leaflet
+ 1062  yarn add vue2-leaflet
+ 1063  yarn serve
+ 1064  yarn serve --fix
+ 1065  ls
+ 1066  yarn serve --fix
+ 1067  ls
+ 1068  yarn serve --fix
+ 1069  yarn serve
+ 1070  htop
+ 1071  yarn serve
+ 1072  ~
+ 1073  ls
+ 1074  cd ~
+ 1075  cd Downloads/
+ 1076  ls
+ 1077  chmod +x Pingendo-4.3.2-x86_64.AppImage 
+ 1078  ./Pingendo-4.3.2-x86_64.AppImage 
+ 1079  ls
+ 1080  mkdir gis
+ 1081  cd gis/
+ 1082  ls
+ 1083  git
+ 1084  git clone https://github.com/tlubenov/openstreetmap-website
+ 1085  git clone https://github.com/tlubenov/iD
+ 1086  cd iD/
+ 1087  git status
+ 1088  git add dist/locales/bg.json 
+ 1089  git commit -m "replace OpenStreetMap with water server in reasonable places"
+ 1090  git config --global user.name "Todor Lubenov"
+ 1091  git config --global user.email "tlubenov@gmail.com"
+ 1092  git commit -m "replace OpenStreetMap with water server in reasonable places"
+ 1093  git status
+ 1094  git push
+ 1095  yarn
+ 1096  yarn start
+ 1097  yarn build
+ 1098  yarn start:server
+ 1099  yarn build:css
+ 1100  yarn dist:svg:iD
+ 1101  yarn start:server
+ 1102  yarn start
+ 1103  yarn start:server
+ 1104  yarn dist:svg:maki
+ 1105  yarn dist:svg:temaki
+ 1106  yarn dist:svg:fa
+ 1107  yarn start:server
+ 1108  yarn dist:svg:community
+ 1109  yarn dist:svg:tnp
+ 1110  yarn dist
+ 1111  yarn start:server
+ 1112  git status
+ 1113  git add dist/
+ 1114  git status
+ 1115  git commit -m "add dist folder"
+ 1116  git status
+ 1117  git add .gitignore 
+ 1118  git commit -m "update .gitignore"
+ 1119  git status
+ 1120  git add package.json 
+ 1121  git commit -m "change package.json"
+ 1122  git status
+ 1123  git pull --rebase origin
+ 1124  git push
+ 1125  cd ../
+ 1126  ls
+ 1127  git clone https://github.com/tlubenov/Nominatim.git
+ 1128  ping 
+ 1129  sudo apt-get update
+ 1130  sudo apt-get upgrade
+ 1131  mount -t "ntfs" -ro "uhelper=udisks2,nodev,nosuid,uid=1000,gid=1000" "/dev/sdb2" "/media/mapuser/Windows"
+ 1132  sudo mount -t "ntfs" -ro "uhelper=udisks2,nodev,nosuid,uid=1000,gid=1000" "/dev/sdb2" "/media/mapuser/Windows"
+ 1133  sudo mount -t "ntfs" -ro "uhelper=udisks2,nodev,nosuid,uid=1000,gid=1000" "/dev/sdb2" "/media/mapuser/Windows1"
+ 1134  sudo mount -t ntfs-3g -ro "uhelper=udisks2,nodev,nosuid,uid=1000,gid=1000" "/dev/sdb2" "/media/mapuser/Windows1"
+ 1135  cd /mnt/
+ 1136  ls
+ 1137  cd /media/
+ 1138  ls
+ 1139  cd mapuser/
+ 1140  ls
+ 1141  cd /dev/
+ 1142  ls
+ 1143  ls | grep sd
+ 1144  sudo mount -t ntfs-3g -o "uhelper=udisks2,nodev,nosuid,uid=1000,gid=1000" /dev/sdb2 "/media/mapuser/Windows
+ 1145  sudo mount -t ntfs-3g -o "uhelper=udisks2,nodev,nosuid,uid=1000,gid=1000" /dev/sdb2 /media/mapuser/Windows
+ 1146  sudo mount -t ntfs-3g -ro "uhelper=udisks2,nodev,nosuid,uid=1000,gid=1000" /dev/sdb2 /media/mapuser/Windows
+ 1147  sudo mount -t ntfs-3g -ro "uhelper=udisks2,nodev,nosuid,uid=1000,gid=1000" /dev/sdb2 /media/mapuser/win
+ 1148  sudo mount -t ntfs-3g -ro "uhelper=udisks2,nodev,nosuid,uid=1000,gid=1000" /dev/sdb2 /media/win
+ 1149  ntfs-3g /dev/sdb1 /mnt/windows
+ 1150  ntfs-3g /dev/sdb2 /mnt/windows
+ 1151  ntfs-3g /dev/sdb3 /mnt/windows
+ 1152  ntfs-3g -ro /dev/sdb2 /mnt/windows
+ 1153  ntfs-3g /dev/sdb2 /mnt/windows -o ro,uid=1000
+ 1154  sudo ntfs-3g /dev/sdb2 /mnt/windows -o ro,uid=1000
+ 1155  cd /mnt/
+ 1156  ls
+ 1157  mkdir windows
+ 1158  sudo mkdir win
+ 1159  sudo ntfs-3g /dev/sdb2 /mnt/win -o ro,uid=1000
+ 1160  pwd
+ 1161  source py377_venv/bin/activate
+ 1162  pip freeze
+ 1163  deactivate 
+ 1164  cd django_projects/
+ 1165  ls
+ 1166  source py37_venv/
+ 1167  source py37_venv/bin/activate
+ 1168  pip freeze
+ 1169  deactivate 
+ 1170  source py37_jup/bin/activate
+ 1171  pip freeze
+ 1172  cd ../
+ 1173  jupyter notebook
+ 1174  sudo apt-get update
+ 1175  sudo apt-get upgrade
+ 1176  sudo apt-get update
+ 1177  sudo apt-get upgrade
+ 1178  sudo apt autoremove
+ 1179  sudo shutdown
+ 1180  sudo shutdown now
+ 1181  sudo apt install p7zip-full p7zip-rar
+ 1182  7z
+ 1183  cd Downloads/
+ 1184  ls
+ 1185  cd Altered.Carbon.S02.720p.NF.WEBRip.DDP5.1.Atmos.x264-NTG\[rartv\]/
+ 1186  ls
+ 1187  7z
+ 1188  ls
+ 1189  7z
+ 1190  7z -l altered.carbon.s02e04_
+ 1191  ls -la
+ 1192  7z -l altered.carbon.s02e04_
+ 1193  ls -la
+ 1194  7z -l altered_carbon_s02e04_subsunacsnet.rar
+ 1195  7z
+ 1196  7z l altered_carbon_s02e04_subsunacsnet.rar
+ 1197  pwd
+ 1198  ls
+ 1199  ./manage.py runserver
+ 1200  ls
+ 1201  source py377_venv/bin/activate
+ 1202  pip freeze
+ 1203  deactivate 
+ 1204  ls
+ 1205  cd django_projects/
+ 1206  ls
+ 1207  source py37_jup/
+ 1208  source py37_jup/bin/activate
+ 1209  pip freeze
+ 1210  cd ../
+ 1211  pwd
+ 1212  jupyter notebook
+ 1213  exit
+ 1214  sudo apt-get update
+ 1215  sudo apt-get upgrade
+ 1216  sudo apt-get install unrar
+ 1217  cd Downloads/Altered.Carbon.S02.720p.NF.WEBRip.DDP5.1.Atmos.x264-NTG\[rartv\]/
+ 1218  ls
+ 1219  unrar x altered_carbon_s02e04_subsunacsnet.rar 
+ 1220  unrar x altered_carbon_s02e05\(subsunacs.net\).rar 
+ 1221  unrar x altered_carbon_s02e06\(subsunacs.net\).rar 
+ 1222  unrar x altered_carbon_s02e07\(subsunacs.net\).rar 
+ 1223  unrar x altered_carbon_s02e08\(subsunacs.net\).rar 
+ 1224  sudo apt-get update
+ 1225  sudo apt-get upgrade
+ 1226  sudo apt-get update
+ 1227  sudo apt-get upgrade
+ 1228  exit
+ 1229  bash -c "$(wget -q -O - https://linux.kite.com/dls/linux/current)"
+ 1230  sudo shutdown now
+ 1231  htop
+ 1232  ls
+ 1233  pwd
+ 1234  ls
+ 1235  ls -la
+ 1236  source py377_venv/bin/activate
+ 1237  pip freeze
+ 1238  deactivate 
+ 1239  cd django_projects/
+ 1240  ls
+ 1241  source py37_venv/
+ 1242  source py37_venv/bin/activate
+ 1243  pip freeze
+ 1244  deactivate 
+ 1245  node -v
+ 1246  npm -v
+ 1247  yarn -v
+ 1248  yarn global add vuepress
+ 1249  ls
+ 1250  cd ../
+ 1251  ls
+ 1252  cd mapslabio
+ 1253  ls
+ 1254  mkdir mapslabio-webpage
+ 1255  cd mapslabio-webpage/
+ 1256  echo '# MapsLab.io' > README.md
+ 1257  ls
+ 1258  vuepress dev
+ 1259  yarn global add vuepress
+ 1260  vuepress dev
+ 1261  ls
+ 1262  sudo yarn global add vuepress
+ 1263  vuepress dev
+ 1264  yarn add vuepress
+ 1265  vuepress dev
+ 1266  ./node_modules/.bin/vuepress dev
+ 1267  ./node_modules/.bin/vuepress build
+ 1268  ./node_modules/.bin/vuepress dev
+ 1269  sudo apt-get update
+ 1270  sudo apt-get upgrade
+ 1271  sudo apt-get install gdisk
+ 1272  sudo apt-get install gparted
+ 1273  ./node_modules/.bin/vuepress build
+ 1274  ./node_modules/.bin/vuepress dev
+ 1275  df
+ 1276  htop
+ 1277  ./node_modules/.bin/vuepress dev
+ 1278  ls
+ 1279  pwd
+ 1280  cd django_projects/
+ 1281  pwd
+ 1282  ls
+ 1283  source py37_jup/bin/activate
+ 1284  jupyter notebook
+ 1285  sudo shutdown now
+ 1286  docker ps -a
+ 1287  docker ps
+ 1288  pwd
+ 1289  ls
+ 1290  cd gis/
+ 1291  ls
+ 1292  cd openstreetmap-website/
+ 1293  ls
+ 1294  cd ../
+ 1295  ls
+ 1296  cd iD/
+ 1297  ls
+ 1298  git status
+ 1299  git pull
+ 1300  ls
+ 1301  yarn start
+ 1302  git branch
+ 1303  cd ../
+ 1304  ls
+ 1305  mkdir iD-whole
+ 1306  cd iD-whole/
+ 1307  git clone https://github.com/openstreetmap/iD.git
+ 1308  git status
+ 1309  git branch
+ 1310  ls
+ 1311  cd iD/
+ 1312  git branch
+ 1313  ls
+ 1314  yarn install
+ 1315  yarn start
+ 1316  yarn build
+ 1317  yarn start
+ 1318  yarn dist
+ 1319  yarn all
+ 1320  yarn start
+ 1321  ssh mapuser@192.168.1.16
+ 1322  ssh dev@192.168.1.10
+ 1323  ssh mapuser@192.168.1.10
+ 1324  pwd
+ 1325  ls
+ 1326  source py377_venv/bin/activate
+ 1327  pip freeze
+ 1328  deactivate 
+ 1329  sudo apt-get update
+ 1330  sudo apt-get upgrade
+ 1331  sudo apt-get update
+ 1332  sudo apt-get upgrade
+ 1333  git status
+ 1334  pwd
+ 1335  ls
+ 1336  source py377_venv/bin/activate
+ 1337  pip freeze
+ 1338  pip freeze > py377_venv_20200525T2000.txt
+ 1339  deactivate 
+ 1340  ls
+ 1341  cd django_projects/
+ 1342  ls
+ 1343  source py37_jup/bin/activate
+ 1344  pip freeze
+ 1345  jupyter notebook
+ 1346  cd ../
+ 1347  jupyter notebook
+ 1348  deactivate 
+ 1349  cd django_projects/
+ 1350  ls
+ 1351  exit
+ 1352  source docker_samples/py37_venv/bin/activate
+ 1353  pip freeze
+ 1354  deactivate 
+ 1355  ls
+ 1356  python3
+ 1357  python3.7
+ 1358  python3.7 -m venv py37_venv
+ 1359  source py37_venv/bin/activate
+ 1360  pip freeze
+ 1361  pip install jupyter
+ 1362  pip install --upgrade pip
+ 1363  jupyter notebook
+ 1364  exit
+ 1365  ls
+ 1366  ./jupter_lab 
+ 1367  htop
+ 1368  ls
+ 1369  source py377_venv/bin/activate
+ 1370  pip freeze
+ 1371  pip freeze > py377_venv_20200710.txt
+ 1372  deactivate 
+ 1373  rm -R py377_venv
+ 1374  ls
+ 1375  ls
+ 1376  source py37_venv/bin/activate
+ 1377  jupyter notebook
+ 1378  exit
+ 1379  sudo apt-get update
+ 1380  sudo apt-get upgrade
+ 1381  sudo apt-get update
+ 1382  sudo apt-get upgrade
+ 1383  sudo apt autoremove
+ 1384  sudo apt-get upgrade
+ 1385  sudo apt-get update
+ 1386  sudo apt-get upgrade
+ 1387  lsb_release -a
+ 1388  ls
+ 1389  source py37_venv/bin/activate
+ 1390  jupyter notebook
+ 1391  exit
+ 1392  htop
+ 1393  sudo apt-get update
+ 1394  sudo apt-get upgrade
+ 1395  htop
+ 1396  source py37_venv/bin/activate
+ 1397  jupyter notebook
+ 1398  source py37_venv/bin/activate
+ 1399  jupyter notebook
+ 1400  exit
+ 1401  source py37_venv/bin/activate
+ 1402  jupyter notebook
+ 1403  exit
+ 1404  source py37_venv/bin/activate
+ 1405  jupyter notebook
+ 1406  source py37_venv/bin/activate
+ 1407  jupyter notebook
+ 1408  pip install xlwt
+ 1409  pip install openpyxl
+ 1410  source py37_venv/bin/activate
+ 1411  jupyter notebook
+ 1412  exit
+ 1413  htop
+ 1414  source py37_venv/bin/activate
+ 1415  jupyter notebook
+ 1416  sudo apt-get update
+ 1417  sudo apt-get upgrade
+ 1418  sudo apt autoremove
+ 1419  source py37_venv/bin/activate
+ 1420  jupyter notebook
+ 1421  exit
+ 1422  source py37_venv/bin/activate
+ 1423  jupyter notebook
+ 1424  exit
+ 1425  htop
+ 1426  man lsblk
+ 1427  man dmesg
+ 1428  man fdisk
+ 1429  sudo apt-get update
+ 1430  sudo apt-get upgrade
+ 1431  pwd
+ 1432  cd ../
+ 1433  ls
+ 1434  cd dev_2020/
+ 1435  ls
+ 1436  cd ../django_projects/
+ 1437  ls
+ 1438  sudo apt-get update
+ 1439  sudo apt-get upgrade
+ 1440  sudo apt-get update
+ 1441  sudo apt-get upgrade
+ 1442  sudo apt autoremove
+ 1443  sudo apt-get update
+ 1444  sudo apt-get upgrade
+ 1445  sudo apt autoremove
+ 1446  sudo apt-get update
+ 1447  sudo apt-get upgrade
+ 1448  ls
+ 1449  source py37_venv/bin/activate
+ 1450  pip freeze
+ 1451  jupyter notebook
+ 1452  htop
+ 1453  git status
+ 1454  git 
+ 1455  git help -a
+ 1456  git config
+ 1457  git config --get-all
+ 1458  git config -l
+ 1459  git config -l > git__macc_system_2020.txt
+ 1460  l
+ 1461  git status
+ 1462  ./manage.py runserver
+ 1463  ./manage.py makemigrations
+ 1464  ./manage.py migrate
+ 1465  pip install django-extensions
+ 1466  pip install --upgrade pip
+ 1467  pip install --upgrade django
+ 1468  git status
+ 1469  ./manage.py runserver
+ 1470  pip freeze > requirements.txt 
+ 1471  ./manage.py makemigrations
+ 1472  ./manage.py migrate
+ 1473  ./manage.py runserver
+ 1474  source /home/mapuser/django_projects/py37_venv/bin/activate
+ 1475  pip install --upgrade psycopg2-binary
+ 1476  pip install --upgrade sqlparse
+ 1477  pip install --upgrade scipy
+ 1478  pip install --upgrade requests
+ 1479  pip install --upgrade pytz
+ 1480  pip install --upgrade python-dotenv
+ 1481  pip install --upgrade pandas
+ 1482  pip install --upgrade numpy
+ 1483  pip install --upgrade django-cors-headers
+ 1484  pip install --upgrade matplotlib
+ 1485  pip install --upgrade pillow
+ 1486  pip install --upgrade regex
+ 1487  pip install --upgrade seaborn
+ 1488  ls
+ 1489  cd django_projects/
+ 1490  ls
+ 1491  cd macc_system_2020/
+ 1492  ls
+ 1493  DJANGO_ALLOW_ASYNC_UNSAFE=true && python manage.py shell_plus --notebook
+ 1494  pip install jupyter
+ 1495  pip install ipython
+ 1496  DJANGO_ALLOW_ASYNC_UNSAFE=true && python manage.py shell_plus --notebook
+ 1497  ./manage.py shell_plus --notebook
+ 1498  ls
+ 1499  mkdir macc_notebooks
+ 1500  cd macc_notebooks/
+ 1501  jupyter notebook
+ 1502  cd ~
+ 1503  ls
+ 1504  jupyter notebook
+ 1505  exit
+ 1506  ./manage.py makemigrations
+ 1507  ./manage.py migrate
+ 1508  ./manage.py runserver
+ 1509  git status
+ 1510  git add dim/
+ 1511  git status
+ 1512  git add fact/
+ 1513  git stat
+ 1514  git status
+ 1515  git commit -m "edit dim and fact models"
+ 1516  git status
+ 1517  git add report/
+ 1518  git status
+ 1519  git commit -m "create and add report app"
+ 1520  git status
+ 1521  git add docs/
+ 1522  git status
+ 1523  git commit -m "eidts in docs folder"
+ 1524  git status
+ 1525  git add macc_system_2020/
+ 1526  git status
+ 1527  git commit -m "switch to env variables"
+ 1528  git status
+ 1529  ./manage.py runserver
+ 1530  ./manage.py makemigrations
+ 1531  ./manage.py migrate
+ 1532  htop
+ 1533  sudo mkdir /mapserver
+ 1534  sudo chown -R $USER /mapserver/
+ 1535  source django_projects/py37_venv/bin/activate
+ 1536  jupyter notebook
+ 1537  exit
+ 1538  source django_projects/
+ 1539  source django_projects/py37_venv/bin/activate
+ 1540  jupyter notebook
+ 1541  htop
+ 1542  ./manage.py makemigrations
+ 1543  ./manage.py migrate
+ 1544  ./manage.py runserver
+ 1545  pip freeze
+ 1546  pip install django-appdata
+ 1547  ./manage.py runserver
+ 1548  pip freeze
+ 1549  pip install --upgrade django-filebrowser
+ 1550  ./manage.py runserver
+ 1551  ssh root@164.90.217.2
+ 1552  ssh mapslab@164.90.217.2
+ 1553  ssh mapper@164.90.217.2
+ 1554  ssh-keygen
+ 1555  cat ~/.ssh/id_rsa.pub
+ 1556  ssh-copy-id 
+ 1557  ls
+ 1558  ls -la
+ 1559  ssh-copy-id mapuser-ThinkPad-Edge-E540 
+ 1560  mv mapslabio-digitalocean-202007 .ssh/
+ 1561  cd .ssh/
+ 1562  ls
+ 1563  mv ../mapslabio-digitalocean-202007.pub .
+ 1564  ls
+ 1565  cd ../
+ 1566  ssh-copy-id mapuser-ThinkPad-Edge-E540 
+ 1567  ssh ubuntu@164.90.217.2
+ 1568  history 
+ 1569  ssh-keygen
+ 1570  cat ~/.ssh/id_rsa.pub 
+ 1571  ssh root@164.90.217.2
+ 1572  ssh macc@164.90.217.2
+ 1573  ssh root@164.90.217.2
+ 1574  ssh macc@164.90.217.2
+ 1575  exit
+ 1576  git status
+ 1577  ./manage.py runserver
+ 1578  ./manage.py makemigrations
+ 1579  ./manage.py migrate
+ 1580  ./manage.py runserver
+ 1581  git status
+ 1582  git pull --rebase origin
+ 1583  git pull --rebase master
+ 1584  git pull --rebase origin
+ 1585  git config credential.helper store
+ 1586  git push
+ 1587  git pull --rebase origin
+ 1588  git pull --rebase master
+ 1589  ls
+ 1590  pip freze
+ 1591  pip freeze
+ 1592  pip freeze > requirements_20200721.txt 
+ 1593  git push
+ 1594  ./manage.py runserver
+ 1595  git status
+ 1596  git push
+ 1597  ./manage.py runserver
+ 1598  exit
+ 1599  htop
+ 1600  ./manage.py runserver
+ 1601  ./manage.py makemigrations
+ 1602  ./manage.py migrate
+ 1603  ./manage.py runserver
+ 1604  ./manage.py makemigrations
+ 1605  ./manage.py migrate
+ 1606  ./manage.py runserver
+ 1607  ./manage.py makemigrations
+ 1608  ./manage.py migrate
+ 1609  ./manage.py runserver
+ 1610  ./manage.py makemigrations
+ 1611  ./manage.py migrate
+ 1612  ./manage.py runserver
+ 1613  ./manage.py makemigrations
+ 1614  ./manage.py migrate
+ 1615  ./manage.py runserver
+ 1616  source py37_venv/bin/activate
+ 1617  pip freeze
+ 1618  jupyter notebook
+ 1619  exit
+ 1620  sudo apt-get update
+ 1621  sudo apt-get upgrade
+ 1622  sudo apt-get update
+ 1623  sudo apt-get upgrade
+ 1624  source py37_venv/bin/activate
+ 1625  pip freee
+ 1626  pip freeze
+ 1627  jupyter notebook
+ 1628  htop
+ 1629  source py37_venv/bin/activate
+ 1630  jupyter notebook
+ 1631  exit
+ 1632  htop
+ 1633  source py37_venv/bin/activate
+ 1634  jupyter notebook
+ 1635  ls
+ 1636  source py37_venv/bin/activate
+ 1637  pip freeze
+ 1638  jupyter notebook
+ 1639  htop
+ 1640  source py37_venv/bin/activate
+ 1641  jupyter notebook
+ 1642  exit
+ 1643  exit
+ 1644  source py37_venv/bin/activate
+ 1645  jupyter notebook
+ 1646  exit
+ 1647  source py37_venv/bin/activate
+ 1648  jupyter notebook
+ 1649  exit
+ 1650  source py37_venv/bin/activate
+ 1651  jupyter notebook
+ 1652  ping dir.bg
+ 1653  sudo apt-get update
+ 1654  htop
+ 1655  sudo apt-get update
+ 1656  sudo apt-get upgrade
+ 1657  source py37_venv/bin/activate
+ 1658  jupyter notebook
+ 1659  sudo shutdown now
+ 1660  source py37_venv/bin/activate
+ 1661  jupyter notebook
+ 1662  node -v
+ 1663  npm -v
+ 1664  npm i -g @vue/cli
+ 1665  sudo npm i -g @vue/cli
+ 1666  ls
+ 1667  mkdir 101_vue
+ 1668  cd 101_
+ 1669  cd 101_vue/
+ 1670  vue create pizza-planet
+ 1671  cd pizza-planet/
+ 1672  ysrn serve
+ 1673  yarn serve
+ 1674  ls
+ 1675  cd 101_vue/pizza-planet/
+ 1676  yarn serve
+ 1677  node --version
+ 1678  cd 101_udemy_dev/
+ 1679  ls
+ 1680  cd nodejs_the_complete_guide_to_build_restful_api_2018/
+ 1681  ls
+ 1682  cd first-app/
+ 1683  touch app.js
+ 1684  ls
+ 1685  node app.js 
+ 1686  cd ../
+ 1687  ls
+ 1688  cd ../
+ 1689  ls
+ 1690  cd pizza-planet/
+ 1691  ls
+ 1692  yarn serve
+ 1693  yarn add firebase
+ 1694  yarn serve
+ 1695  cd 101_udemy_dev/pizza-planet
+ 1696  yarn serve
+ 1697  exit
+ 1698  cd 101_udemy_dev/pizza-planet
+ 1699  yarn serve
+ 1700  yarn add vue-router
+ 1701  yarn serve
+ 1702  cd ../
+ 1703  ls
+ 1704  cd ../
+ 1705  ls
+ 1706  cd 101_dev_2020/
+ 1707  ls
+ 1708  vue create mapslabio-client
+ 1709  cd mapslabio-client/
+ 1710  yarn serve
+ 1711  cd 101_dev_2020/mapslabio-client/
+ 1712  yarn serve
+ 1713  exit
+ 1714  cd 101_dev_2020/mapslabio-client/
+ 1715  yarn add bootstrap-vue bootstrap
+ 1716  yarn serve
+ 1717  cd 101_udemy_dev/pizza-planet
+ 1718  yarn serve
+ 1719  cd 101_udemy_dev/pizza-planet
+ 1720  ls
+ 1721  git status
+ 1722  yarn serve
+ 1723  cd ../../
+ 1724  cd 101_dev_2020/mapslabio-client/
+ 1725  yarn serve
+ 1726  cd ../../101_
+ 1727  cd ../../
+ 1728  cd 101_udemy_dev/pizza-planet
+ 1729  yarn serve
+ 1730  vue ipect > inspect.js
+ 1731  vue inspect > inspect.js 
+ 1732  cd ../../
+ 1733  cd 101_udemy_dev/build-nodejs-app-with-mongodb/
+ 1734  node index.js 
+ 1735  cd 101_udemy_dev/
+ 1736  ls
+ 1737  cd build-nodejs-app-with-mongodb/
+ 1738  ls
+ 1739  mkdir first-app
+ 1740  mv index.js first-app/
+ 1741  ls
+ 1742  cd first-app/
+ 1743  npm init
+ 1744  ls
+ 1745  yarn add express
+ 1746  node index.js 
+ 1747  cd 101_udemy_dev/build-nodejs-app-with-mongodb/
+ 1748  ls
+ 1749  cd first-app/
+ 1750  node index.js 
+ 1751  cd ../nodejs-blog/
+ 1752  npm init
+ 1753  sudo npm install -g npm
+ 1754  touch index.js
+ 1755  yarn add express
+ 1756  java -v
+ 1757  java --version
+ 1758  java --v
+ 1759  java -version
+ 1760  cd Downloads/
+ 1761  ls
+ 1762  sudo apt-get update
+ 1763  sudo apt-get upgrade
+ 1764  sudo apt-get install java-common
+ 1765  sudo dpkg --install java-11-amazon-corretto-jdk_11.0.7.10-1_amd64.deb
+ 1766  sudo dpkg --install java-11-amazon-corretto-jdk_11.0.8.10-1_amd64.deb 
+ 1767  java -version
+ 1768  cd ~/apps/idea-IC-202.6397.94/
+ 1769  ls
+ 1770  cd bin/
+ 1771  ./idea.sh 
+ 1772  cd 101_udemy_dev/build-nodejs-app-with-mongodb/nodejs-blog/
+ 1773  yarn add nodemon --dev
+ 1774  yarn dev
+ 1775  mongod
+ 1776  mongo
+ 1777  sudo apt-get update
+ 1778  sudo apt-get upgrade
+ 1779  sudo apt-get install mongodb-org
+ 1780  echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+ 1781  sudo apt-get update
+ 1782  wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+ 1783  sudo apt-get update
+ 1784  sudo apt-get upgrade
+ 1785  sudo apt-get install mongodb-org
+ 1786  sudo apt-get install mongodb-org -y
+ 1787  sudo apt-get install mongodb-org-shell
+ 1788  sudo apt-get install libcurl4
+ 1789  sudo apt-get install libssl1.1
+ 1790  sudo apt-get install gnupg
+ 1791  lbs_release -a
+ 1792  lsb_release -a
+ 1793  echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+ 1794  sudo apt-get update
+ 1795  sudo apt-get upgrade
+ 1796  sudo apt-get install mongodb-org
+ 1797  sudo apt-get update
+ 1798  sudo apt-get upgrade
+ 1799  sudo apt-get install mongodb-org
+ 1800  mongo
+ 1801  ps --no-headers -o comm 1
+ 1802  sudo systemctl start mongod
+ 1803  mongo
+ 1804  sudo systemctl daemon-reload
+ 1805  sudo systemctl status mongod
+ 1806  sudo systemctl restart mongod
+ 1807  sudo systemctl status mongod
+ 1808  mongo
+ 1809  history 
+ 1810  cd 101_
+ 1811  cd 101_udemy_dev/
+ 1812  ls
+ 1813  cd build-nodejs-app-with-mongodb/
+ 1814  ls
+ 1815  history > hst_20200801T1510.txt
+ 1816  vscode
+ 1817  sudo systemctl status mongod.service
+ 1818  sudo systemctl status mongod
+ 1819  sudo systemctl restart mongod
+ 1820  sudo systemctl status mongod
+ 1821  mongo
+ 1822  ls
+ 1823  ls -la
+ 1824  exit
+ 1825  cd apps/studio-3t-robo-3t-linux-double-pack/
+ 1826  ./st
+ 1827  ls -la
+ 1828  sudo chmod +x studio-3t-linux-x64.sh 
+ 1829  ls -la
+ 1830  ./studio-3t-linux-x64.sh 
+ 1831  cd 101_udemy_dev/build-nodejs-app-with-mongodb/
+ 1832  ls
+ 1833  yarn add mongoose
+ 1834  ls
+ 1835  rm -R node_modules/
+ 1836  ls
+ 1837  rm package.json 
+ 1838  ls
+ 1839  rm yarn.lock 
+ 1840  ls
+ 1841  cd nodejs-blog/
+ 1842  yarn add mongoose
+ 1843  ls
+ 1844  node test.js 
+ 1845  yarn dev
+ 1846  ls
+ 1847  yarn add express-edge
+ 1848  yarn dev
+ 1849  exit
+ 1850  sudo systemctl restart mongod.service 
+ 1851  sudo systemctl restart mongod.service
+ 1852  sudo systemctl status mongod.service
+ 1853  cd 101_udemy_dev/nodejs_the_complete_guide_to_build_restful_api_2018/first-app/
+ 1854  node app.js 
+ 1855  jshint app.js 
+ 1856  node app.js 
+ 1857  cd ../../build-nodejs-app-with-mongodb/nodejs-blog/
+ 1858  yarn dev
+ 1859  yarn add body-parser
+ 1860  yarn dev
+ 1861  sudo apt-get updat
+ 1862  sudo apt-get update
+ 1863  sudo apt-get upgrade
+ 1864  sudo systemctl status mongod.service
+ 1865  sudo systemctl restart mongod.service
+ 1866  sudo systemctl status mongod.service
+ 1867  cd 101_udemy_dev/build-nodejs-app-with-mongodb/nodejs-blog/
+ 1868  yarn dev
+ 1869  sudo systemctl status mongod.service
+ 1870  sudo systemctl restart mongod.service
+ 1871  sudo systemctl status mongod.service
+ 1872  cd 101_udemy_dev/build-nodejs-app-with-mongodb/nodejs-blog/
+ 1873  yarn dev
+ 1874  yarn add express-fileupload
+ 1875  sudo apt-get update
+ 1876  sudo apt-get upgrade
+ 1877  cd 101_udemy_dev/build-nodejs-app-with-mongodb/nodejs-blog/
+ 1878  ls
+ 1879  yarn dev
+ 1880  sudo systemctl restart mongod.service
+ 1881  sudo systemctl status mongod.service
+ 1882  yarn dev
+ 1883  htop
+ 1884  docker ps
+ 1885  docker ea99 stop
+ 1886  docker stop ea99
+ 1887  docker ps
+ 1888  htop
+ 1889  sudo apt-get remove teamv*
+ 1890  sudo apt autoremove
+ 1891  sudo snap stop docker
+ 1892  sudo snap stop dockerd
+ 1893  sudo systemctl stop docker.service 
+ 1894  sudo systemctl status docker.service 
+ 1895  sudo systemctl stop docker.service 
+ 1896  sudo systemctl status docker.service 
+ 1897  htop
+ 1898  sudo apt-get update
+ 1899  sudo apt-get upgrade
+ 1900  sudo apt-get install xfce4-sensors-plugin
+ 1901  ssh dev@192.168.1.16
+ 1902  ssh mapuser@192.168.1.16
+ 1903  sudo systemctl stop docker.service 
+ 1904  sudo systemctl status docker.service 
+ 1905  htop
+ 1906  sudo systemctl stop docker.service 
+ 1907  sudo systemctl status docker.service 
+ 1908  htop
+ 1909  cd 101_udemy_dev/build-nodejs-app-with-mongodb/nodejs-blog/
+ 1910  yarn dev
+ 1911  sudo systemctl start mongo
+ 1912  sudo systemctl start mongod.service
+ 1913  sudo systemctl status mongod.service
+ 1914  yarn dev
+ 1915  htop
+ 1916  history 
+ 1917  sudo systemctl stop docker.service
+ 1918  sudo systemctl status docker.service
+ 1919  htop
+ 1920  cd ../../
+ 1921  ls
+ 1922  cd nodejs_the_complete_guide_to_build_restful_api_2018/first-app/
+ 1923  node os.js 
+ 1924  htop
+ 1925  node fs.js 
+ 1926  htop
+ 1927  node events.js 
+ 1928  ls
+ 1929  node events.js 
+ 1930  node -v
+ 1931  node events.js 
+ 1932  node os.js 
+ 1933  node events.js 
+ 1934  cd 101_udemy_dev/learn-nodejs-by-building-10-projects/
+ 1935  ls
+ 1936  cd simple-web-server/
+ 1937  npm init
+ 1938  touch index.js
+ 1939  htop
+ 1940  cd ../
+ 1941  ls
+ 1942  mkdir express-website
+ 1943  cd express-website/
+ 1944  npm init -y
+ 1945  yarn add express
+ 1946  touch app.js
+ 1947  yarn add body-parser
+ 1948  yarn add nodemailer
+ 1949  yarn add nodemon --dev
+ 1950  yarn dev
+ 1951  htop
+ 1952  exit
+ 1953  ls
+ 1954  htop
+ 1955  ssh gis@192.168.1.32
+ 1956  exit
+ 1957  ls
+ 1958  source py37_venv/bin/activate
+ 1959  pip freeze
+ 1960  jupyter notebook
+ 1961  ssh gis@192.168.1.32
+ 1962  exit
+ 1963  lab_release -a
+ 1964  lsb_release -a
+ 1965  hostname
+ 1966  hostname >> instances/mapuser-ThinkPad-Edge-E540
+ 1967  echo >> instances/mapuser-ThinkPad-Edge-E540 
+ 1968  stat -c %w /
+ 1969  stat -c %w / >> instances/mapuser-ThinkPad-Edge-E540 
+ 1970  echo >> instances/mapuser-ThinkPad-Edge-E540 
+ 1971  sudo smartctl -a /dev/sda
+ 1972  sudo lshw -json
+ 1973  sudo lshw -json >> instances/mapuser-ThinkPad-Edge-E540-lshw.json
+ 1974  echo "%hostname"
+ 1975  echo %hostname
+ 1976  echo '%hostname'
+ 1977  echo "hostname"
+ 1978  echo "$hostname"
+ 1979  echo "$HOSTNAME"
+ 1980  env
+ 1981  env >> instances/$HOSTNAME-envs
+ 1982  sudo hwclock
+ 1983  date
+ 1984  sudo hwclock
+ 1985  cd scripts/
+ 1986  ls
+ 1987  cd ../
+ 1988  sudo chmod +x 01_history 
+ 1989  ./01_history 
+ 1990  sudo chmod +x 99_init 
+ 1991  git status
+ 1992  git add .
+ 1993  git status
+ 1994  git commit -m "add new instance mapuser-ThinkPad-Edge-E540"
+ 1995  git user.name
+ 1996  git pull --rebase origin
+ 1997  git push
+ 1998  htop
+ 1999  sudo services
+ 2000  sudo systemctl list
+ 2001  sudo systemctl -h
+ 2002  sudo systemctl -a
+ 2003  sudo systemctl -a | grep git
+ 2004  sudo systemctl -a | grep lab
+ 2005  sudo systemctl -a | grep post
+ 2006  sudo systemctl -a | grep maps
+ 2007  sudo systemctl -a | grep map
+ 2008  sudo systemctl -a | grep gis
+ 2009  sudo systemctl -a | grep geo
+ 2010  sudo systemctl -a | grep mac
+ 2011  htop
+ 2012  ps aux
+ 2013  ps aux --sort -%cpu
+ 2014  ps aux --sort -%cpu | head 10
+ 2015  ps aux --sort -%cpu | head -10
+ 2016  ps aux --sort -%mem | head -10
+ 2017  sudo gitlab-ctl status
+ 2018  ps aux 4696
+ 2019  docker ps
+ 2020  docker ps -a
+ 2021  docker
+ 2022  docker ps
+ 2023  docker stop ea99
+ 2024  docker ps
+ 2025  ps aux --sort -%cpu | head -10
+ 2026  ps aux --sort -%mem | head -10
+ 2027  docker images
+ 2028  docker ps -a
+ 2029  docker start ea99
+ 2030  docker ps
+ 2031  docker stop ea99
+ 2032  htop
+ 2033  df -H
+ 2034  cd system-init/
+ 2035  code .
+ 2036  sudo apt-get upgrade code
+ 2037  code .
+ 2038  ./01_history 
+
+
+
