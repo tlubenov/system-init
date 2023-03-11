@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "system-init"
+version = "0.1.0"
+description = ""
+authors = ["Todor Lubenov <tlubenov@gmail.com>"]
+readme = "README.md"
+packages = [{include = "system_init"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.5.3"
+jupyterlab = "^3.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
