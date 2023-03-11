@@ -1,0 +1,856 @@
+
+/dev/sda:
+
+ATA device, with non-removable media
+	Model Number:       WDC WD3200BEKT-75PVMT0                  
+	Serial Number:      WD-WXF1AC0D4270
+	Firmware Revision:  01.01A01
+	Transport:          Serial, SATA 1.0a, SATA II Extensions, SATA Rev 2.5, SATA Rev 2.6
+Standards:
+	Supported: 8 7 6 5 
+	Likely used: 8
+Configuration:
+	Logical		max	current
+	cylinders	16383	65535
+	heads		16	1
+	sectors/track	63	63
+	--
+	CHS current addressable sectors:     4128705
+	LBA    user addressable sectors:   268435455
+	LBA48  user addressable sectors:   625142448
+	Logical/Physical Sector size:           512 bytes
+	device size with M = 1024*1024:      305245 MBytes
+	device size with M = 1000*1000:      320072 MBytes (320 GB)
+	cache/buffer size  = 16384 KBytes
+	Nominal Media Rotation Rate: 7200
+Capabilities:
+	LBA, IORDY(can be disabled)
+	Queue depth: 32
+	Standby timer values: spec'd by Standard, with device specific minimum
+	R/W multiple sector transfer: Max = 16	Current = 16
+	Advanced power management level: 128
+	Recommended acoustic management value: 128, current value: 254
+	DMA: mdma0 mdma1 mdma2 udma0 udma1 udma2 udma3 udma4 udma5 *udma6 
+	     Cycle time: min=120ns recommended=120ns
+	PIO: pio0 pio1 pio2 pio3 pio4 
+	     Cycle time: no flow control=120ns  IORDY flow control=120ns
+Commands/features:
+	Enabled	Supported:
+	   *	SMART feature set
+	    	Security Mode feature set
+	   *	Power Management feature set
+	   *	Write cache
+	   *	Look-ahead
+	   *	Host Protected Area feature set
+	   *	WRITE_BUFFER command
+	   *	READ_BUFFER command
+	   *	NOP cmd
+	   *	DOWNLOAD_MICROCODE
+	   *	Advanced Power Management feature set
+	    	SET_MAX security extension
+	    	Automatic Acoustic Management feature set
+	   *	48-bit Address feature set
+	   *	Device Configuration Overlay feature set
+	   *	Mandatory FLUSH_CACHE
+	   *	FLUSH_CACHE_EXT
+	   *	SMART error logging
+	   *	SMART self-test
+	   *	General Purpose Logging feature set
+	   *	WRITE_{DMA|MULTIPLE}_FUA_EXT
+	   *	64-bit World wide name
+	   *	IDLE_IMMEDIATE with UNLOAD
+	   *	{READ,WRITE}_DMA_EXT_GPL commands
+	   *	Segmented DOWNLOAD_MICROCODE
+	   *	Gen1 signaling speed (1.5Gb/s)
+	   *	Gen2 signaling speed (3.0Gb/s)
+	   *	Native Command Queueing (NCQ)
+	   *	Host-initiated interface power management
+	   *	Phy event counters
+	   *	Idle-Unload when NCQ is active
+	   *	NCQ priority information
+	   *	DMA Setup Auto-Activate optimization
+	   *	Device-initiated interface power management
+	   *	Software settings preservation
+	   *	SMART Command Transport (SCT) feature set
+	   *	SCT Write Same (AC2)
+	   *	SCT Features Control (AC4)
+	   *	SCT Data Tables (AC5)
+	    	unknown 206[12] (vendor specific)
+	    	unknown 206[13] (vendor specific)
+	    	unknown 206[14] (vendor specific)
+Security: 
+	Master password revision code = 65534
+		supported
+	not	enabled
+	not	locked
+		frozen
+	not	expired: security count
+		supported: enhanced erase
+	62min for SECURITY ERASE UNIT. 62min for ENHANCED SECURITY ERASE UNIT.
+Logical Unit WWN Device Identifier: 50014ee600ec4bf1
+	NAA		: 5
+	IEEE OUI	: 0014ee
+	Unique ID	: 600ec4bf1
+Checksum: correct
+    1  2023-03-11 09:03:19 sudo nano /etc/netplan/01-network-manager-all.yaml 
+    2  2023-03-11 09:03:19 netplan apply
+    3  2023-03-11 09:03:19 sudo nano /etc/netplan/01-network-manager-all.yaml 
+    4  2023-03-11 09:03:19 netplan apply
+    5  2023-03-11 09:03:19 sudo netplan apply
+    6  2023-03-11 09:03:19 ip add show
+    7  2023-03-11 09:03:19 ip route show
+    8  2023-03-11 09:03:19 sudo apt-get install openssh-server
+    9  2023-03-11 09:03:19 sudo reboot now
+   10  2023-03-11 09:03:19 sudo apt-get update
+   11  2023-03-11 09:03:19 sudo apt-get upgrade
+   12  2023-03-11 09:03:19 sudo apt-get update
+   13  2023-03-11 09:03:19 sudo apt-get upgrade
+   14  2023-03-11 09:03:19 sudo apt autoremove
+   15  2023-03-11 09:03:19 ip add show
+   16  2023-03-11 09:03:19 sudo nano /etc/netplan/01-network-manager-all.yaml 
+   17  2023-03-11 09:03:19 ip add show
+   18  2023-03-11 09:03:19 ls
+   19  2023-03-11 09:03:19 history 
+   20  2023-03-11 09:03:19 wget https://github.com/prometheus/prometheus/releases/download/v2.28.1/prometheus-2.28.1.linux-amd64.tar.gz
+   21  2023-03-11 09:03:19 tar xvf prometheus-2.28.1.linux-amd64.tar.gz 
+   22  2023-03-11 09:03:19 cd prometheus-2.28.1.linux-amd64/
+   23  2023-03-11 09:03:19 ./prometheus --config.file=./prometheus.yml
+   24  2023-03-11 09:03:19 ls
+   25  2023-03-11 09:03:19 nano prometheus.yml 
+   26  2023-03-11 09:03:19 ./prometheus --config.file=./prometheus.yml
+   27  2023-03-11 09:03:19 nano prometheus.yml 
+   28  2023-03-11 09:03:19 ./prometheus --config.file=./prometheus.yml
+   29  2023-03-11 09:03:19 nano prometheus.yml 
+   30  2023-03-11 09:03:19 ./prometheus --config.file=./prometheus.yml
+   31  2023-03-11 09:03:19 ls
+   32  2023-03-11 09:03:19 cd data/
+   33  2023-03-11 09:03:19 ls
+   34  2023-03-11 09:03:19 cd chunks_head/
+   35  2023-03-11 09:03:19 ls
+   36  2023-03-11 09:03:19 cd ../wal/
+   37  2023-03-11 09:03:19 ls
+   38  2023-03-11 09:03:19 cat 0000000
+   39  2023-03-11 09:03:19 ls 
+   40  2023-03-11 09:03:19 ls -la
+   41  2023-03-11 09:03:19 cat 00000001 
+   42  2023-03-11 09:03:19 cat 0000000
+   43  2023-03-11 09:03:19 cat 00000000 0000000
+   44  2023-03-11 09:03:19 cd ../../
+   45  2023-03-11 09:03:19 ./prometheus --config.file=./prometheus.yml
+   46  2023-03-11 09:03:19 exit
+   47  2023-03-11 09:03:19 sudo apt-get update
+   48  2023-03-11 09:03:19 sudo apt-get upgrade
+   49  2023-03-11 09:03:19 sudo apt-get install nginx
+   50  2023-03-11 09:03:19 sudo apt-get update
+   51  2023-03-11 09:03:19 sudo apt-get upgrade
+   52  2023-03-11 09:03:19 ls
+   53  2023-03-11 09:03:19 wget https://github.com/prometheus/node_exporter/releases/download/v*/node_exporter-*.*-amd64.tar.gz
+   54  2023-03-11 09:03:19 ls
+   55  2023-03-11 09:03:19 wget https://github.com/prometheus/node_exporter/releases/download/v1.1.2/node_exporter-1.1.2.linux-amd64.tar.gz
+   56  2023-03-11 09:03:19 tar xvf node_exporter-1.1.2.linux-amd64.tar.gz 
+   57  2023-03-11 09:03:19 cd node_exporter-1.1.2.linux-amd64/
+   58  2023-03-11 09:03:19 ls
+   59  2023-03-11 09:03:19 ./node_exporter 
+   60  2023-03-11 09:03:19 ls
+   61  2023-03-11 09:03:19 ./node_exporter 
+   62  2023-03-11 09:03:19 exit
+   63  2023-03-11 09:03:19 sudo apt-get update
+   64  2023-03-11 09:03:19 sudo apt-get upgrade
+   65  2023-03-11 09:03:19 ls
+   66  2023-03-11 09:03:19 python3
+   67  2023-03-11 09:03:19 python3 -m venv venv
+   68  2023-03-11 09:03:19 sudo apt-get update
+   69  2023-03-11 09:03:19 sudo apt-get upgrade
+   70  2023-03-11 09:03:19 sudo apt-get install python3-pip
+   71  2023-03-11 09:03:19 python3 -m venv venv
+   72  2023-03-11 09:03:19 sudo apt-get install python3.8-pip
+   73  2023-03-11 09:03:19 sudo apt-get install python3-venv
+   74  2023-03-11 09:03:19 python3 -m venv venv
+   75  2023-03-11 09:03:19 source venv/bin/activate
+   76  2023-03-11 09:03:19 pip list
+   77  2023-03-11 09:03:19 pip install --upgrade pip
+   78  2023-03-11 09:03:19 pip install wheel
+   79  2023-03-11 09:03:19 pip install gunicorn flask
+   80  2023-03-11 09:03:19 pip install flask-sqlalchemy
+   81  2023-03-11 09:03:19 ls
+   82  2023-03-11 09:03:19 mkdir apps
+   83  2023-03-11 09:03:19 cd apps/
+   84  2023-03-11 09:03:19 mkdir mapslabio
+   85  2023-03-11 09:03:19 cd mapslabio/
+   86  2023-03-11 09:03:19 ls
+   87  2023-03-11 09:03:19 cd ../
+   88  2023-03-11 09:03:19 ls
+   89  2023-03-11 09:03:19 rm mapslabio/
+   90  2023-03-11 09:03:19 rm -r mapslabio/
+   91  2023-03-11 09:03:19 ls
+   92  2023-03-11 09:03:19 git clone https://github.com/tlubenov/mapslabio.git
+   93  2023-03-11 09:03:19 sudo apt-get install git
+   94  2023-03-11 09:03:19 git clone https://github.com/tlubenov/mapslabio.git
+   95  2023-03-11 09:03:19 cd mapslabio/
+   96  2023-03-11 09:03:19 cd app/
+   97  2023-03-11 09:03:19 python __init__.py 
+   98  2023-03-11 09:03:19 sudo ufw allow 5000
+   99  2023-03-11 09:03:19 cd ../
+  100  2023-03-11 09:03:19 ls
+  101  2023-03-11 09:03:19 touch wsgi.py
+  102  2023-03-11 09:03:19 nano wsgi.py 
+  103  2023-03-11 09:03:19 ginicorn --bind 0.0.0.0:5000 wsgi:app
+  104  2023-03-11 09:03:19 pip list
+  105  2023-03-11 09:03:19 gunicorn --bind 0.0.0.0:5000 wsgi:app
+  106  2023-03-11 09:03:19 gunicorn --bind 0.0.0.0:5000 wsgi:
+  107  2023-03-11 09:03:19 gunicorn --bind 0.0.0.0:5000 wsgi:app
+  108  2023-03-11 09:03:19 nano wsgi.py 
+  109  2023-03-11 09:03:19 gunicorn --bind 0.0.0.0:5000 wsgi:app
+  110  2023-03-11 09:03:19 deactivate 
+  111  2023-03-11 09:03:19 sudo nano /etc/systemd/system/mapslabio.service
+  112  2023-03-11 09:03:19 pwd
+  113  2023-03-11 09:03:19 cd ../
+  114  2023-03-11 09:03:19 ls
+  115  2023-03-11 09:03:19 cd ../
+  116  2023-03-11 09:03:19 ls
+  117  2023-03-11 09:03:19 sudo nano /etc/systemd/system/mapslabio.service
+  118  2023-03-11 09:03:19 sudo systemctl start mapserver
+  119  2023-03-11 09:03:19 sudo systemctl start mapserverio
+  120  2023-03-11 09:03:19 sudo systemctl start mapslabio
+  121  2023-03-11 09:03:19 sudo systemctl enable mapslabio
+  122  2023-03-11 09:03:19 sudo systemctl status mapslabio
+  123  2023-03-11 09:03:19 sudo nano /etc/nginx/sites-available/mapslabio
+  124  2023-03-11 09:03:19 ls
+  125  2023-03-11 09:03:19 cd apps/mapslabio/
+  126  2023-03-11 09:03:19 ls
+  127  2023-03-11 09:03:19 sudo nano /etc/nginx/sites-available/mapslabio
+  128  2023-03-11 09:03:19 sudo ln -s /etc/nginx/sites-available/mapslabio /etc/nginx/sites-enabled
+  129  2023-03-11 09:03:19 sudo nginx -t
+  130  2023-03-11 09:03:19 sudo systemctl restart nginx
+  131  2023-03-11 09:03:19 sudo systemctl status nginx
+  132  2023-03-11 09:03:19 sudo ufw delete allow 5000
+  133  2023-03-11 09:03:19 sudo ufw allow 'Nginx Full'
+  134  2023-03-11 09:03:19 cd /etc/nginx/
+  135  2023-03-11 09:03:19 ls
+  136  2023-03-11 09:03:19 cd sites-available/
+  137  2023-03-11 09:03:19 ls
+  138  2023-03-11 09:03:19 nano default 
+  139  2023-03-11 09:03:19 sudo nano default 
+  140  2023-03-11 09:03:19 sudo systemctl restart nginx
+  141  2023-03-11 09:03:19 cd /home/mapserver/apps/mapslabio/
+  142  2023-03-11 09:03:19 ls
+  143  2023-03-11 09:03:19 git status
+  144  2023-03-11 09:03:19 git add .
+  145  2023-03-11 09:03:19 git status
+  146  2023-03-11 09:03:19 git commit -m 'add wsgi.py'
+  147  2023-03-11 09:03:19 git config --local user.name "Todor Lubenov"
+  148  2023-03-11 09:03:19 git config --local user.email "tlubenov@gmail.com"
+  149  2023-03-11 09:03:19 git commit -m 'add wsgi.py'
+  150  2023-03-11 09:03:19 git pull --rebase origin
+  151  2023-03-11 09:03:19 git push
+  152  2023-03-11 09:03:19 exit
+  153  2023-03-11 09:03:19 sudo apt-get update
+  154  2023-03-11 09:03:19 sudo apt-get upgrade
+  155  2023-03-11 09:03:19 sudo apt-get install ruby-full
+  156  2023-03-11 09:03:19 sudo apt-get update
+  157  2023-03-11 09:03:19 sudo apt-get upgrade
+  158  2023-03-11 09:03:19 ruby --version
+  159  2023-03-11 09:03:19 exit
+  160  2023-03-11 09:03:19 sudo apt-get update
+  161  2023-03-11 09:03:19 sudo apt-get upgrade
+  162  2023-03-11 09:03:19 ifconfig
+  163  2023-03-11 09:03:19 ipaddr
+  164  2023-03-11 09:03:19 ping 192.168.1.1
+  165  2023-03-11 09:03:19 sudo apt-get update
+  166  2023-03-11 09:03:19 sudo apt-get upgrade
+  167  2023-03-11 09:03:19 sudo shutdown now
+  168  2023-03-11 09:03:19 lshw | grep product
+  169  2023-03-11 09:03:19 htop
+  170  2023-03-11 09:03:19 sudo apt-get update
+  171  2023-03-11 09:03:19 sudo apt-get upgrade
+  172  2023-03-11 09:03:19 sudo apt-get install htop
+  173  2023-03-11 09:03:19 htop
+  174  2023-03-11 09:03:19 df -h
+  175  2023-03-11 09:03:19 ip a
+  176  2023-03-11 09:03:19 sudo shutdown now
+  177  2023-03-11 09:03:19 ifconfig
+  178  2023-03-11 09:03:19 sudo apt-get update
+  179  2023-03-11 09:03:19 sudo apt-get upgrade
+  180  2023-03-11 09:03:19 ip a
+  181  2023-03-11 09:03:19 htop
+  182  2023-03-11 09:03:19 df -h
+  183  2023-03-11 09:03:19 lsb_release -a
+  184  2023-03-11 09:03:19 git clone https://github.com/tlubenov/system-init.git
+  185  2023-03-11 09:03:19 cd system-init/
+  186  2023-03-11 09:03:19 code .
+  187  2023-03-11 09:03:19 sudo apt-get install /home/mapserver/Downloads/code_1.76.0-1677667493_amd64.deb 
+  188  2023-03-11 09:03:19 code .
+  189  2023-03-11 09:03:19 ./scripts/01_setup_remote_machine 
+  190  2023-03-11 09:03:19 ./scripts/02_sys_init_script 
+  191  2023-03-11 09:03:19 ./scripts/10_setup_postgresql 
+  192  2023-03-11 09:03:19 ./scripts/20_setup_postgis 
+  193  2023-03-11 09:03:19 hostname
+  194  2023-03-11 09:03:19 hostname >> maps-ThinkCentre-M93p_500GB
+  195  2023-03-11 09:03:19 echo >> maps-ThinkCentre-M93p_500GB 
+  196  2023-03-11 09:03:19 lsb_release -a
+  197  2023-03-11 09:03:19 lsb_release -a >> maps-ThinkCentre-M93p_500GB 
+  198  2023-03-11 09:03:19 stats -c %w / >> maps-ThinkCentre-M93p_500GB 
+  199  2023-03-11 09:03:19 stat -c %w / >> maps-ThinkCentre-M93p_500GB 
+  200  2023-03-11 09:03:19 stat -c %w /
+  201  2023-03-11 09:03:19 sudo smartctl -a /dev/sda
+  202  2023-03-11 09:03:19 sudo smartctl -a /dev/sda >> maps-ThinkCentre-M93p_500GB 
+  203  2023-03-11 09:03:19 git status
+  204  2023-03-11 09:03:19 git add .
+  205  2023-03-11 09:03:19 git status
+  206  2023-03-11 09:03:19 git commit -m "add new machine file"
+  207  2023-03-11 09:03:19 git config --local user.name "Todor Lubenov"
+  208  2023-03-11 09:03:19 git config --local user.email "tlubenov@gmail.com"
+  209  2023-03-11 09:03:19 git commit -m "add new machine file"
+  210  2023-03-11 09:03:19 git push
+  211  2023-03-11 09:03:19 git pull --rebase origin
+  212  2023-03-11 09:03:19 sudo shutdown now
+  213  2023-03-11 09:03:19 git pull --rebase origin
+  214  2023-03-11 09:03:19 hostname
+  215  2023-03-11 09:03:19 hostname >> instances/mapserver-ThinkCentre-M93p
+  216  2023-03-11 09:03:19 echo >> instances/mapserver-ThinkCentre-M93p 
+  217  2023-03-11 09:03:19 date
+  218  2023-03-11 09:03:19 sudo hwclock
+  219  2023-03-11 09:03:19 stat -c %w / >> instances/mapserver-ThinkCentre-M93p 
+  220  2023-03-11 09:03:19 echo >> instances/mapserver-ThinkCentre-M93p 
+  221  2023-03-11 09:03:19 sudo smartctl -a /dev/sda >> instances/mapserver-ThinkCentre-M93p 
+  222  2023-03-11 09:03:19 sudo lshw -json >> instances/mapserver-ThinkCentre-M93p-lshw.json
+  223  2023-03-11 09:03:19 history 
+  224  2023-03-11 09:03:19 sudo hwclock >> instances/mapserver-ThinkCentre-M93p-history-log
+  225  2023-03-11 09:03:19 history >> instances/mapserver-ThinkCentre-M93p-history-log 
+  226  2023-03-11 09:03:19 echo >> instances/mapserver-ThinkCentre-M93p-history-log 
+  227  2023-03-11 09:03:19 git status
+  228  2023-03-11 09:03:19 git pull --rebase origin
+  229  2023-03-11 09:03:19 git add .
+  230  2023-03-11 09:03:19 git commit -m "add mapserver-ThinkCentre-M93p logs"
+  231  2023-03-11 09:03:19 git status
+  232  2023-03-11 09:03:19 git push
+  233  2023-03-11 09:03:19 git status
+  234  2023-03-11 09:03:19 git add README.md 
+  235  2023-03-11 09:03:19 git commit -m "update README.md"
+  236  2023-03-11 09:03:19 git pull --rebase origin
+  237  2023-03-11 09:03:19 git push
+  238  2023-03-09 12:44:16 lsb_release -a
+  239  2023-03-09 12:44:35 sudo ufw status
+  240  2023-03-09 12:44:43 cd system-init/
+  241  2023-03-09 12:44:47 cd scripts/
+  242  2023-03-09 12:44:48 ls
+  243  2023-03-09 12:45:28 ./01_setup_remote_machine 
+  244  2023-03-09 12:48:13 ./02_sys_init_script 
+  245  2023-03-09 12:48:17 ./10_setup_postgresql 
+  246  2023-03-09 12:48:48 ./20_setup_postgis 
+  247  2023-03-09 12:49:08 cd ../
+  248  2023-03-09 12:49:10 ls
+  249  2023-03-09 12:49:24 git status
+  250  2023-03-09 12:49:28 code .
+  251  2023-03-09 13:04:51 export HISTTIMEFORMAT='%F %T '
+  252  2023-03-09 13:04:53 history 
+  253  2023-03-09 13:05:52 nano ~/.bashrc 
+  254  2023-03-09 13:06:34 history 
+    1  2023-03-11 09:03:19 sudo nano /etc/netplan/01-network-manager-all.yaml 
+    2  2023-03-11 09:03:19 netplan apply
+    3  2023-03-11 09:03:19 sudo nano /etc/netplan/01-network-manager-all.yaml 
+    4  2023-03-11 09:03:19 netplan apply
+    5  2023-03-11 09:03:19 sudo netplan apply
+    6  2023-03-11 09:03:19 ip add show
+    7  2023-03-11 09:03:19 ip route show
+    8  2023-03-11 09:03:19 sudo apt-get install openssh-server
+    9  2023-03-11 09:03:19 sudo reboot now
+   10  2023-03-11 09:03:19 sudo apt-get update
+   11  2023-03-11 09:03:19 sudo apt-get upgrade
+   12  2023-03-11 09:03:19 sudo apt-get update
+   13  2023-03-11 09:03:19 sudo apt-get upgrade
+   14  2023-03-11 09:03:19 sudo apt autoremove
+   15  2023-03-11 09:03:19 ip add show
+   16  2023-03-11 09:03:19 sudo nano /etc/netplan/01-network-manager-all.yaml 
+   17  2023-03-11 09:03:19 ip add show
+   18  2023-03-11 09:03:19 ls
+   19  2023-03-11 09:03:19 history 
+   20  2023-03-11 09:03:19 wget https://github.com/prometheus/prometheus/releases/download/v2.28.1/prometheus-2.28.1.linux-amd64.tar.gz
+   21  2023-03-11 09:03:19 tar xvf prometheus-2.28.1.linux-amd64.tar.gz 
+   22  2023-03-11 09:03:19 cd prometheus-2.28.1.linux-amd64/
+   23  2023-03-11 09:03:19 ./prometheus --config.file=./prometheus.yml
+   24  2023-03-11 09:03:19 ls
+   25  2023-03-11 09:03:19 nano prometheus.yml 
+   26  2023-03-11 09:03:19 ./prometheus --config.file=./prometheus.yml
+   27  2023-03-11 09:03:19 nano prometheus.yml 
+   28  2023-03-11 09:03:19 ./prometheus --config.file=./prometheus.yml
+   29  2023-03-11 09:03:19 nano prometheus.yml 
+   30  2023-03-11 09:03:19 ./prometheus --config.file=./prometheus.yml
+   31  2023-03-11 09:03:19 ls
+   32  2023-03-11 09:03:19 cd data/
+   33  2023-03-11 09:03:19 ls
+   34  2023-03-11 09:03:19 cd chunks_head/
+   35  2023-03-11 09:03:19 ls
+   36  2023-03-11 09:03:19 cd ../wal/
+   37  2023-03-11 09:03:19 ls
+   38  2023-03-11 09:03:19 cat 0000000
+   39  2023-03-11 09:03:19 ls 
+   40  2023-03-11 09:03:19 ls -la
+   41  2023-03-11 09:03:19 cat 00000001 
+   42  2023-03-11 09:03:19 cat 0000000
+   43  2023-03-11 09:03:19 cat 00000000 0000000
+   44  2023-03-11 09:03:19 cd ../../
+   45  2023-03-11 09:03:19 ./prometheus --config.file=./prometheus.yml
+   46  2023-03-11 09:03:19 exit
+   47  2023-03-11 09:03:19 sudo apt-get update
+   48  2023-03-11 09:03:19 sudo apt-get upgrade
+   49  2023-03-11 09:03:19 sudo apt-get install nginx
+   50  2023-03-11 09:03:19 sudo apt-get update
+   51  2023-03-11 09:03:19 sudo apt-get upgrade
+   52  2023-03-11 09:03:19 ls
+   53  2023-03-11 09:03:19 wget https://github.com/prometheus/node_exporter/releases/download/v*/node_exporter-*.*-amd64.tar.gz
+   54  2023-03-11 09:03:19 ls
+   55  2023-03-11 09:03:19 wget https://github.com/prometheus/node_exporter/releases/download/v1.1.2/node_exporter-1.1.2.linux-amd64.tar.gz
+   56  2023-03-11 09:03:19 tar xvf node_exporter-1.1.2.linux-amd64.tar.gz 
+   57  2023-03-11 09:03:19 cd node_exporter-1.1.2.linux-amd64/
+   58  2023-03-11 09:03:19 ls
+   59  2023-03-11 09:03:19 ./node_exporter 
+   60  2023-03-11 09:03:19 ls
+   61  2023-03-11 09:03:19 ./node_exporter 
+   62  2023-03-11 09:03:19 exit
+   63  2023-03-11 09:03:19 sudo apt-get update
+   64  2023-03-11 09:03:19 sudo apt-get upgrade
+   65  2023-03-11 09:03:19 ls
+   66  2023-03-11 09:03:19 python3
+   67  2023-03-11 09:03:19 python3 -m venv venv
+   68  2023-03-11 09:03:19 sudo apt-get update
+   69  2023-03-11 09:03:19 sudo apt-get upgrade
+   70  2023-03-11 09:03:19 sudo apt-get install python3-pip
+   71  2023-03-11 09:03:19 python3 -m venv venv
+   72  2023-03-11 09:03:19 sudo apt-get install python3.8-pip
+   73  2023-03-11 09:03:19 sudo apt-get install python3-venv
+   74  2023-03-11 09:03:19 python3 -m venv venv
+   75  2023-03-11 09:03:19 source venv/bin/activate
+   76  2023-03-11 09:03:19 pip list
+   77  2023-03-11 09:03:19 pip install --upgrade pip
+   78  2023-03-11 09:03:19 pip install wheel
+   79  2023-03-11 09:03:19 pip install gunicorn flask
+   80  2023-03-11 09:03:19 pip install flask-sqlalchemy
+   81  2023-03-11 09:03:19 ls
+   82  2023-03-11 09:03:19 mkdir apps
+   83  2023-03-11 09:03:19 cd apps/
+   84  2023-03-11 09:03:19 mkdir mapslabio
+   85  2023-03-11 09:03:19 cd mapslabio/
+   86  2023-03-11 09:03:19 ls
+   87  2023-03-11 09:03:19 cd ../
+   88  2023-03-11 09:03:19 ls
+   89  2023-03-11 09:03:19 rm mapslabio/
+   90  2023-03-11 09:03:19 rm -r mapslabio/
+   91  2023-03-11 09:03:19 ls
+   92  2023-03-11 09:03:19 git clone https://github.com/tlubenov/mapslabio.git
+   93  2023-03-11 09:03:19 sudo apt-get install git
+   94  2023-03-11 09:03:19 git clone https://github.com/tlubenov/mapslabio.git
+   95  2023-03-11 09:03:19 cd mapslabio/
+   96  2023-03-11 09:03:19 cd app/
+   97  2023-03-11 09:03:19 python __init__.py 
+   98  2023-03-11 09:03:19 sudo ufw allow 5000
+   99  2023-03-11 09:03:19 cd ../
+  100  2023-03-11 09:03:19 ls
+  101  2023-03-11 09:03:19 touch wsgi.py
+  102  2023-03-11 09:03:19 nano wsgi.py 
+  103  2023-03-11 09:03:19 ginicorn --bind 0.0.0.0:5000 wsgi:app
+  104  2023-03-11 09:03:19 pip list
+  105  2023-03-11 09:03:19 gunicorn --bind 0.0.0.0:5000 wsgi:app
+  106  2023-03-11 09:03:19 gunicorn --bind 0.0.0.0:5000 wsgi:
+  107  2023-03-11 09:03:19 gunicorn --bind 0.0.0.0:5000 wsgi:app
+  108  2023-03-11 09:03:19 nano wsgi.py 
+  109  2023-03-11 09:03:19 gunicorn --bind 0.0.0.0:5000 wsgi:app
+  110  2023-03-11 09:03:19 deactivate 
+  111  2023-03-11 09:03:19 sudo nano /etc/systemd/system/mapslabio.service
+  112  2023-03-11 09:03:19 pwd
+  113  2023-03-11 09:03:19 cd ../
+  114  2023-03-11 09:03:19 ls
+  115  2023-03-11 09:03:19 cd ../
+  116  2023-03-11 09:03:19 ls
+  117  2023-03-11 09:03:19 sudo nano /etc/systemd/system/mapslabio.service
+  118  2023-03-11 09:03:19 sudo systemctl start mapserver
+  119  2023-03-11 09:03:19 sudo systemctl start mapserverio
+  120  2023-03-11 09:03:19 sudo systemctl start mapslabio
+  121  2023-03-11 09:03:19 sudo systemctl enable mapslabio
+  122  2023-03-11 09:03:19 sudo systemctl status mapslabio
+  123  2023-03-11 09:03:19 sudo nano /etc/nginx/sites-available/mapslabio
+  124  2023-03-11 09:03:19 ls
+  125  2023-03-11 09:03:19 cd apps/mapslabio/
+  126  2023-03-11 09:03:19 ls
+  127  2023-03-11 09:03:19 sudo nano /etc/nginx/sites-available/mapslabio
+  128  2023-03-11 09:03:19 sudo ln -s /etc/nginx/sites-available/mapslabio /etc/nginx/sites-enabled
+  129  2023-03-11 09:03:19 sudo nginx -t
+  130  2023-03-11 09:03:19 sudo systemctl restart nginx
+  131  2023-03-11 09:03:19 sudo systemctl status nginx
+  132  2023-03-11 09:03:19 sudo ufw delete allow 5000
+  133  2023-03-11 09:03:19 sudo ufw allow 'Nginx Full'
+  134  2023-03-11 09:03:19 cd /etc/nginx/
+  135  2023-03-11 09:03:19 ls
+  136  2023-03-11 09:03:19 cd sites-available/
+  137  2023-03-11 09:03:19 ls
+  138  2023-03-11 09:03:19 nano default 
+  139  2023-03-11 09:03:19 sudo nano default 
+  140  2023-03-11 09:03:19 sudo systemctl restart nginx
+  141  2023-03-11 09:03:19 cd /home/mapserver/apps/mapslabio/
+  142  2023-03-11 09:03:19 ls
+  143  2023-03-11 09:03:19 git status
+  144  2023-03-11 09:03:19 git add .
+  145  2023-03-11 09:03:19 git status
+  146  2023-03-11 09:03:19 git commit -m 'add wsgi.py'
+  147  2023-03-11 09:03:19 git config --local user.name "Todor Lubenov"
+  148  2023-03-11 09:03:19 git config --local user.email "tlubenov@gmail.com"
+  149  2023-03-11 09:03:19 git commit -m 'add wsgi.py'
+  150  2023-03-11 09:03:19 git pull --rebase origin
+  151  2023-03-11 09:03:19 git push
+  152  2023-03-11 09:03:19 exit
+  153  2023-03-11 09:03:19 sudo apt-get update
+  154  2023-03-11 09:03:19 sudo apt-get upgrade
+  155  2023-03-11 09:03:19 sudo apt-get install ruby-full
+  156  2023-03-11 09:03:19 sudo apt-get update
+  157  2023-03-11 09:03:19 sudo apt-get upgrade
+  158  2023-03-11 09:03:19 ruby --version
+  159  2023-03-11 09:03:19 exit
+  160  2023-03-11 09:03:19 sudo apt-get update
+  161  2023-03-11 09:03:19 sudo apt-get upgrade
+  162  2023-03-11 09:03:19 ifconfig
+  163  2023-03-11 09:03:19 ipaddr
+  164  2023-03-11 09:03:19 ping 192.168.1.1
+  165  2023-03-11 09:03:19 sudo apt-get update
+  166  2023-03-11 09:03:19 sudo apt-get upgrade
+  167  2023-03-11 09:03:19 sudo shutdown now
+  168  2023-03-11 09:03:19 lshw | grep product
+  169  2023-03-11 09:03:19 htop
+  170  2023-03-11 09:03:19 sudo apt-get update
+  171  2023-03-11 09:03:19 sudo apt-get upgrade
+  172  2023-03-11 09:03:19 sudo apt-get install htop
+  173  2023-03-11 09:03:19 htop
+  174  2023-03-11 09:03:19 df -h
+  175  2023-03-11 09:03:19 ip a
+  176  2023-03-11 09:03:19 sudo shutdown now
+  177  2023-03-11 09:03:19 ifconfig
+  178  2023-03-11 09:03:19 sudo apt-get update
+  179  2023-03-11 09:03:19 sudo apt-get upgrade
+  180  2023-03-11 09:03:19 ip a
+  181  2023-03-11 09:03:19 htop
+  182  2023-03-11 09:03:19 df -h
+  183  2023-03-11 09:03:19 lsb_release -a
+  184  2023-03-11 09:03:19 git clone https://github.com/tlubenov/system-init.git
+  185  2023-03-11 09:03:19 cd system-init/
+  186  2023-03-11 09:03:19 code .
+  187  2023-03-11 09:03:19 sudo apt-get install /home/mapserver/Downloads/code_1.76.0-1677667493_amd64.deb 
+  188  2023-03-11 09:03:19 code .
+  189  2023-03-11 09:03:19 ./scripts/01_setup_remote_machine 
+  190  2023-03-11 09:03:19 ./scripts/02_sys_init_script 
+  191  2023-03-11 09:03:19 ./scripts/10_setup_postgresql 
+  192  2023-03-11 09:03:19 ./scripts/20_setup_postgis 
+  193  2023-03-11 09:03:19 hostname
+  194  2023-03-11 09:03:19 hostname >> maps-ThinkCentre-M93p_500GB
+  195  2023-03-11 09:03:19 echo >> maps-ThinkCentre-M93p_500GB 
+  196  2023-03-11 09:03:19 lsb_release -a
+  197  2023-03-11 09:03:19 lsb_release -a >> maps-ThinkCentre-M93p_500GB 
+  198  2023-03-11 09:03:19 stats -c %w / >> maps-ThinkCentre-M93p_500GB 
+  199  2023-03-11 09:03:19 stat -c %w / >> maps-ThinkCentre-M93p_500GB 
+  200  2023-03-11 09:03:19 stat -c %w /
+  201  2023-03-11 09:03:19 sudo smartctl -a /dev/sda
+  202  2023-03-11 09:03:19 sudo smartctl -a /dev/sda >> maps-ThinkCentre-M93p_500GB 
+  203  2023-03-11 09:03:19 git status
+  204  2023-03-11 09:03:19 git add .
+  205  2023-03-11 09:03:19 git status
+  206  2023-03-11 09:03:19 git commit -m "add new machine file"
+  207  2023-03-11 09:03:19 git config --local user.name "Todor Lubenov"
+  208  2023-03-11 09:03:19 git config --local user.email "tlubenov@gmail.com"
+  209  2023-03-11 09:03:19 git commit -m "add new machine file"
+  210  2023-03-11 09:03:19 git push
+  211  2023-03-11 09:03:19 git pull --rebase origin
+  212  2023-03-11 09:03:19 sudo shutdown now
+  213  2023-03-11 09:03:19 git pull --rebase origin
+  214  2023-03-11 09:03:19 hostname
+  215  2023-03-11 09:03:19 hostname >> instances/mapserver-ThinkCentre-M93p
+  216  2023-03-11 09:03:19 echo >> instances/mapserver-ThinkCentre-M93p 
+  217  2023-03-11 09:03:19 date
+  218  2023-03-11 09:03:19 sudo hwclock
+  219  2023-03-11 09:03:19 stat -c %w / >> instances/mapserver-ThinkCentre-M93p 
+  220  2023-03-11 09:03:19 echo >> instances/mapserver-ThinkCentre-M93p 
+  221  2023-03-11 09:03:19 sudo smartctl -a /dev/sda >> instances/mapserver-ThinkCentre-M93p 
+  222  2023-03-11 09:03:19 sudo lshw -json >> instances/mapserver-ThinkCentre-M93p-lshw.json
+  223  2023-03-11 09:03:19 history 
+  224  2023-03-11 09:03:19 sudo hwclock >> instances/mapserver-ThinkCentre-M93p-history-log
+  225  2023-03-11 09:03:19 history >> instances/mapserver-ThinkCentre-M93p-history-log 
+  226  2023-03-11 09:03:19 echo >> instances/mapserver-ThinkCentre-M93p-history-log 
+  227  2023-03-11 09:03:19 git status
+  228  2023-03-11 09:03:19 git pull --rebase origin
+  229  2023-03-11 09:03:19 git add .
+  230  2023-03-11 09:03:19 git commit -m "add mapserver-ThinkCentre-M93p logs"
+  231  2023-03-11 09:03:19 git status
+  232  2023-03-11 09:03:19 git push
+  233  2023-03-11 09:03:19 git status
+  234  2023-03-11 09:03:19 git add README.md 
+  235  2023-03-11 09:03:19 git commit -m "update README.md"
+  236  2023-03-11 09:03:19 git pull --rebase origin
+  237  2023-03-11 09:03:19 git push
+  238  2023-03-09 12:44:16 lsb_release -a
+  239  2023-03-09 12:44:35 sudo ufw status
+  240  2023-03-09 12:44:43 cd system-init/
+  241  2023-03-09 12:44:47 cd scripts/
+  242  2023-03-09 12:44:48 ls
+  243  2023-03-09 12:45:28 ./01_setup_remote_machine 
+  244  2023-03-09 12:48:13 ./02_sys_init_script 
+  245  2023-03-09 12:48:17 ./10_setup_postgresql 
+  246  2023-03-09 12:48:48 ./20_setup_postgis 
+  247  2023-03-09 12:49:08 cd ../
+  248  2023-03-09 12:49:10 ls
+  249  2023-03-09 12:49:24 git status
+  250  2023-03-09 12:49:28 code .
+  251  2023-03-09 13:04:51 export HISTTIMEFORMAT='%F %T '
+  252  2023-03-09 13:04:53 history 
+  253  2023-03-09 13:05:52 nano ~/.bashrc 
+  254  2023-03-09 13:06:34 history 
+    1  2023-03-11 09:03:20 sudo nano /etc/netplan/01-network-manager-all.yaml 
+    2  2023-03-11 09:03:20 netplan apply
+    3  2023-03-11 09:03:20 sudo nano /etc/netplan/01-network-manager-all.yaml 
+    4  2023-03-11 09:03:20 netplan apply
+    5  2023-03-11 09:03:20 sudo netplan apply
+    6  2023-03-11 09:03:20 ip add show
+    7  2023-03-11 09:03:20 ip route show
+    8  2023-03-11 09:03:20 sudo apt-get install openssh-server
+    9  2023-03-11 09:03:20 sudo reboot now
+   10  2023-03-11 09:03:20 sudo apt-get update
+   11  2023-03-11 09:03:20 sudo apt-get upgrade
+   12  2023-03-11 09:03:20 sudo apt-get update
+   13  2023-03-11 09:03:20 sudo apt-get upgrade
+   14  2023-03-11 09:03:20 sudo apt autoremove
+   15  2023-03-11 09:03:20 ip add show
+   16  2023-03-11 09:03:20 sudo nano /etc/netplan/01-network-manager-all.yaml 
+   17  2023-03-11 09:03:20 ip add show
+   18  2023-03-11 09:03:20 ls
+   19  2023-03-11 09:03:20 history 
+   20  2023-03-11 09:03:20 wget https://github.com/prometheus/prometheus/releases/download/v2.28.1/prometheus-2.28.1.linux-amd64.tar.gz
+   21  2023-03-11 09:03:20 tar xvf prometheus-2.28.1.linux-amd64.tar.gz 
+   22  2023-03-11 09:03:20 cd prometheus-2.28.1.linux-amd64/
+   23  2023-03-11 09:03:20 ./prometheus --config.file=./prometheus.yml
+   24  2023-03-11 09:03:20 ls
+   25  2023-03-11 09:03:20 nano prometheus.yml 
+   26  2023-03-11 09:03:20 ./prometheus --config.file=./prometheus.yml
+   27  2023-03-11 09:03:20 nano prometheus.yml 
+   28  2023-03-11 09:03:20 ./prometheus --config.file=./prometheus.yml
+   29  2023-03-11 09:03:20 nano prometheus.yml 
+   30  2023-03-11 09:03:20 ./prometheus --config.file=./prometheus.yml
+   31  2023-03-11 09:03:20 ls
+   32  2023-03-11 09:03:20 cd data/
+   33  2023-03-11 09:03:20 ls
+   34  2023-03-11 09:03:20 cd chunks_head/
+   35  2023-03-11 09:03:20 ls
+   36  2023-03-11 09:03:20 cd ../wal/
+   37  2023-03-11 09:03:20 ls
+   38  2023-03-11 09:03:20 cat 0000000
+   39  2023-03-11 09:03:20 ls 
+   40  2023-03-11 09:03:20 ls -la
+   41  2023-03-11 09:03:20 cat 00000001 
+   42  2023-03-11 09:03:20 cat 0000000
+   43  2023-03-11 09:03:20 cat 00000000 0000000
+   44  2023-03-11 09:03:20 cd ../../
+   45  2023-03-11 09:03:20 ./prometheus --config.file=./prometheus.yml
+   46  2023-03-11 09:03:20 exit
+   47  2023-03-11 09:03:20 sudo apt-get update
+   48  2023-03-11 09:03:20 sudo apt-get upgrade
+   49  2023-03-11 09:03:20 sudo apt-get install nginx
+   50  2023-03-11 09:03:20 sudo apt-get update
+   51  2023-03-11 09:03:20 sudo apt-get upgrade
+   52  2023-03-11 09:03:20 ls
+   53  2023-03-11 09:03:20 wget https://github.com/prometheus/node_exporter/releases/download/v*/node_exporter-*.*-amd64.tar.gz
+   54  2023-03-11 09:03:20 ls
+   55  2023-03-11 09:03:20 wget https://github.com/prometheus/node_exporter/releases/download/v1.1.2/node_exporter-1.1.2.linux-amd64.tar.gz
+   56  2023-03-11 09:03:20 tar xvf node_exporter-1.1.2.linux-amd64.tar.gz 
+   57  2023-03-11 09:03:20 cd node_exporter-1.1.2.linux-amd64/
+   58  2023-03-11 09:03:20 ls
+   59  2023-03-11 09:03:20 ./node_exporter 
+   60  2023-03-11 09:03:20 ls
+   61  2023-03-11 09:03:20 ./node_exporter 
+   62  2023-03-11 09:03:20 exit
+   63  2023-03-11 09:03:20 sudo apt-get update
+   64  2023-03-11 09:03:20 sudo apt-get upgrade
+   65  2023-03-11 09:03:20 ls
+   66  2023-03-11 09:03:20 python3
+   67  2023-03-11 09:03:20 python3 -m venv venv
+   68  2023-03-11 09:03:20 sudo apt-get update
+   69  2023-03-11 09:03:20 sudo apt-get upgrade
+   70  2023-03-11 09:03:20 sudo apt-get install python3-pip
+   71  2023-03-11 09:03:20 python3 -m venv venv
+   72  2023-03-11 09:03:20 sudo apt-get install python3.8-pip
+   73  2023-03-11 09:03:20 sudo apt-get install python3-venv
+   74  2023-03-11 09:03:20 python3 -m venv venv
+   75  2023-03-11 09:03:20 source venv/bin/activate
+   76  2023-03-11 09:03:20 pip list
+   77  2023-03-11 09:03:20 pip install --upgrade pip
+   78  2023-03-11 09:03:20 pip install wheel
+   79  2023-03-11 09:03:20 pip install gunicorn flask
+   80  2023-03-11 09:03:20 pip install flask-sqlalchemy
+   81  2023-03-11 09:03:20 ls
+   82  2023-03-11 09:03:20 mkdir apps
+   83  2023-03-11 09:03:20 cd apps/
+   84  2023-03-11 09:03:20 mkdir mapslabio
+   85  2023-03-11 09:03:20 cd mapslabio/
+   86  2023-03-11 09:03:20 ls
+   87  2023-03-11 09:03:20 cd ../
+   88  2023-03-11 09:03:20 ls
+   89  2023-03-11 09:03:20 rm mapslabio/
+   90  2023-03-11 09:03:20 rm -r mapslabio/
+   91  2023-03-11 09:03:20 ls
+   92  2023-03-11 09:03:20 git clone https://github.com/tlubenov/mapslabio.git
+   93  2023-03-11 09:03:20 sudo apt-get install git
+   94  2023-03-11 09:03:20 git clone https://github.com/tlubenov/mapslabio.git
+   95  2023-03-11 09:03:20 cd mapslabio/
+   96  2023-03-11 09:03:20 cd app/
+   97  2023-03-11 09:03:20 python __init__.py 
+   98  2023-03-11 09:03:20 sudo ufw allow 5000
+   99  2023-03-11 09:03:20 cd ../
+  100  2023-03-11 09:03:20 ls
+  101  2023-03-11 09:03:20 touch wsgi.py
+  102  2023-03-11 09:03:20 nano wsgi.py 
+  103  2023-03-11 09:03:20 ginicorn --bind 0.0.0.0:5000 wsgi:app
+  104  2023-03-11 09:03:20 pip list
+  105  2023-03-11 09:03:20 gunicorn --bind 0.0.0.0:5000 wsgi:app
+  106  2023-03-11 09:03:20 gunicorn --bind 0.0.0.0:5000 wsgi:
+  107  2023-03-11 09:03:20 gunicorn --bind 0.0.0.0:5000 wsgi:app
+  108  2023-03-11 09:03:20 nano wsgi.py 
+  109  2023-03-11 09:03:20 gunicorn --bind 0.0.0.0:5000 wsgi:app
+  110  2023-03-11 09:03:20 deactivate 
+  111  2023-03-11 09:03:20 sudo nano /etc/systemd/system/mapslabio.service
+  112  2023-03-11 09:03:20 pwd
+  113  2023-03-11 09:03:20 cd ../
+  114  2023-03-11 09:03:20 ls
+  115  2023-03-11 09:03:20 cd ../
+  116  2023-03-11 09:03:20 ls
+  117  2023-03-11 09:03:20 sudo nano /etc/systemd/system/mapslabio.service
+  118  2023-03-11 09:03:20 sudo systemctl start mapserver
+  119  2023-03-11 09:03:20 sudo systemctl start mapserverio
+  120  2023-03-11 09:03:20 sudo systemctl start mapslabio
+  121  2023-03-11 09:03:20 sudo systemctl enable mapslabio
+  122  2023-03-11 09:03:20 sudo systemctl status mapslabio
+  123  2023-03-11 09:03:20 sudo nano /etc/nginx/sites-available/mapslabio
+  124  2023-03-11 09:03:20 ls
+  125  2023-03-11 09:03:20 cd apps/mapslabio/
+  126  2023-03-11 09:03:20 ls
+  127  2023-03-11 09:03:20 sudo nano /etc/nginx/sites-available/mapslabio
+  128  2023-03-11 09:03:20 sudo ln -s /etc/nginx/sites-available/mapslabio /etc/nginx/sites-enabled
+  129  2023-03-11 09:03:20 sudo nginx -t
+  130  2023-03-11 09:03:20 sudo systemctl restart nginx
+  131  2023-03-11 09:03:20 sudo systemctl status nginx
+  132  2023-03-11 09:03:20 sudo ufw delete allow 5000
+  133  2023-03-11 09:03:20 sudo ufw allow 'Nginx Full'
+  134  2023-03-11 09:03:20 cd /etc/nginx/
+  135  2023-03-11 09:03:20 ls
+  136  2023-03-11 09:03:20 cd sites-available/
+  137  2023-03-11 09:03:20 ls
+  138  2023-03-11 09:03:20 nano default 
+  139  2023-03-11 09:03:20 sudo nano default 
+  140  2023-03-11 09:03:20 sudo systemctl restart nginx
+  141  2023-03-11 09:03:20 cd /home/mapserver/apps/mapslabio/
+  142  2023-03-11 09:03:20 ls
+  143  2023-03-11 09:03:20 git status
+  144  2023-03-11 09:03:20 git add .
+  145  2023-03-11 09:03:20 git status
+  146  2023-03-11 09:03:20 git commit -m 'add wsgi.py'
+  147  2023-03-11 09:03:20 git config --local user.name "Todor Lubenov"
+  148  2023-03-11 09:03:20 git config --local user.email "tlubenov@gmail.com"
+  149  2023-03-11 09:03:20 git commit -m 'add wsgi.py'
+  150  2023-03-11 09:03:20 git pull --rebase origin
+  151  2023-03-11 09:03:20 git push
+  152  2023-03-11 09:03:20 exit
+  153  2023-03-11 09:03:20 sudo apt-get update
+  154  2023-03-11 09:03:20 sudo apt-get upgrade
+  155  2023-03-11 09:03:20 sudo apt-get install ruby-full
+  156  2023-03-11 09:03:20 sudo apt-get update
+  157  2023-03-11 09:03:20 sudo apt-get upgrade
+  158  2023-03-11 09:03:20 ruby --version
+  159  2023-03-11 09:03:20 exit
+  160  2023-03-11 09:03:20 sudo apt-get update
+  161  2023-03-11 09:03:20 sudo apt-get upgrade
+  162  2023-03-11 09:03:20 ifconfig
+  163  2023-03-11 09:03:20 ipaddr
+  164  2023-03-11 09:03:20 ping 192.168.1.1
+  165  2023-03-11 09:03:20 sudo apt-get update
+  166  2023-03-11 09:03:20 sudo apt-get upgrade
+  167  2023-03-11 09:03:20 sudo shutdown now
+  168  2023-03-11 09:03:20 lshw | grep product
+  169  2023-03-11 09:03:20 htop
+  170  2023-03-11 09:03:20 sudo apt-get update
+  171  2023-03-11 09:03:20 sudo apt-get upgrade
+  172  2023-03-11 09:03:20 sudo apt-get install htop
+  173  2023-03-11 09:03:20 htop
+  174  2023-03-11 09:03:20 df -h
+  175  2023-03-11 09:03:20 ip a
+  176  2023-03-11 09:03:20 sudo shutdown now
+  177  2023-03-11 09:03:20 ifconfig
+  178  2023-03-11 09:03:20 sudo apt-get update
+  179  2023-03-11 09:03:20 sudo apt-get upgrade
+  180  2023-03-11 09:03:20 ip a
+  181  2023-03-11 09:03:20 htop
+  182  2023-03-11 09:03:20 df -h
+  183  2023-03-11 09:03:20 lsb_release -a
+  184  2023-03-11 09:03:20 git clone https://github.com/tlubenov/system-init.git
+  185  2023-03-11 09:03:20 cd system-init/
+  186  2023-03-11 09:03:20 code .
+  187  2023-03-11 09:03:20 sudo apt-get install /home/mapserver/Downloads/code_1.76.0-1677667493_amd64.deb 
+  188  2023-03-11 09:03:20 code .
+  189  2023-03-11 09:03:20 ./scripts/01_setup_remote_machine 
+  190  2023-03-11 09:03:20 ./scripts/02_sys_init_script 
+  191  2023-03-11 09:03:20 ./scripts/10_setup_postgresql 
+  192  2023-03-11 09:03:20 ./scripts/20_setup_postgis 
+  193  2023-03-11 09:03:20 hostname
+  194  2023-03-11 09:03:20 hostname >> maps-ThinkCentre-M93p_500GB
+  195  2023-03-11 09:03:20 echo >> maps-ThinkCentre-M93p_500GB 
+  196  2023-03-11 09:03:20 lsb_release -a
+  197  2023-03-11 09:03:20 lsb_release -a >> maps-ThinkCentre-M93p_500GB 
+  198  2023-03-11 09:03:20 stats -c %w / >> maps-ThinkCentre-M93p_500GB 
+  199  2023-03-11 09:03:20 stat -c %w / >> maps-ThinkCentre-M93p_500GB 
+  200  2023-03-11 09:03:20 stat -c %w /
+  201  2023-03-11 09:03:20 sudo smartctl -a /dev/sda
+  202  2023-03-11 09:03:20 sudo smartctl -a /dev/sda >> maps-ThinkCentre-M93p_500GB 
+  203  2023-03-11 09:03:20 git status
+  204  2023-03-11 09:03:20 git add .
+  205  2023-03-11 09:03:20 git status
+  206  2023-03-11 09:03:20 git commit -m "add new machine file"
+  207  2023-03-11 09:03:20 git config --local user.name "Todor Lubenov"
+  208  2023-03-11 09:03:20 git config --local user.email "tlubenov@gmail.com"
+  209  2023-03-11 09:03:20 git commit -m "add new machine file"
+  210  2023-03-11 09:03:20 git push
+  211  2023-03-11 09:03:20 git pull --rebase origin
+  212  2023-03-11 09:03:20 sudo shutdown now
+  213  2023-03-11 09:03:20 git pull --rebase origin
+  214  2023-03-11 09:03:20 hostname
+  215  2023-03-11 09:03:20 hostname >> instances/mapserver-ThinkCentre-M93p
+  216  2023-03-11 09:03:20 echo >> instances/mapserver-ThinkCentre-M93p 
+  217  2023-03-11 09:03:20 date
+  218  2023-03-11 09:03:20 sudo hwclock
+  219  2023-03-11 09:03:20 stat -c %w / >> instances/mapserver-ThinkCentre-M93p 
+  220  2023-03-11 09:03:20 echo >> instances/mapserver-ThinkCentre-M93p 
+  221  2023-03-11 09:03:20 sudo smartctl -a /dev/sda >> instances/mapserver-ThinkCentre-M93p 
+  222  2023-03-11 09:03:20 sudo lshw -json >> instances/mapserver-ThinkCentre-M93p-lshw.json
+  223  2023-03-11 09:03:20 history 
+  224  2023-03-11 09:03:20 sudo hwclock >> instances/mapserver-ThinkCentre-M93p-history-log
+  225  2023-03-11 09:03:20 history >> instances/mapserver-ThinkCentre-M93p-history-log 
+  226  2023-03-11 09:03:20 echo >> instances/mapserver-ThinkCentre-M93p-history-log 
+  227  2023-03-11 09:03:20 git status
+  228  2023-03-11 09:03:20 git pull --rebase origin
+  229  2023-03-11 09:03:20 git add .
+  230  2023-03-11 09:03:20 git commit -m "add mapserver-ThinkCentre-M93p logs"
+  231  2023-03-11 09:03:20 git status
+  232  2023-03-11 09:03:20 git push
+  233  2023-03-11 09:03:20 git status
+  234  2023-03-11 09:03:20 git add README.md 
+  235  2023-03-11 09:03:20 git commit -m "update README.md"
+  236  2023-03-11 09:03:20 git pull --rebase origin
+  237  2023-03-11 09:03:20 git push
+  238  2023-03-09 12:44:16 lsb_release -a
+  239  2023-03-09 12:44:35 sudo ufw status
+  240  2023-03-09 12:44:43 cd system-init/
+  241  2023-03-09 12:44:47 cd scripts/
+  242  2023-03-09 12:44:48 ls
+  243  2023-03-09 12:45:28 ./01_setup_remote_machine 
+  244  2023-03-09 12:48:13 ./02_sys_init_script 
+  245  2023-03-09 12:48:17 ./10_setup_postgresql 
+  246  2023-03-09 12:48:48 ./20_setup_postgis 
+  247  2023-03-09 12:49:08 cd ../
+  248  2023-03-09 12:49:10 ls
+  249  2023-03-09 12:49:24 git status
+  250  2023-03-09 12:49:28 code .
+  251  2023-03-09 13:04:51 export HISTTIMEFORMAT='%F %T '
+  252  2023-03-09 13:04:53 history 
+  253  2023-03-09 13:05:52 nano ~/.bashrc 
+  254  2023-03-09 13:06:34 history 
