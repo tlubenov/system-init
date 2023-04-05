@@ -1,0 +1,2582 @@
+{
+  "id" : "neptune.2023.04.05",
+  "class" : "system",
+  "claimed" : true,
+  "handle" : "DMI:000F",
+  "description" : "Notebook",
+  "product" : "20CLS08G00 (LENOVO_MT_20CL_BU_Think_FM_ThinkPad X250)",
+  "vendor" : "LENOVO",
+  "version" : "ThinkPad X250",
+  "serial" : "PC0797B3",
+  "width" : 64,
+  "configuration" : {
+    "administrator_password" : "disabled",
+    "chassis" : "notebook",
+    "family" : "ThinkPad X250",
+    "power-on_password" : "disabled",
+    "sku" : "LENOVO_MT_20CL_BU_Think_FM_ThinkPad X250",
+    "uuid" : "fabfbb81-5474-11cb-a064-f841f23d94a9"
+  },
+  "capabilities" : {
+    "smbios-2.7" : "SMBIOS version 2.7",
+    "dmi-2.7" : "DMI version 2.7",
+    "smp" : "Symmetric Multi-Processing",
+    "vsyscall32" : "32-bit processes"
+  },
+  "children" : [    {
+      "id" : "core",
+      "class" : "bus",
+      "claimed" : true,
+      "handle" : "DMI:0010",
+      "description" : "Motherboard",
+      "product" : "20CLS08G00",
+      "vendor" : "LENOVO",
+      "physid" : "0",
+      "version" : "SDK0E50510 WIN",
+      "serial" : "L1HF57Z05J2",
+      "slot" : "Not Available",
+      "children" : [        {
+          "id" : "cache",
+          "class" : "memory",
+          "claimed" : true,
+          "handle" : "DMI:0003",
+          "description" : "L1 cache",
+          "physid" : "3",
+          "slot" : "L1 Cache",
+          "units" : "bytes",
+          "size" : 32768,
+          "capacity" : 32768,
+          "configuration" : {
+            "level" : "1"
+          },
+          "capabilities" : {
+            "synchronous" : "Synchronous",
+            "internal" : "Internal",
+            "write-back" : "Write-back",
+            "data" : "Data cache"
+          }
+        },
+        {
+          "id" : "cpu",
+          "class" : "processor",
+          "claimed" : true,
+          "handle" : "DMI:0004",
+          "description" : "CPU",
+          "product" : "Intel(R) Core(TM) i5-5300U CPU @ 2.30GHz",
+          "vendor" : "Intel Corp.",
+          "physid" : "4",
+          "businfo" : "cpu@0",
+          "version" : "6.61.4",
+          "serial" : "None",
+          "slot" : "U3E1",
+          "units" : "Hz",
+          "size" : 2295815000,
+          "capacity" : 2900000000,
+          "width" : 64,
+          "clock" : 100000000,
+          "configuration" : {
+            "cores" : "2",
+            "enabledcores" : "2",
+            "microcode" : "47",
+            "threads" : "4"
+          },
+          "capabilities" : {
+            "lm" : "64bits extensions (x86-64)",
+            "fpu" : "mathematical co-processor",
+            "fpu_exception" : "FPU exceptions reporting",
+            "wp" : true,
+            "vme" : "virtual mode extensions",
+            "de" : "debugging extensions",
+            "pse" : "page size extensions",
+            "tsc" : "time stamp counter",
+            "msr" : "model-specific registers",
+            "pae" : "4GB+ memory addressing (Physical Address Extension)",
+            "mce" : "machine check exceptions",
+            "cx8" : "compare and exchange 8-byte",
+            "apic" : "on-chip advanced programmable interrupt controller (APIC)",
+            "sep" : "fast system calls",
+            "mtrr" : "memory type range registers",
+            "pge" : "page global enable",
+            "mca" : "machine check architecture",
+            "cmov" : "conditional move instruction",
+            "pat" : "page attribute table",
+            "pse36" : "36-bit page size extensions",
+            "clflush" : true,
+            "dts" : "debug trace and EMON store MSRs",
+            "acpi" : "thermal control (ACPI)",
+            "mmx" : "multimedia extensions (MMX)",
+            "fxsr" : "fast floating point save/restore",
+            "sse" : "streaming SIMD extensions (SSE)",
+            "sse2" : "streaming SIMD extensions (SSE2)",
+            "ss" : "self-snoop",
+            "ht" : "HyperThreading",
+            "tm" : "thermal interrupt and status",
+            "pbe" : "pending break event",
+            "syscall" : "fast system calls",
+            "nx" : "no-execute bit (NX)",
+            "pdpe1gb" : true,
+            "rdtscp" : true,
+            "x86-64" : "64bits extensions (x86-64)",
+            "constant_tsc" : true,
+            "arch_perfmon" : true,
+            "pebs" : true,
+            "bts" : true,
+            "rep_good" : true,
+            "nopl" : true,
+            "xtopology" : true,
+            "nonstop_tsc" : true,
+            "cpuid" : true,
+            "aperfmperf" : true,
+            "pni" : true,
+            "pclmulqdq" : true,
+            "dtes64" : true,
+            "monitor" : true,
+            "ds_cpl" : true,
+            "smx" : true,
+            "est" : true,
+            "tm2" : true,
+            "ssse3" : true,
+            "sdbg" : true,
+            "fma" : true,
+            "cx16" : true,
+            "xtpr" : true,
+            "pdcm" : true,
+            "pcid" : true,
+            "sse4_1" : true,
+            "sse4_2" : true,
+            "x2apic" : true,
+            "movbe" : true,
+            "popcnt" : true,
+            "tsc_deadline_timer" : true,
+            "aes" : true,
+            "xsave" : true,
+            "avx" : true,
+            "f16c" : true,
+            "rdrand" : true,
+            "lahf_lm" : true,
+            "abm" : true,
+            "3dnowprefetch" : true,
+            "cpuid_fault" : true,
+            "epb" : true,
+            "invpcid_single" : true,
+            "pti" : true,
+            "ssbd" : true,
+            "ibrs" : true,
+            "ibpb" : true,
+            "stibp" : true,
+            "fsgsbase" : true,
+            "tsc_adjust" : true,
+            "bmi1" : true,
+            "hle" : true,
+            "avx2" : true,
+            "smep" : true,
+            "bmi2" : true,
+            "erms" : true,
+            "invpcid" : true,
+            "rtm" : true,
+            "rdseed" : true,
+            "adx" : true,
+            "smap" : true,
+            "intel_pt" : true,
+            "xsaveopt" : true,
+            "dtherm" : true,
+            "ida" : true,
+            "arat" : true,
+            "pln" : true,
+            "pts" : true,
+            "md_clear" : true,
+            "flush_l1d" : true,
+            "cpufreq" : "CPU Frequency scaling"
+          },
+          "children" : [            {
+              "id" : "cache:0",
+              "class" : "memory",
+              "claimed" : true,
+              "handle" : "DMI:0005",
+              "description" : "L1 cache",
+              "physid" : "5",
+              "slot" : "L1 Cache",
+              "units" : "bytes",
+              "size" : 32768,
+              "capacity" : 32768,
+              "configuration" : {
+                "level" : "1"
+              },
+              "capabilities" : {
+                "synchronous" : "Synchronous",
+                "internal" : "Internal",
+                "write-back" : "Write-back",
+                "instruction" : "Instruction cache"
+              }
+            },
+            {
+              "id" : "cache:1",
+              "class" : "memory",
+              "claimed" : true,
+              "handle" : "DMI:0006",
+              "description" : "L2 cache",
+              "physid" : "6",
+              "slot" : "L2 Cache",
+              "units" : "bytes",
+              "size" : 262144,
+              "capacity" : 262144,
+              "configuration" : {
+                "level" : "2"
+              },
+              "capabilities" : {
+                "synchronous" : "Synchronous",
+                "internal" : "Internal",
+                "write-back" : "Write-back",
+                "unified" : "Unified cache"
+              }
+            },
+            {
+              "id" : "cache:2",
+              "class" : "memory",
+              "claimed" : true,
+              "handle" : "DMI:0007",
+              "description" : "L3 cache",
+              "physid" : "7",
+              "slot" : "L3 Cache",
+              "units" : "bytes",
+              "size" : 3145728,
+              "capacity" : 3145728,
+              "configuration" : {
+                "level" : "3"
+              },
+              "capabilities" : {
+                "synchronous" : "Synchronous",
+                "internal" : "Internal",
+                "write-back" : "Write-back",
+                "unified" : "Unified cache"
+              }
+            }]
+        },
+        {
+          "id" : "memory",
+          "class" : "memory",
+          "claimed" : true,
+          "handle" : "DMI:0008",
+          "description" : "System Memory",
+          "physid" : "8",
+          "slot" : "System board or motherboard",
+          "units" : "bytes",
+          "size" : 4294967296,
+          "children" : [            {
+              "id" : "bank",
+              "class" : "memory",
+              "claimed" : true,
+              "handle" : "DMI:0009",
+              "description" : "SODIMM DDR3 Synchronous 1600 MHz (0,6 ns)",
+              "product" : "HMT351S6EFR8A-PB",
+              "vendor" : "Hynix/Hyundai",
+              "physid" : "0",
+              "serial" : "12101938",
+              "slot" : "ChannelA-DIMM0",
+              "units" : "bytes",
+              "size" : 4294967296,
+              "width" : 64,
+              "clock" : 1600000000
+            }]
+        },
+        {
+          "id" : "firmware",
+          "class" : "memory",
+          "claimed" : true,
+          "description" : "BIOS",
+          "vendor" : "LENOVO",
+          "physid" : "30",
+          "version" : "N10ET36W (1.15 )",
+          "date" : "06/19/2015",
+          "units" : "bytes",
+          "size" : 131072,
+          "capacity" : 16777216,
+          "capabilities" : {
+            "pci" : "PCI bus",
+            "pnp" : "Plug-and-Play",
+            "upgrade" : "BIOS EEPROM can be upgraded",
+            "shadowing" : "BIOS shadowing",
+            "cdboot" : "Booting from CD-ROM/DVD",
+            "bootselect" : "Selectable boot path",
+            "acpi" : "ACPI",
+            "usb" : "USB legacy emulation",
+            "biosbootspecification" : "BIOS boot specification",
+            "uefi" : "UEFI specification is supported"
+          }
+        },
+        {
+          "id" : "pci",
+          "class" : "bridge",
+          "claimed" : true,
+          "handle" : "PCIBUS:0000:00",
+          "description" : "Host bridge",
+          "product" : "Broadwell-U Host Bridge -OPI",
+          "vendor" : "Intel Corporation",
+          "physid" : "100",
+          "businfo" : "pci@0000:00:00.0",
+          "version" : "09",
+          "width" : 32,
+          "clock" : 33000000,
+          "configuration" : {
+            "driver" : "bdw_uncore"
+          },
+          "children" : [            {
+              "id" : "display",
+              "class" : "display",
+              "claimed" : true,
+              "handle" : "PCI:0000:00:02.0",
+              "description" : "VGA compatible controller",
+              "product" : "HD Graphics 5500",
+              "vendor" : "Intel Corporation",
+              "physid" : "2",
+              "businfo" : "pci@0000:00:02.0",
+              "logicalname" : "/dev/fb0",
+              "version" : "09",
+              "width" : 64,
+              "clock" : 33000000,
+              "configuration" : {
+                "depth" : "32",
+                "driver" : "i915",
+                "latency" : "0",
+                "resolution" : "1366,768"
+              },
+              "capabilities" : {
+                "msi" : "Message Signalled Interrupts",
+                "pm" : "Power Management",
+                "vga_controller" : true,
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing",
+                "rom" : "extension ROM",
+                "fb" : "framebuffer"
+              }
+            },
+            {
+              "id" : "multimedia:0",
+              "class" : "multimedia",
+              "claimed" : true,
+              "handle" : "PCI:0000:00:03.0",
+              "description" : "Audio device",
+              "product" : "Broadwell-U Audio Controller",
+              "vendor" : "Intel Corporation",
+              "physid" : "3",
+              "businfo" : "pci@0000:00:03.0",
+              "logicalname" : ["card0", "/dev/snd/controlC0", "/dev/snd/hwC0D0", "/dev/snd/pcmC0D10p", "/dev/snd/pcmC0D3p", "/dev/snd/pcmC0D7p", "/dev/snd/pcmC0D8p", "/dev/snd/pcmC0D9p"],
+              "version" : "09",
+              "width" : 64,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "snd_hda_intel",
+                "latency" : "0"
+              },
+              "capabilities" : {
+                "pm" : "Power Management",
+                "msi" : "Message Signalled Interrupts",
+                "pciexpress" : "PCI Express",
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing"
+              },
+              "children" : [                {
+                  "id" : "input:0",
+                  "class" : "input",
+                  "claimed" : true,
+                  "product" : "HDA Intel HDMI HDMI/DP,pcm=3",
+                  "physid" : "0",
+                  "logicalname" : ["input11", "/dev/input/event9"]
+                },
+                {
+                  "id" : "input:1",
+                  "class" : "input",
+                  "claimed" : true,
+                  "product" : "HDA Intel HDMI HDMI/DP,pcm=7",
+                  "physid" : "1",
+                  "logicalname" : ["input12", "/dev/input/event10"]
+                },
+                {
+                  "id" : "input:2",
+                  "class" : "input",
+                  "claimed" : true,
+                  "product" : "HDA Intel HDMI HDMI/DP,pcm=8",
+                  "physid" : "2",
+                  "logicalname" : ["input13", "/dev/input/event11"]
+                },
+                {
+                  "id" : "input:3",
+                  "class" : "input",
+                  "claimed" : true,
+                  "product" : "HDA Intel HDMI HDMI/DP,pcm=9",
+                  "physid" : "3",
+                  "logicalname" : ["input14", "/dev/input/event12"]
+                },
+                {
+                  "id" : "input:4",
+                  "class" : "input",
+                  "claimed" : true,
+                  "product" : "HDA Intel HDMI HDMI/DP,pcm=10",
+                  "physid" : "4",
+                  "logicalname" : ["input15", "/dev/input/event13"]
+                }]
+            },
+            {
+              "id" : "usb:0",
+              "class" : "bus",
+              "claimed" : true,
+              "handle" : "PCI:0000:00:14.0",
+              "description" : "USB controller",
+              "product" : "Wildcat Point-LP USB xHCI Controller",
+              "vendor" : "Intel Corporation",
+              "physid" : "14",
+              "businfo" : "pci@0000:00:14.0",
+              "version" : "03",
+              "width" : 64,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "xhci_hcd",
+                "latency" : "0"
+              },
+              "capabilities" : {
+                "pm" : "Power Management",
+                "msi" : "Message Signalled Interrupts",
+                "xhci" : true,
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing"
+              },
+              "children" : [                {
+                  "id" : "usbhost:0",
+                  "class" : "bus",
+                  "claimed" : true,
+                  "handle" : "USB:2:1",
+                  "product" : "xHCI Host Controller",
+                  "vendor" : "Linux 5.15.0-69-generic xhci-hcd",
+                  "physid" : "0",
+                  "businfo" : "usb@2",
+                  "logicalname" : "usb2",
+                  "version" : "5.15",
+                  "configuration" : {
+                    "driver" : "hub",
+                    "slots" : "11",
+                    "speed" : "480Mbit/s"
+                  },
+                  "capabilities" : {
+                    "usb-2.00" : "USB 2.0"
+                  },
+                  "children" : [                    {
+                      "id" : "usb:0",
+                      "class" : "input",
+                      "claimed" : true,
+                      "handle" : "USB:2:5",
+                      "description" : "Keyboard",
+                      "product" : "USB Receiver",
+                      "vendor" : "Logitech",
+                      "physid" : "1",
+                      "businfo" : "usb@2:1",
+                      "version" : "24.10",
+                      "configuration" : {
+                        "driver" : "usbhid",
+                        "maxpower" : "98mA",
+                        "speed" : "12Mbit/s"
+                      },
+                      "capabilities" : {
+                        "usb-2.00" : "USB 2.0"
+                      },
+                      "children" : [                        {
+                          "id" : "input",
+                          "class" : "input",
+                          "claimed" : true,
+                          "product" : "Logitech MX Anywhere 2",
+                          "physid" : "0",
+                          "logicalname" : ["input30", "/dev/input/event18", "input30::capslock", "input30::compose", "input30::kana", "input30::numlock", "input30::scrolllock", "/dev/input/mouse2"],
+                          "capabilities" : {
+                            "usb" : "USB"
+                          }
+                        }]
+                    },
+                    {
+                      "id" : "usb:1",
+                      "class" : "generic",
+                      "handle" : "USB:2:2",
+                      "description" : "Generic USB device",
+                      "product" : "VFS 5011 fingerprint sensor",
+                      "vendor" : "Validity Sensors, Inc.",
+                      "physid" : "6",
+                      "businfo" : "usb@2:6",
+                      "version" : "0.78",
+                      "serial" : "f9d28784e058",
+                      "configuration" : {
+                        "maxpower" : "100mA",
+                        "speed" : "12Mbit/s"
+                      },
+                      "capabilities" : {
+                        "usb-1.10" : "USB 1.1"
+                      }
+                    },
+                    {
+                      "id" : "usb:2",
+                      "class" : "communication",
+                      "claimed" : true,
+                      "handle" : "USB:2:3",
+                      "description" : "Bluetooth wireless interface",
+                      "product" : "Bluetooth wireless interface",
+                      "vendor" : "Intel Corp.",
+                      "physid" : "7",
+                      "businfo" : "usb@2:7",
+                      "version" : "0.01",
+                      "configuration" : {
+                        "driver" : "btusb",
+                        "maxpower" : "100mA",
+                        "speed" : "12Mbit/s"
+                      },
+                      "capabilities" : {
+                        "bluetooth" : "Bluetooth wireless radio",
+                        "usb-2.01" : true
+                      }
+                    },
+                    {
+                      "id" : "usb:3",
+                      "class" : "multimedia",
+                      "claimed" : true,
+                      "handle" : "USB:2:4",
+                      "description" : "Video",
+                      "product" : "Integrated Camera: Integrated C",
+                      "vendor" : "SunplusIT Inc",
+                      "physid" : "8",
+                      "businfo" : "usb@2:8",
+                      "logicalname" : ["input7", "/dev/input/event5"],
+                      "version" : "0.18",
+                      "configuration" : {
+                        "driver" : "uvcvideo",
+                        "maxpower" : "500mA",
+                        "speed" : "480Mbit/s"
+                      },
+                      "capabilities" : {
+                        "usb-2.00" : "USB 2.0",
+                        "usb" : "USB"
+                      }
+                    }]
+                },
+                {
+                  "id" : "usbhost:1",
+                  "class" : "bus",
+                  "claimed" : true,
+                  "handle" : "USB:3:1",
+                  "product" : "xHCI Host Controller",
+                  "vendor" : "Linux 5.15.0-69-generic xhci-hcd",
+                  "physid" : "1",
+                  "businfo" : "usb@3",
+                  "logicalname" : "usb3",
+                  "version" : "5.15",
+                  "configuration" : {
+                    "driver" : "hub",
+                    "slots" : "4",
+                    "speed" : "5000Mbit/s"
+                  },
+                  "capabilities" : {
+                    "usb-3.00" : true
+                  }
+                }]
+            },
+            {
+              "id" : "communication",
+              "class" : "communication",
+              "claimed" : true,
+              "handle" : "PCI:0000:00:16.0",
+              "description" : "Communication controller",
+              "product" : "Wildcat Point-LP MEI Controller #1",
+              "vendor" : "Intel Corporation",
+              "physid" : "16",
+              "businfo" : "pci@0000:00:16.0",
+              "version" : "03",
+              "width" : 64,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "mei_me",
+                "latency" : "0"
+              },
+              "capabilities" : {
+                "pm" : "Power Management",
+                "msi" : "Message Signalled Interrupts",
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing"
+              }
+            },
+            {
+              "id" : "network",
+              "class" : "network",
+              "claimed" : true,
+              "handle" : "PCI:0000:00:19.0",
+              "description" : "Ethernet interface",
+              "product" : "Ethernet Connection (3) I218-LM",
+              "vendor" : "Intel Corporation",
+              "physid" : "19",
+              "businfo" : "pci@0000:00:19.0",
+              "logicalname" : "enp0s25",
+              "version" : "03",
+              "serial" : "50:7b:9d:07:e0:ee",
+              "units" : "bit/s",
+              "capacity" : 1000000000,
+              "width" : 32,
+              "clock" : 33000000,
+              "configuration" : {
+                "autonegotiation" : "on",
+                "broadcast" : "yes",
+                "driver" : "e1000e",
+                "driverversion" : "5.15.0-69-generic",
+                "firmware" : "0.2-3",
+                "latency" : "0",
+                "link" : "no",
+                "multicast" : "yes",
+                "port" : "twisted pair"
+              },
+              "capabilities" : {
+                "pm" : "Power Management",
+                "msi" : "Message Signalled Interrupts",
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing",
+                "ethernet" : true,
+                "physical" : "Physical interface",
+                "tp" : "twisted pair",
+                "10bt" : "10Mbit/s",
+                "10bt-fd" : "10Mbit/s (full duplex)",
+                "100bt" : "100Mbit/s",
+                "100bt-fd" : "100Mbit/s (full duplex)",
+                "1000bt-fd" : "1Gbit/s (full duplex)",
+                "autonegotiation" : "Auto-negotiation"
+              }
+            },
+            {
+              "id" : "multimedia:1",
+              "class" : "multimedia",
+              "claimed" : true,
+              "handle" : "PCI:0000:00:1b.0",
+              "description" : "Audio device",
+              "product" : "Wildcat Point-LP High Definition Audio Controller",
+              "vendor" : "Intel Corporation",
+              "physid" : "1b",
+              "businfo" : "pci@0000:00:1b.0",
+              "logicalname" : ["card1", "/dev/snd/controlC1", "/dev/snd/hwC1D0", "/dev/snd/pcmC1D0c", "/dev/snd/pcmC1D0p"],
+              "version" : "03",
+              "width" : 64,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "snd_hda_intel",
+                "latency" : "32"
+              },
+              "capabilities" : {
+                "pm" : "Power Management",
+                "msi" : "Message Signalled Interrupts",
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing"
+              },
+              "children" : [                {
+                  "id" : "input:0",
+                  "class" : "input",
+                  "claimed" : true,
+                  "product" : "HDA Intel PCH Dock Mic",
+                  "physid" : "0",
+                  "logicalname" : ["input16", "/dev/input/event14"]
+                },
+                {
+                  "id" : "input:1",
+                  "class" : "input",
+                  "claimed" : true,
+                  "product" : "HDA Intel PCH Mic",
+                  "physid" : "1",
+                  "logicalname" : ["input17", "/dev/input/event15"]
+                },
+                {
+                  "id" : "input:2",
+                  "class" : "input",
+                  "claimed" : true,
+                  "product" : "HDA Intel PCH Dock Headphone",
+                  "physid" : "2",
+                  "logicalname" : ["input18", "/dev/input/event16"]
+                },
+                {
+                  "id" : "input:3",
+                  "class" : "input",
+                  "claimed" : true,
+                  "product" : "HDA Intel PCH Headphone",
+                  "physid" : "3",
+                  "logicalname" : ["input19", "/dev/input/event17"]
+                }]
+            },
+            {
+              "id" : "pci:0",
+              "class" : "bridge",
+              "claimed" : true,
+              "handle" : "PCIBUS:0000:02",
+              "description" : "PCI bridge",
+              "product" : "Wildcat Point-LP PCI Express Root Port #6",
+              "vendor" : "Intel Corporation",
+              "physid" : "1c",
+              "businfo" : "pci@0000:00:1c.0",
+              "version" : "e3",
+              "width" : 32,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "pcieport"
+              },
+              "capabilities" : {
+                "pci" : true,
+                "pciexpress" : "PCI Express",
+                "msi" : "Message Signalled Interrupts",
+                "pm" : "Power Management",
+                "normal_decode" : true,
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing"
+              },
+              "children" : [                {
+                  "id" : "generic",
+                  "class" : "bus",
+                  "claimed" : true,
+                  "handle" : "PCI:0000:02:00.0",
+                  "description" : "MMC Host",
+                  "product" : "RTS5227 PCI Express Card Reader",
+                  "vendor" : "Realtek Semiconductor Co., Ltd.",
+                  "physid" : "0",
+                  "businfo" : "pci@0000:02:00.0",
+                  "logicalname" : "mmc0",
+                  "version" : "01",
+                  "width" : 32,
+                  "clock" : 33000000,
+                  "configuration" : {
+                    "driver" : "rtsx_pci",
+                    "latency" : "0"
+                  },
+                  "capabilities" : {
+                    "pm" : "Power Management",
+                    "msi" : "Message Signalled Interrupts",
+                    "pciexpress" : "PCI Express",
+                    "bus_master" : "bus mastering",
+                    "cap_list" : "PCI capabilities listing"
+                  }
+                }]
+            },
+            {
+              "id" : "pci:1",
+              "class" : "bridge",
+              "claimed" : true,
+              "handle" : "PCIBUS:0000:03",
+              "description" : "PCI bridge",
+              "product" : "Wildcat Point-LP PCI Express Root Port #3",
+              "vendor" : "Intel Corporation",
+              "physid" : "1c.1",
+              "businfo" : "pci@0000:00:1c.1",
+              "version" : "e3",
+              "width" : 32,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "pcieport"
+              },
+              "capabilities" : {
+                "pci" : true,
+                "pciexpress" : "PCI Express",
+                "msi" : "Message Signalled Interrupts",
+                "pm" : "Power Management",
+                "normal_decode" : true,
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing"
+              },
+              "children" : [                {
+                  "id" : "network",
+                  "class" : "network",
+                  "claimed" : true,
+                  "handle" : "PCI:0000:03:00.0",
+                  "description" : "Wireless interface",
+                  "product" : "Wireless 7265",
+                  "vendor" : "Intel Corporation",
+                  "physid" : "0",
+                  "businfo" : "pci@0000:03:00.0",
+                  "logicalname" : "wlp3s0",
+                  "version" : "59",
+                  "serial" : "94:65:9c:49:d1:80",
+                  "width" : 64,
+                  "clock" : 33000000,
+                  "configuration" : {
+                    "broadcast" : "yes",
+                    "driver" : "iwlwifi",
+                    "driverversion" : "5.15.0-69-generic",
+                    "firmware" : "29.4063824552.0 7265D-29.ucode",
+                    "ip" : "192.168.8.116",
+                    "latency" : "0",
+                    "link" : "yes",
+                    "multicast" : "yes",
+                    "wireless" : "IEEE 802.11"
+                  },
+                  "capabilities" : {
+                    "pm" : "Power Management",
+                    "msi" : "Message Signalled Interrupts",
+                    "pciexpress" : "PCI Express",
+                    "bus_master" : "bus mastering",
+                    "cap_list" : "PCI capabilities listing",
+                    "ethernet" : true,
+                    "physical" : "Physical interface",
+                    "wireless" : "Wireless-LAN"
+                  }
+                }]
+            },
+            {
+              "id" : "usb:1",
+              "class" : "bus",
+              "claimed" : true,
+              "handle" : "PCI:0000:00:1d.0",
+              "description" : "USB controller",
+              "product" : "Wildcat Point-LP USB EHCI Controller",
+              "vendor" : "Intel Corporation",
+              "physid" : "1d",
+              "businfo" : "pci@0000:00:1d.0",
+              "version" : "03",
+              "width" : 32,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "ehci-pci",
+                "latency" : "0"
+              },
+              "capabilities" : {
+                "pm" : "Power Management",
+                "debug" : "Debug port",
+                "ehci" : "Enhanced Host Controller Interface (USB2)",
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing"
+              },
+              "children" : [                {
+                  "id" : "usbhost",
+                  "class" : "bus",
+                  "claimed" : true,
+                  "handle" : "USB:1:1",
+                  "product" : "EHCI Host Controller",
+                  "vendor" : "Linux 5.15.0-69-generic ehci_hcd",
+                  "physid" : "1",
+                  "businfo" : "usb@1",
+                  "logicalname" : "usb1",
+                  "version" : "5.15",
+                  "configuration" : {
+                    "driver" : "hub",
+                    "slots" : "3",
+                    "speed" : "480Mbit/s"
+                  },
+                  "capabilities" : {
+                    "usb-2.00" : "USB 2.0"
+                  },
+                  "children" : [                    {
+                      "id" : "usb",
+                      "class" : "bus",
+                      "claimed" : true,
+                      "handle" : "USB:1:2",
+                      "description" : "USB hub",
+                      "product" : "Integrated Hub",
+                      "vendor" : "Intel Corp.",
+                      "physid" : "1",
+                      "businfo" : "usb@1:1",
+                      "version" : "0.03",
+                      "configuration" : {
+                        "driver" : "hub",
+                        "slots" : "8",
+                        "speed" : "480Mbit/s"
+                      },
+                      "capabilities" : {
+                        "usb-2.00" : "USB 2.0"
+                      }
+                    }]
+                }]
+            },
+            {
+              "id" : "isa",
+              "class" : "bridge",
+              "claimed" : true,
+              "handle" : "PCI:0000:00:1f.0",
+              "description" : "ISA bridge",
+              "product" : "Wildcat Point-LP LPC Controller",
+              "vendor" : "Intel Corporation",
+              "physid" : "1f",
+              "businfo" : "pci@0000:00:1f.0",
+              "version" : "03",
+              "width" : 32,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "lpc_ich",
+                "latency" : "0"
+              },
+              "capabilities" : {
+                "isa" : true,
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing"
+              },
+              "children" : [                {
+                  "id" : "pnp00:00",
+                  "class" : "system",
+                  "claimed" : true,
+                  "product" : "PnP device PNP0c01",
+                  "physid" : "0",
+                  "configuration" : {
+                    "driver" : "system"
+                  },
+                  "capabilities" : {
+                    "pnp" : true
+                  }
+                },
+                {
+                  "id" : "pnp00:01",
+                  "class" : "system",
+                  "claimed" : true,
+                  "product" : "PnP device PNP0c02",
+                  "physid" : "1",
+                  "configuration" : {
+                    "driver" : "system"
+                  },
+                  "capabilities" : {
+                    "pnp" : true
+                  }
+                },
+                {
+                  "id" : "pnp00:02",
+                  "class" : "system",
+                  "claimed" : true,
+                  "product" : "PnP device PNP0b00",
+                  "physid" : "2",
+                  "configuration" : {
+                    "driver" : "rtc_cmos"
+                  },
+                  "capabilities" : {
+                    "pnp" : true
+                  }
+                },
+                {
+                  "id" : "pnp00:03",
+                  "class" : "generic",
+                  "claimed" : true,
+                  "product" : "PnP device LEN0071",
+                  "physid" : "3",
+                  "configuration" : {
+                    "driver" : "i8042 kbd"
+                  },
+                  "capabilities" : {
+                    "pnp" : true
+                  }
+                },
+                {
+                  "id" : "pnp00:04",
+                  "class" : "generic",
+                  "claimed" : true,
+                  "product" : "PnP device LEN0046",
+                  "physid" : "4",
+                  "configuration" : {
+                    "driver" : "i8042 aux"
+                  },
+                  "capabilities" : {
+                    "pnp" : true
+                  }
+                },
+                {
+                  "id" : "pnp00:05",
+                  "class" : "generic",
+                  "claimed" : true,
+                  "product" : "PnP device SMO1200",
+                  "physid" : "5",
+                  "configuration" : {
+                    "driver" : "tpm_tis"
+                  },
+                  "capabilities" : {
+                    "pnp" : true
+                  }
+                },
+                {
+                  "id" : "pnp00:06",
+                  "class" : "system",
+                  "claimed" : true,
+                  "product" : "PnP device PNP0c02",
+                  "physid" : "6",
+                  "configuration" : {
+                    "driver" : "system"
+                  },
+                  "capabilities" : {
+                    "pnp" : true
+                  }
+                }]
+            },
+            {
+              "id" : "sata",
+              "class" : "storage",
+              "claimed" : true,
+              "handle" : "PCI:0000:00:1f.2",
+              "description" : "SATA controller",
+              "product" : "Wildcat Point-LP SATA Controller [AHCI Mode]",
+              "vendor" : "Intel Corporation",
+              "physid" : "1f.2",
+              "businfo" : "pci@0000:00:1f.2",
+              "logicalname" : "scsi0",
+              "version" : "03",
+              "width" : 32,
+              "clock" : 66000000,
+              "configuration" : {
+                "driver" : "ahci",
+                "latency" : "0"
+              },
+              "capabilities" : {
+                "sata" : true,
+                "msi" : "Message Signalled Interrupts",
+                "pm" : "Power Management",
+                "ahci_1.0" : true,
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing",
+                "emulated" : "Emulated device"
+              },
+              "children" : [                {
+                  "id" : "disk",
+                  "class" : "disk",
+                  "claimed" : true,
+                  "handle" : "GUID:b5a7145b-61e3-4019-be23-e81f3e427178",
+                  "description" : "ATA Disk",
+                  "product" : "SAMSUNG MZ7LN256",
+                  "physid" : "0.0.0",
+                  "businfo" : "scsi@0:0.0.0",
+                  "logicalname" : "/dev/sda",
+                  "dev" : "8:0",
+                  "version" : "3L6Q",
+                  "serial" : "S20HNXCG724094",
+                  "units" : "bytes",
+                  "size" : 256060514304,
+                  "configuration" : {
+                    "ansiversion" : "5",
+                    "guid" : "b5a7145b-61e3-4019-be23-e81f3e427178",
+                    "logicalsectorsize" : "512",
+                    "sectorsize" : "512"
+                  },
+                  "capabilities" : {
+                    "gpt-1.00" : "GUID Partition Table version 1.00",
+                    "partitioned" : "Partitioned disk",
+                    "partitioned:gpt" : "GUID partition table"
+                  },
+                  "children" : [                    {
+                      "id" : "volume:0",
+                      "class" : "volume",
+                      "claimed" : true,
+                      "handle" : "GUID:092fd1ba-beff-4425-a437-cd9586bffd80",
+                      "description" : "BIOS Boot partition",
+                      "vendor" : "EFI",
+                      "physid" : "1",
+                      "businfo" : "scsi@0:0.0.0,1",
+                      "logicalname" : "/dev/sda1",
+                      "dev" : "8:1",
+                      "serial" : "092fd1ba-beff-4425-a437-cd9586bffd80",
+                      "capacity" : 1048064,
+                      "capabilities" : {
+                        "nofs" : "No filesystem"
+                      }
+                    },
+                    {
+                      "id" : "volume:1",
+                      "class" : "volume",
+                      "handle" : "GUID:c6ba72a2-7530-48d7-84f4-b344125019ee",
+                      "description" : "Windows FAT volume",
+                      "vendor" : "mkfs.fat",
+                      "physid" : "2",
+                      "businfo" : "scsi@0:0.0.0,2",
+                      "version" : "FAT32",
+                      "serial" : "6a6a-8dc4",
+                      "size" : 535787520,
+                      "capacity" : 537918976,
+                      "configuration" : {
+                        "FATs" : "2",
+                        "filesystem" : "fat",
+                        "name" : "EFI System Partition"
+                      },
+                      "capabilities" : {
+                        "boot" : "Contains boot code",
+                        "fat" : "Windows FAT",
+                        "initialized" : "initialized volume"
+                      }
+                    },
+                    {
+                      "id" : "volume:2",
+                      "class" : "volume",
+                      "claimed" : true,
+                      "handle" : "GUID:d2227112-169a-4823-974e-3a36b126e8f2",
+                      "description" : "EXT4 volume",
+                      "vendor" : "Linux",
+                      "physid" : "3",
+                      "businfo" : "scsi@0:0.0.0,3",
+                      "logicalname" : ["/dev/sda3", "/"],
+                      "dev" : "8:3",
+                      "version" : "1.0",
+                      "serial" : "a549f945-83b0-4ac2-8797-115f74ee9627",
+                      "size" : 255520145408,
+                      "configuration" : {
+                        "created" : "2023-04-05 09:35:19",
+                        "filesystem" : "ext4",
+                        "lastmountpoint" : "/",
+                        "modified" : "2023-04-05 18:54:39",
+                        "mount.fstype" : "ext4",
+                        "mount.options" : "rw,relatime,errors=remount-ro",
+                        "mounted" : "2023-04-05 18:54:39",
+                        "state" : "mounted"
+                      },
+                      "capabilities" : {
+                        "journaled" : true,
+                        "extended_attributes" : "Extended Attributes",
+                        "large_files" : "4GB+ files",
+                        "huge_files" : "16TB+ files",
+                        "dir_nlink" : "directories with 65000+ subdirs",
+                        "recover" : "needs recovery",
+                        "64bit" : "64bit filesystem",
+                        "extents" : "extent-based allocation",
+                        "ext4" : true,
+                        "ext2" : "EXT2/EXT3",
+                        "initialized" : "initialized volume"
+                      }
+                    }]
+                }]
+            },
+            {
+              "id" : "serial",
+              "class" : "bus",
+              "claimed" : true,
+              "handle" : "PCI:0000:00:1f.3",
+              "description" : "SMBus",
+              "product" : "Wildcat Point-LP SMBus Controller",
+              "vendor" : "Intel Corporation",
+              "physid" : "1f.3",
+              "businfo" : "pci@0000:00:1f.3",
+              "version" : "03",
+              "width" : 64,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "i801_smbus",
+                "latency" : "0"
+              }
+            },
+            {
+              "id" : "generic",
+              "class" : "generic",
+              "claimed" : true,
+              "handle" : "PCI:0000:00:1f.6",
+              "description" : "Signal processing controller",
+              "product" : "Wildcat Point-LP Thermal Management Controller",
+              "vendor" : "Intel Corporation",
+              "physid" : "1f.6",
+              "businfo" : "pci@0000:00:1f.6",
+              "version" : "03",
+              "width" : 64,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "intel_pch_thermal",
+                "latency" : "0"
+              },
+              "capabilities" : {
+                "pm" : "Power Management",
+                "msi" : "Message Signalled Interrupts",
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing"
+              }
+            }]
+        }]
+    },
+    {
+      "id" : "battery:0",
+      "class" : "power",
+      "claimed" : true,
+      "handle" : "DMI:0026",
+      "product" : "45N1111",
+      "vendor" : "SONY",
+      "physid" : "1",
+      "slot" : "Front",
+      "units" : "mWh",
+      "capacity" : 23200,
+      "configuration" : {
+        "voltage" : "11,1V"
+      }
+    },
+    {
+      "id" : "battery:1",
+      "class" : "power",
+      "claimed" : true,
+      "handle" : "DMI:0027",
+      "product" : "45N1735",
+      "vendor" : "LGC",
+      "physid" : "2",
+      "slot" : "Rear",
+      "units" : "mWh",
+      "capacity" : 47520,
+      "configuration" : {
+        "voltage" : "10,8V"
+      }
+    },
+    {
+      "id" : "input:0",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "Lid Switch",
+      "physid" : "3",
+      "logicalname" : ["input0", "/dev/input/event0"],
+      "capabilities" : {
+        "platform" : true
+      }
+    },
+    {
+      "id" : "input:1",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "Sleep Button",
+      "physid" : "4",
+      "logicalname" : ["input1", "/dev/input/event1"],
+      "capabilities" : {
+        "platform" : true
+      }
+    },
+    {
+      "id" : "input:2",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "Video Bus",
+      "physid" : "5",
+      "logicalname" : ["input10", "/dev/input/event7"],
+      "capabilities" : {
+        "platform" : true
+      }
+    },
+    {
+      "id" : "input:3",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "Power Button",
+      "physid" : "6",
+      "logicalname" : ["input2", "/dev/input/event2"],
+      "capabilities" : {
+        "platform" : true
+      }
+    },
+    {
+      "id" : "input:4",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "AT Translated Set 2 keyboard",
+      "physid" : "7",
+      "logicalname" : ["input3", "/dev/input/event3", "input3::capslock", "input3::numlock", "input3::scrolllock"],
+      "capabilities" : {
+        "i8042" : "i8042 PC AT keyboard controller"
+      }
+    },
+    {
+      "id" : "input:5",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "ThinkPad Extra Buttons",
+      "physid" : "8",
+      "logicalname" : ["input6", "/dev/input/event4"],
+      "capabilities" : {
+        "platform" : true
+      }
+    },
+    {
+      "id" : "input:6",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "Synaptics TM3075-002",
+      "physid" : "9",
+      "logicalname" : ["input8", "/dev/input/event6", "/dev/input/mouse0"],
+      "capabilities" : {
+        "rmi" : "RMI"
+      }
+    },
+    {
+      "id" : "input:7",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "TPPS/2 IBM TrackPoint",
+      "physid" : "a",
+      "logicalname" : ["input9", "/dev/input/event8", "/dev/input/mouse1"],
+      "capabilities" : {
+        "i8042" : "i8042 PC AT keyboard controller"
+      }
+    }]
+}
+{
+  "id" : "neptune.2023.04.05",
+  "class" : "system",
+  "claimed" : true,
+  "handle" : "DMI:000F",
+  "description" : "Notebook",
+  "product" : "20CLS08G00 (LENOVO_MT_20CL_BU_Think_FM_ThinkPad X250)",
+  "vendor" : "LENOVO",
+  "version" : "ThinkPad X250",
+  "serial" : "PC0797B3",
+  "width" : 64,
+  "configuration" : {
+    "administrator_password" : "disabled",
+    "chassis" : "notebook",
+    "family" : "ThinkPad X250",
+    "power-on_password" : "disabled",
+    "sku" : "LENOVO_MT_20CL_BU_Think_FM_ThinkPad X250",
+    "uuid" : "fabfbb81-5474-11cb-a064-f841f23d94a9"
+  },
+  "capabilities" : {
+    "smbios-2.7" : "SMBIOS version 2.7",
+    "dmi-2.7" : "DMI version 2.7",
+    "smp" : "Symmetric Multi-Processing",
+    "vsyscall32" : "32-bit processes"
+  },
+  "children" : [    {
+      "id" : "core",
+      "class" : "bus",
+      "claimed" : true,
+      "handle" : "DMI:0010",
+      "description" : "Motherboard",
+      "product" : "20CLS08G00",
+      "vendor" : "LENOVO",
+      "physid" : "0",
+      "version" : "SDK0E50510 WIN",
+      "serial" : "L1HF57Z05J2",
+      "slot" : "Not Available",
+      "children" : [        {
+          "id" : "cache",
+          "class" : "memory",
+          "claimed" : true,
+          "handle" : "DMI:0003",
+          "description" : "L1 cache",
+          "physid" : "3",
+          "slot" : "L1 Cache",
+          "units" : "bytes",
+          "size" : 32768,
+          "capacity" : 32768,
+          "configuration" : {
+            "level" : "1"
+          },
+          "capabilities" : {
+            "synchronous" : "Synchronous",
+            "internal" : "Internal",
+            "write-back" : "Write-back",
+            "data" : "Data cache"
+          }
+        },
+        {
+          "id" : "cpu",
+          "class" : "processor",
+          "claimed" : true,
+          "handle" : "DMI:0004",
+          "description" : "CPU",
+          "product" : "Intel(R) Core(TM) i5-5300U CPU @ 2.30GHz",
+          "vendor" : "Intel Corp.",
+          "physid" : "4",
+          "businfo" : "cpu@0",
+          "version" : "6.61.4",
+          "serial" : "None",
+          "slot" : "U3E1",
+          "units" : "Hz",
+          "size" : 2694050000,
+          "capacity" : 2900000000,
+          "width" : 64,
+          "clock" : 100000000,
+          "configuration" : {
+            "cores" : "2",
+            "enabledcores" : "2",
+            "microcode" : "47",
+            "threads" : "4"
+          },
+          "capabilities" : {
+            "lm" : "64bits extensions (x86-64)",
+            "fpu" : "mathematical co-processor",
+            "fpu_exception" : "FPU exceptions reporting",
+            "wp" : true,
+            "vme" : "virtual mode extensions",
+            "de" : "debugging extensions",
+            "pse" : "page size extensions",
+            "tsc" : "time stamp counter",
+            "msr" : "model-specific registers",
+            "pae" : "4GB+ memory addressing (Physical Address Extension)",
+            "mce" : "machine check exceptions",
+            "cx8" : "compare and exchange 8-byte",
+            "apic" : "on-chip advanced programmable interrupt controller (APIC)",
+            "sep" : "fast system calls",
+            "mtrr" : "memory type range registers",
+            "pge" : "page global enable",
+            "mca" : "machine check architecture",
+            "cmov" : "conditional move instruction",
+            "pat" : "page attribute table",
+            "pse36" : "36-bit page size extensions",
+            "clflush" : true,
+            "dts" : "debug trace and EMON store MSRs",
+            "acpi" : "thermal control (ACPI)",
+            "mmx" : "multimedia extensions (MMX)",
+            "fxsr" : "fast floating point save/restore",
+            "sse" : "streaming SIMD extensions (SSE)",
+            "sse2" : "streaming SIMD extensions (SSE2)",
+            "ss" : "self-snoop",
+            "ht" : "HyperThreading",
+            "tm" : "thermal interrupt and status",
+            "pbe" : "pending break event",
+            "syscall" : "fast system calls",
+            "nx" : "no-execute bit (NX)",
+            "pdpe1gb" : true,
+            "rdtscp" : true,
+            "x86-64" : "64bits extensions (x86-64)",
+            "constant_tsc" : true,
+            "arch_perfmon" : true,
+            "pebs" : true,
+            "bts" : true,
+            "rep_good" : true,
+            "nopl" : true,
+            "xtopology" : true,
+            "nonstop_tsc" : true,
+            "cpuid" : true,
+            "aperfmperf" : true,
+            "pni" : true,
+            "pclmulqdq" : true,
+            "dtes64" : true,
+            "monitor" : true,
+            "ds_cpl" : true,
+            "smx" : true,
+            "est" : true,
+            "tm2" : true,
+            "ssse3" : true,
+            "sdbg" : true,
+            "fma" : true,
+            "cx16" : true,
+            "xtpr" : true,
+            "pdcm" : true,
+            "pcid" : true,
+            "sse4_1" : true,
+            "sse4_2" : true,
+            "x2apic" : true,
+            "movbe" : true,
+            "popcnt" : true,
+            "tsc_deadline_timer" : true,
+            "aes" : true,
+            "xsave" : true,
+            "avx" : true,
+            "f16c" : true,
+            "rdrand" : true,
+            "lahf_lm" : true,
+            "abm" : true,
+            "3dnowprefetch" : true,
+            "cpuid_fault" : true,
+            "epb" : true,
+            "invpcid_single" : true,
+            "pti" : true,
+            "ssbd" : true,
+            "ibrs" : true,
+            "ibpb" : true,
+            "stibp" : true,
+            "fsgsbase" : true,
+            "tsc_adjust" : true,
+            "bmi1" : true,
+            "hle" : true,
+            "avx2" : true,
+            "smep" : true,
+            "bmi2" : true,
+            "erms" : true,
+            "invpcid" : true,
+            "rtm" : true,
+            "rdseed" : true,
+            "adx" : true,
+            "smap" : true,
+            "intel_pt" : true,
+            "xsaveopt" : true,
+            "dtherm" : true,
+            "ida" : true,
+            "arat" : true,
+            "pln" : true,
+            "pts" : true,
+            "md_clear" : true,
+            "flush_l1d" : true,
+            "cpufreq" : "CPU Frequency scaling"
+          },
+          "children" : [            {
+              "id" : "cache:0",
+              "class" : "memory",
+              "claimed" : true,
+              "handle" : "DMI:0005",
+              "description" : "L1 cache",
+              "physid" : "5",
+              "slot" : "L1 Cache",
+              "units" : "bytes",
+              "size" : 32768,
+              "capacity" : 32768,
+              "configuration" : {
+                "level" : "1"
+              },
+              "capabilities" : {
+                "synchronous" : "Synchronous",
+                "internal" : "Internal",
+                "write-back" : "Write-back",
+                "instruction" : "Instruction cache"
+              }
+            },
+            {
+              "id" : "cache:1",
+              "class" : "memory",
+              "claimed" : true,
+              "handle" : "DMI:0006",
+              "description" : "L2 cache",
+              "physid" : "6",
+              "slot" : "L2 Cache",
+              "units" : "bytes",
+              "size" : 262144,
+              "capacity" : 262144,
+              "configuration" : {
+                "level" : "2"
+              },
+              "capabilities" : {
+                "synchronous" : "Synchronous",
+                "internal" : "Internal",
+                "write-back" : "Write-back",
+                "unified" : "Unified cache"
+              }
+            },
+            {
+              "id" : "cache:2",
+              "class" : "memory",
+              "claimed" : true,
+              "handle" : "DMI:0007",
+              "description" : "L3 cache",
+              "physid" : "7",
+              "slot" : "L3 Cache",
+              "units" : "bytes",
+              "size" : 3145728,
+              "capacity" : 3145728,
+              "configuration" : {
+                "level" : "3"
+              },
+              "capabilities" : {
+                "synchronous" : "Synchronous",
+                "internal" : "Internal",
+                "write-back" : "Write-back",
+                "unified" : "Unified cache"
+              }
+            }]
+        },
+        {
+          "id" : "memory",
+          "class" : "memory",
+          "claimed" : true,
+          "handle" : "DMI:0008",
+          "description" : "System Memory",
+          "physid" : "8",
+          "slot" : "System board or motherboard",
+          "units" : "bytes",
+          "size" : 4294967296,
+          "children" : [            {
+              "id" : "bank",
+              "class" : "memory",
+              "claimed" : true,
+              "handle" : "DMI:0009",
+              "description" : "SODIMM DDR3 Synchronous 1600 MHz (0,6 ns)",
+              "product" : "HMT351S6EFR8A-PB",
+              "vendor" : "Hynix/Hyundai",
+              "physid" : "0",
+              "serial" : "12101938",
+              "slot" : "ChannelA-DIMM0",
+              "units" : "bytes",
+              "size" : 4294967296,
+              "width" : 64,
+              "clock" : 1600000000
+            }]
+        },
+        {
+          "id" : "firmware",
+          "class" : "memory",
+          "claimed" : true,
+          "description" : "BIOS",
+          "vendor" : "LENOVO",
+          "physid" : "30",
+          "version" : "N10ET36W (1.15 )",
+          "date" : "06/19/2015",
+          "units" : "bytes",
+          "size" : 131072,
+          "capacity" : 16777216,
+          "capabilities" : {
+            "pci" : "PCI bus",
+            "pnp" : "Plug-and-Play",
+            "upgrade" : "BIOS EEPROM can be upgraded",
+            "shadowing" : "BIOS shadowing",
+            "cdboot" : "Booting from CD-ROM/DVD",
+            "bootselect" : "Selectable boot path",
+            "acpi" : "ACPI",
+            "usb" : "USB legacy emulation",
+            "biosbootspecification" : "BIOS boot specification",
+            "uefi" : "UEFI specification is supported"
+          }
+        },
+        {
+          "id" : "pci",
+          "class" : "bridge",
+          "claimed" : true,
+          "handle" : "PCIBUS:0000:00",
+          "description" : "Host bridge",
+          "product" : "Broadwell-U Host Bridge -OPI",
+          "vendor" : "Intel Corporation",
+          "physid" : "100",
+          "businfo" : "pci@0000:00:00.0",
+          "version" : "09",
+          "width" : 32,
+          "clock" : 33000000,
+          "configuration" : {
+            "driver" : "bdw_uncore"
+          },
+          "children" : [            {
+              "id" : "display",
+              "class" : "display",
+              "claimed" : true,
+              "handle" : "PCI:0000:00:02.0",
+              "description" : "VGA compatible controller",
+              "product" : "HD Graphics 5500",
+              "vendor" : "Intel Corporation",
+              "physid" : "2",
+              "businfo" : "pci@0000:00:02.0",
+              "logicalname" : "/dev/fb0",
+              "version" : "09",
+              "width" : 64,
+              "clock" : 33000000,
+              "configuration" : {
+                "depth" : "32",
+                "driver" : "i915",
+                "latency" : "0",
+                "resolution" : "1366,768"
+              },
+              "capabilities" : {
+                "msi" : "Message Signalled Interrupts",
+                "pm" : "Power Management",
+                "vga_controller" : true,
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing",
+                "rom" : "extension ROM",
+                "fb" : "framebuffer"
+              }
+            },
+            {
+              "id" : "multimedia:0",
+              "class" : "multimedia",
+              "claimed" : true,
+              "handle" : "PCI:0000:00:03.0",
+              "description" : "Audio device",
+              "product" : "Broadwell-U Audio Controller",
+              "vendor" : "Intel Corporation",
+              "physid" : "3",
+              "businfo" : "pci@0000:00:03.0",
+              "logicalname" : ["card0", "/dev/snd/controlC0", "/dev/snd/hwC0D0", "/dev/snd/pcmC0D10p", "/dev/snd/pcmC0D3p", "/dev/snd/pcmC0D7p", "/dev/snd/pcmC0D8p", "/dev/snd/pcmC0D9p"],
+              "version" : "09",
+              "width" : 64,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "snd_hda_intel",
+                "latency" : "0"
+              },
+              "capabilities" : {
+                "pm" : "Power Management",
+                "msi" : "Message Signalled Interrupts",
+                "pciexpress" : "PCI Express",
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing"
+              },
+              "children" : [                {
+                  "id" : "input:0",
+                  "class" : "input",
+                  "claimed" : true,
+                  "product" : "HDA Intel HDMI HDMI/DP,pcm=3",
+                  "physid" : "0",
+                  "logicalname" : ["input11", "/dev/input/event9"]
+                },
+                {
+                  "id" : "input:1",
+                  "class" : "input",
+                  "claimed" : true,
+                  "product" : "HDA Intel HDMI HDMI/DP,pcm=7",
+                  "physid" : "1",
+                  "logicalname" : ["input12", "/dev/input/event10"]
+                },
+                {
+                  "id" : "input:2",
+                  "class" : "input",
+                  "claimed" : true,
+                  "product" : "HDA Intel HDMI HDMI/DP,pcm=8",
+                  "physid" : "2",
+                  "logicalname" : ["input13", "/dev/input/event11"]
+                },
+                {
+                  "id" : "input:3",
+                  "class" : "input",
+                  "claimed" : true,
+                  "product" : "HDA Intel HDMI HDMI/DP,pcm=9",
+                  "physid" : "3",
+                  "logicalname" : ["input14", "/dev/input/event12"]
+                },
+                {
+                  "id" : "input:4",
+                  "class" : "input",
+                  "claimed" : true,
+                  "product" : "HDA Intel HDMI HDMI/DP,pcm=10",
+                  "physid" : "4",
+                  "logicalname" : ["input15", "/dev/input/event13"]
+                }]
+            },
+            {
+              "id" : "usb:0",
+              "class" : "bus",
+              "claimed" : true,
+              "handle" : "PCI:0000:00:14.0",
+              "description" : "USB controller",
+              "product" : "Wildcat Point-LP USB xHCI Controller",
+              "vendor" : "Intel Corporation",
+              "physid" : "14",
+              "businfo" : "pci@0000:00:14.0",
+              "version" : "03",
+              "width" : 64,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "xhci_hcd",
+                "latency" : "0"
+              },
+              "capabilities" : {
+                "pm" : "Power Management",
+                "msi" : "Message Signalled Interrupts",
+                "xhci" : true,
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing"
+              },
+              "children" : [                {
+                  "id" : "usbhost:0",
+                  "class" : "bus",
+                  "claimed" : true,
+                  "handle" : "USB:2:1",
+                  "product" : "xHCI Host Controller",
+                  "vendor" : "Linux 5.15.0-69-generic xhci-hcd",
+                  "physid" : "0",
+                  "businfo" : "usb@2",
+                  "logicalname" : "usb2",
+                  "version" : "5.15",
+                  "configuration" : {
+                    "driver" : "hub",
+                    "slots" : "11",
+                    "speed" : "480Mbit/s"
+                  },
+                  "capabilities" : {
+                    "usb-2.00" : "USB 2.0"
+                  },
+                  "children" : [                    {
+                      "id" : "usb:0",
+                      "class" : "input",
+                      "claimed" : true,
+                      "handle" : "USB:2:5",
+                      "description" : "Keyboard",
+                      "product" : "USB Receiver",
+                      "vendor" : "Logitech",
+                      "physid" : "1",
+                      "businfo" : "usb@2:1",
+                      "version" : "24.10",
+                      "configuration" : {
+                        "driver" : "usbhid",
+                        "maxpower" : "98mA",
+                        "speed" : "12Mbit/s"
+                      },
+                      "capabilities" : {
+                        "usb-2.00" : "USB 2.0"
+                      },
+                      "children" : [                        {
+                          "id" : "input",
+                          "class" : "input",
+                          "claimed" : true,
+                          "product" : "Logitech MX Anywhere 2",
+                          "physid" : "0",
+                          "logicalname" : ["input30", "/dev/input/event18", "input30::capslock", "input30::compose", "input30::kana", "input30::numlock", "input30::scrolllock", "/dev/input/mouse2"],
+                          "capabilities" : {
+                            "usb" : "USB"
+                          }
+                        }]
+                    },
+                    {
+                      "id" : "usb:1",
+                      "class" : "generic",
+                      "handle" : "USB:2:2",
+                      "description" : "Generic USB device",
+                      "product" : "VFS 5011 fingerprint sensor",
+                      "vendor" : "Validity Sensors, Inc.",
+                      "physid" : "6",
+                      "businfo" : "usb@2:6",
+                      "version" : "0.78",
+                      "serial" : "f9d28784e058",
+                      "configuration" : {
+                        "maxpower" : "100mA",
+                        "speed" : "12Mbit/s"
+                      },
+                      "capabilities" : {
+                        "usb-1.10" : "USB 1.1"
+                      }
+                    },
+                    {
+                      "id" : "usb:2",
+                      "class" : "communication",
+                      "claimed" : true,
+                      "handle" : "USB:2:3",
+                      "description" : "Bluetooth wireless interface",
+                      "product" : "Bluetooth wireless interface",
+                      "vendor" : "Intel Corp.",
+                      "physid" : "7",
+                      "businfo" : "usb@2:7",
+                      "version" : "0.01",
+                      "configuration" : {
+                        "driver" : "btusb",
+                        "maxpower" : "100mA",
+                        "speed" : "12Mbit/s"
+                      },
+                      "capabilities" : {
+                        "bluetooth" : "Bluetooth wireless radio",
+                        "usb-2.01" : true
+                      }
+                    },
+                    {
+                      "id" : "usb:3",
+                      "class" : "multimedia",
+                      "claimed" : true,
+                      "handle" : "USB:2:4",
+                      "description" : "Video",
+                      "product" : "Integrated Camera: Integrated C",
+                      "vendor" : "SunplusIT Inc",
+                      "physid" : "8",
+                      "businfo" : "usb@2:8",
+                      "logicalname" : ["input7", "/dev/input/event5"],
+                      "version" : "0.18",
+                      "configuration" : {
+                        "driver" : "uvcvideo",
+                        "maxpower" : "500mA",
+                        "speed" : "480Mbit/s"
+                      },
+                      "capabilities" : {
+                        "usb-2.00" : "USB 2.0",
+                        "usb" : "USB"
+                      }
+                    }]
+                },
+                {
+                  "id" : "usbhost:1",
+                  "class" : "bus",
+                  "claimed" : true,
+                  "handle" : "USB:3:1",
+                  "product" : "xHCI Host Controller",
+                  "vendor" : "Linux 5.15.0-69-generic xhci-hcd",
+                  "physid" : "1",
+                  "businfo" : "usb@3",
+                  "logicalname" : "usb3",
+                  "version" : "5.15",
+                  "configuration" : {
+                    "driver" : "hub",
+                    "slots" : "4",
+                    "speed" : "5000Mbit/s"
+                  },
+                  "capabilities" : {
+                    "usb-3.00" : true
+                  }
+                }]
+            },
+            {
+              "id" : "communication",
+              "class" : "communication",
+              "claimed" : true,
+              "handle" : "PCI:0000:00:16.0",
+              "description" : "Communication controller",
+              "product" : "Wildcat Point-LP MEI Controller #1",
+              "vendor" : "Intel Corporation",
+              "physid" : "16",
+              "businfo" : "pci@0000:00:16.0",
+              "version" : "03",
+              "width" : 64,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "mei_me",
+                "latency" : "0"
+              },
+              "capabilities" : {
+                "pm" : "Power Management",
+                "msi" : "Message Signalled Interrupts",
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing"
+              }
+            },
+            {
+              "id" : "network",
+              "class" : "network",
+              "claimed" : true,
+              "handle" : "PCI:0000:00:19.0",
+              "description" : "Ethernet interface",
+              "product" : "Ethernet Connection (3) I218-LM",
+              "vendor" : "Intel Corporation",
+              "physid" : "19",
+              "businfo" : "pci@0000:00:19.0",
+              "logicalname" : "enp0s25",
+              "version" : "03",
+              "serial" : "50:7b:9d:07:e0:ee",
+              "units" : "bit/s",
+              "capacity" : 1000000000,
+              "width" : 32,
+              "clock" : 33000000,
+              "configuration" : {
+                "autonegotiation" : "on",
+                "broadcast" : "yes",
+                "driver" : "e1000e",
+                "driverversion" : "5.15.0-69-generic",
+                "firmware" : "0.2-3",
+                "latency" : "0",
+                "link" : "no",
+                "multicast" : "yes",
+                "port" : "twisted pair"
+              },
+              "capabilities" : {
+                "pm" : "Power Management",
+                "msi" : "Message Signalled Interrupts",
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing",
+                "ethernet" : true,
+                "physical" : "Physical interface",
+                "tp" : "twisted pair",
+                "10bt" : "10Mbit/s",
+                "10bt-fd" : "10Mbit/s (full duplex)",
+                "100bt" : "100Mbit/s",
+                "100bt-fd" : "100Mbit/s (full duplex)",
+                "1000bt-fd" : "1Gbit/s (full duplex)",
+                "autonegotiation" : "Auto-negotiation"
+              }
+            },
+            {
+              "id" : "multimedia:1",
+              "class" : "multimedia",
+              "claimed" : true,
+              "handle" : "PCI:0000:00:1b.0",
+              "description" : "Audio device",
+              "product" : "Wildcat Point-LP High Definition Audio Controller",
+              "vendor" : "Intel Corporation",
+              "physid" : "1b",
+              "businfo" : "pci@0000:00:1b.0",
+              "logicalname" : ["card1", "/dev/snd/controlC1", "/dev/snd/hwC1D0", "/dev/snd/pcmC1D0c", "/dev/snd/pcmC1D0p"],
+              "version" : "03",
+              "width" : 64,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "snd_hda_intel",
+                "latency" : "32"
+              },
+              "capabilities" : {
+                "pm" : "Power Management",
+                "msi" : "Message Signalled Interrupts",
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing"
+              },
+              "children" : [                {
+                  "id" : "input:0",
+                  "class" : "input",
+                  "claimed" : true,
+                  "product" : "HDA Intel PCH Dock Mic",
+                  "physid" : "0",
+                  "logicalname" : ["input16", "/dev/input/event14"]
+                },
+                {
+                  "id" : "input:1",
+                  "class" : "input",
+                  "claimed" : true,
+                  "product" : "HDA Intel PCH Mic",
+                  "physid" : "1",
+                  "logicalname" : ["input17", "/dev/input/event15"]
+                },
+                {
+                  "id" : "input:2",
+                  "class" : "input",
+                  "claimed" : true,
+                  "product" : "HDA Intel PCH Dock Headphone",
+                  "physid" : "2",
+                  "logicalname" : ["input18", "/dev/input/event16"]
+                },
+                {
+                  "id" : "input:3",
+                  "class" : "input",
+                  "claimed" : true,
+                  "product" : "HDA Intel PCH Headphone",
+                  "physid" : "3",
+                  "logicalname" : ["input19", "/dev/input/event17"]
+                }]
+            },
+            {
+              "id" : "pci:0",
+              "class" : "bridge",
+              "claimed" : true,
+              "handle" : "PCIBUS:0000:02",
+              "description" : "PCI bridge",
+              "product" : "Wildcat Point-LP PCI Express Root Port #6",
+              "vendor" : "Intel Corporation",
+              "physid" : "1c",
+              "businfo" : "pci@0000:00:1c.0",
+              "version" : "e3",
+              "width" : 32,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "pcieport"
+              },
+              "capabilities" : {
+                "pci" : true,
+                "pciexpress" : "PCI Express",
+                "msi" : "Message Signalled Interrupts",
+                "pm" : "Power Management",
+                "normal_decode" : true,
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing"
+              },
+              "children" : [                {
+                  "id" : "generic",
+                  "class" : "bus",
+                  "claimed" : true,
+                  "handle" : "PCI:0000:02:00.0",
+                  "description" : "MMC Host",
+                  "product" : "RTS5227 PCI Express Card Reader",
+                  "vendor" : "Realtek Semiconductor Co., Ltd.",
+                  "physid" : "0",
+                  "businfo" : "pci@0000:02:00.0",
+                  "logicalname" : "mmc0",
+                  "version" : "01",
+                  "width" : 32,
+                  "clock" : 33000000,
+                  "configuration" : {
+                    "driver" : "rtsx_pci",
+                    "latency" : "0"
+                  },
+                  "capabilities" : {
+                    "pm" : "Power Management",
+                    "msi" : "Message Signalled Interrupts",
+                    "pciexpress" : "PCI Express",
+                    "bus_master" : "bus mastering",
+                    "cap_list" : "PCI capabilities listing"
+                  }
+                }]
+            },
+            {
+              "id" : "pci:1",
+              "class" : "bridge",
+              "claimed" : true,
+              "handle" : "PCIBUS:0000:03",
+              "description" : "PCI bridge",
+              "product" : "Wildcat Point-LP PCI Express Root Port #3",
+              "vendor" : "Intel Corporation",
+              "physid" : "1c.1",
+              "businfo" : "pci@0000:00:1c.1",
+              "version" : "e3",
+              "width" : 32,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "pcieport"
+              },
+              "capabilities" : {
+                "pci" : true,
+                "pciexpress" : "PCI Express",
+                "msi" : "Message Signalled Interrupts",
+                "pm" : "Power Management",
+                "normal_decode" : true,
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing"
+              },
+              "children" : [                {
+                  "id" : "network",
+                  "class" : "network",
+                  "claimed" : true,
+                  "handle" : "PCI:0000:03:00.0",
+                  "description" : "Wireless interface",
+                  "product" : "Wireless 7265",
+                  "vendor" : "Intel Corporation",
+                  "physid" : "0",
+                  "businfo" : "pci@0000:03:00.0",
+                  "logicalname" : "wlp3s0",
+                  "version" : "59",
+                  "serial" : "94:65:9c:49:d1:80",
+                  "width" : 64,
+                  "clock" : 33000000,
+                  "configuration" : {
+                    "broadcast" : "yes",
+                    "driver" : "iwlwifi",
+                    "driverversion" : "5.15.0-69-generic",
+                    "firmware" : "29.4063824552.0 7265D-29.ucode",
+                    "ip" : "192.168.8.116",
+                    "latency" : "0",
+                    "link" : "yes",
+                    "multicast" : "yes",
+                    "wireless" : "IEEE 802.11"
+                  },
+                  "capabilities" : {
+                    "pm" : "Power Management",
+                    "msi" : "Message Signalled Interrupts",
+                    "pciexpress" : "PCI Express",
+                    "bus_master" : "bus mastering",
+                    "cap_list" : "PCI capabilities listing",
+                    "ethernet" : true,
+                    "physical" : "Physical interface",
+                    "wireless" : "Wireless-LAN"
+                  }
+                }]
+            },
+            {
+              "id" : "usb:1",
+              "class" : "bus",
+              "claimed" : true,
+              "handle" : "PCI:0000:00:1d.0",
+              "description" : "USB controller",
+              "product" : "Wildcat Point-LP USB EHCI Controller",
+              "vendor" : "Intel Corporation",
+              "physid" : "1d",
+              "businfo" : "pci@0000:00:1d.0",
+              "version" : "03",
+              "width" : 32,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "ehci-pci",
+                "latency" : "0"
+              },
+              "capabilities" : {
+                "pm" : "Power Management",
+                "debug" : "Debug port",
+                "ehci" : "Enhanced Host Controller Interface (USB2)",
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing"
+              },
+              "children" : [                {
+                  "id" : "usbhost",
+                  "class" : "bus",
+                  "claimed" : true,
+                  "handle" : "USB:1:1",
+                  "product" : "EHCI Host Controller",
+                  "vendor" : "Linux 5.15.0-69-generic ehci_hcd",
+                  "physid" : "1",
+                  "businfo" : "usb@1",
+                  "logicalname" : "usb1",
+                  "version" : "5.15",
+                  "configuration" : {
+                    "driver" : "hub",
+                    "slots" : "3",
+                    "speed" : "480Mbit/s"
+                  },
+                  "capabilities" : {
+                    "usb-2.00" : "USB 2.0"
+                  },
+                  "children" : [                    {
+                      "id" : "usb",
+                      "class" : "bus",
+                      "claimed" : true,
+                      "handle" : "USB:1:2",
+                      "description" : "USB hub",
+                      "product" : "Integrated Hub",
+                      "vendor" : "Intel Corp.",
+                      "physid" : "1",
+                      "businfo" : "usb@1:1",
+                      "version" : "0.03",
+                      "configuration" : {
+                        "driver" : "hub",
+                        "slots" : "8",
+                        "speed" : "480Mbit/s"
+                      },
+                      "capabilities" : {
+                        "usb-2.00" : "USB 2.0"
+                      }
+                    }]
+                }]
+            },
+            {
+              "id" : "isa",
+              "class" : "bridge",
+              "claimed" : true,
+              "handle" : "PCI:0000:00:1f.0",
+              "description" : "ISA bridge",
+              "product" : "Wildcat Point-LP LPC Controller",
+              "vendor" : "Intel Corporation",
+              "physid" : "1f",
+              "businfo" : "pci@0000:00:1f.0",
+              "version" : "03",
+              "width" : 32,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "lpc_ich",
+                "latency" : "0"
+              },
+              "capabilities" : {
+                "isa" : true,
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing"
+              },
+              "children" : [                {
+                  "id" : "pnp00:00",
+                  "class" : "system",
+                  "claimed" : true,
+                  "product" : "PnP device PNP0c01",
+                  "physid" : "0",
+                  "configuration" : {
+                    "driver" : "system"
+                  },
+                  "capabilities" : {
+                    "pnp" : true
+                  }
+                },
+                {
+                  "id" : "pnp00:01",
+                  "class" : "system",
+                  "claimed" : true,
+                  "product" : "PnP device PNP0c02",
+                  "physid" : "1",
+                  "configuration" : {
+                    "driver" : "system"
+                  },
+                  "capabilities" : {
+                    "pnp" : true
+                  }
+                },
+                {
+                  "id" : "pnp00:02",
+                  "class" : "system",
+                  "claimed" : true,
+                  "product" : "PnP device PNP0b00",
+                  "physid" : "2",
+                  "configuration" : {
+                    "driver" : "rtc_cmos"
+                  },
+                  "capabilities" : {
+                    "pnp" : true
+                  }
+                },
+                {
+                  "id" : "pnp00:03",
+                  "class" : "generic",
+                  "claimed" : true,
+                  "product" : "PnP device LEN0071",
+                  "physid" : "3",
+                  "configuration" : {
+                    "driver" : "i8042 kbd"
+                  },
+                  "capabilities" : {
+                    "pnp" : true
+                  }
+                },
+                {
+                  "id" : "pnp00:04",
+                  "class" : "generic",
+                  "claimed" : true,
+                  "product" : "PnP device LEN0046",
+                  "physid" : "4",
+                  "configuration" : {
+                    "driver" : "i8042 aux"
+                  },
+                  "capabilities" : {
+                    "pnp" : true
+                  }
+                },
+                {
+                  "id" : "pnp00:05",
+                  "class" : "generic",
+                  "claimed" : true,
+                  "product" : "PnP device SMO1200",
+                  "physid" : "5",
+                  "configuration" : {
+                    "driver" : "tpm_tis"
+                  },
+                  "capabilities" : {
+                    "pnp" : true
+                  }
+                },
+                {
+                  "id" : "pnp00:06",
+                  "class" : "system",
+                  "claimed" : true,
+                  "product" : "PnP device PNP0c02",
+                  "physid" : "6",
+                  "configuration" : {
+                    "driver" : "system"
+                  },
+                  "capabilities" : {
+                    "pnp" : true
+                  }
+                }]
+            },
+            {
+              "id" : "sata",
+              "class" : "storage",
+              "claimed" : true,
+              "handle" : "PCI:0000:00:1f.2",
+              "description" : "SATA controller",
+              "product" : "Wildcat Point-LP SATA Controller [AHCI Mode]",
+              "vendor" : "Intel Corporation",
+              "physid" : "1f.2",
+              "businfo" : "pci@0000:00:1f.2",
+              "logicalname" : "scsi0",
+              "version" : "03",
+              "width" : 32,
+              "clock" : 66000000,
+              "configuration" : {
+                "driver" : "ahci",
+                "latency" : "0"
+              },
+              "capabilities" : {
+                "sata" : true,
+                "msi" : "Message Signalled Interrupts",
+                "pm" : "Power Management",
+                "ahci_1.0" : true,
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing",
+                "emulated" : "Emulated device"
+              },
+              "children" : [                {
+                  "id" : "disk",
+                  "class" : "disk",
+                  "claimed" : true,
+                  "handle" : "GUID:b5a7145b-61e3-4019-be23-e81f3e427178",
+                  "description" : "ATA Disk",
+                  "product" : "SAMSUNG MZ7LN256",
+                  "physid" : "0.0.0",
+                  "businfo" : "scsi@0:0.0.0",
+                  "logicalname" : "/dev/sda",
+                  "dev" : "8:0",
+                  "version" : "3L6Q",
+                  "serial" : "S20HNXCG724094",
+                  "units" : "bytes",
+                  "size" : 256060514304,
+                  "configuration" : {
+                    "ansiversion" : "5",
+                    "guid" : "b5a7145b-61e3-4019-be23-e81f3e427178",
+                    "logicalsectorsize" : "512",
+                    "sectorsize" : "512"
+                  },
+                  "capabilities" : {
+                    "gpt-1.00" : "GUID Partition Table version 1.00",
+                    "partitioned" : "Partitioned disk",
+                    "partitioned:gpt" : "GUID partition table"
+                  },
+                  "children" : [                    {
+                      "id" : "volume:0",
+                      "class" : "volume",
+                      "claimed" : true,
+                      "handle" : "GUID:092fd1ba-beff-4425-a437-cd9586bffd80",
+                      "description" : "BIOS Boot partition",
+                      "vendor" : "EFI",
+                      "physid" : "1",
+                      "businfo" : "scsi@0:0.0.0,1",
+                      "logicalname" : "/dev/sda1",
+                      "dev" : "8:1",
+                      "serial" : "092fd1ba-beff-4425-a437-cd9586bffd80",
+                      "capacity" : 1048064,
+                      "capabilities" : {
+                        "nofs" : "No filesystem"
+                      }
+                    },
+                    {
+                      "id" : "volume:1",
+                      "class" : "volume",
+                      "handle" : "GUID:c6ba72a2-7530-48d7-84f4-b344125019ee",
+                      "description" : "Windows FAT volume",
+                      "vendor" : "mkfs.fat",
+                      "physid" : "2",
+                      "businfo" : "scsi@0:0.0.0,2",
+                      "version" : "FAT32",
+                      "serial" : "6a6a-8dc4",
+                      "size" : 535787520,
+                      "capacity" : 537918976,
+                      "configuration" : {
+                        "FATs" : "2",
+                        "filesystem" : "fat",
+                        "name" : "EFI System Partition"
+                      },
+                      "capabilities" : {
+                        "boot" : "Contains boot code",
+                        "fat" : "Windows FAT",
+                        "initialized" : "initialized volume"
+                      }
+                    },
+                    {
+                      "id" : "volume:2",
+                      "class" : "volume",
+                      "claimed" : true,
+                      "handle" : "GUID:d2227112-169a-4823-974e-3a36b126e8f2",
+                      "description" : "EXT4 volume",
+                      "vendor" : "Linux",
+                      "physid" : "3",
+                      "businfo" : "scsi@0:0.0.0,3",
+                      "logicalname" : ["/dev/sda3", "/"],
+                      "dev" : "8:3",
+                      "version" : "1.0",
+                      "serial" : "a549f945-83b0-4ac2-8797-115f74ee9627",
+                      "size" : 255520145408,
+                      "configuration" : {
+                        "created" : "2023-04-05 09:35:19",
+                        "filesystem" : "ext4",
+                        "lastmountpoint" : "/",
+                        "modified" : "2023-04-05 18:54:39",
+                        "mount.fstype" : "ext4",
+                        "mount.options" : "rw,relatime,errors=remount-ro",
+                        "mounted" : "2023-04-05 18:54:39",
+                        "state" : "mounted"
+                      },
+                      "capabilities" : {
+                        "journaled" : true,
+                        "extended_attributes" : "Extended Attributes",
+                        "large_files" : "4GB+ files",
+                        "huge_files" : "16TB+ files",
+                        "dir_nlink" : "directories with 65000+ subdirs",
+                        "recover" : "needs recovery",
+                        "64bit" : "64bit filesystem",
+                        "extents" : "extent-based allocation",
+                        "ext4" : true,
+                        "ext2" : "EXT2/EXT3",
+                        "initialized" : "initialized volume"
+                      }
+                    }]
+                }]
+            },
+            {
+              "id" : "serial",
+              "class" : "bus",
+              "claimed" : true,
+              "handle" : "PCI:0000:00:1f.3",
+              "description" : "SMBus",
+              "product" : "Wildcat Point-LP SMBus Controller",
+              "vendor" : "Intel Corporation",
+              "physid" : "1f.3",
+              "businfo" : "pci@0000:00:1f.3",
+              "version" : "03",
+              "width" : 64,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "i801_smbus",
+                "latency" : "0"
+              }
+            },
+            {
+              "id" : "generic",
+              "class" : "generic",
+              "claimed" : true,
+              "handle" : "PCI:0000:00:1f.6",
+              "description" : "Signal processing controller",
+              "product" : "Wildcat Point-LP Thermal Management Controller",
+              "vendor" : "Intel Corporation",
+              "physid" : "1f.6",
+              "businfo" : "pci@0000:00:1f.6",
+              "version" : "03",
+              "width" : 64,
+              "clock" : 33000000,
+              "configuration" : {
+                "driver" : "intel_pch_thermal",
+                "latency" : "0"
+              },
+              "capabilities" : {
+                "pm" : "Power Management",
+                "msi" : "Message Signalled Interrupts",
+                "bus_master" : "bus mastering",
+                "cap_list" : "PCI capabilities listing"
+              }
+            }]
+        }]
+    },
+    {
+      "id" : "battery:0",
+      "class" : "power",
+      "claimed" : true,
+      "handle" : "DMI:0026",
+      "product" : "45N1111",
+      "vendor" : "SONY",
+      "physid" : "1",
+      "slot" : "Front",
+      "units" : "mWh",
+      "capacity" : 23200,
+      "configuration" : {
+        "voltage" : "11,1V"
+      }
+    },
+    {
+      "id" : "battery:1",
+      "class" : "power",
+      "claimed" : true,
+      "handle" : "DMI:0027",
+      "product" : "45N1735",
+      "vendor" : "LGC",
+      "physid" : "2",
+      "slot" : "Rear",
+      "units" : "mWh",
+      "capacity" : 47520,
+      "configuration" : {
+        "voltage" : "10,8V"
+      }
+    },
+    {
+      "id" : "input:0",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "Lid Switch",
+      "physid" : "3",
+      "logicalname" : ["input0", "/dev/input/event0"],
+      "capabilities" : {
+        "platform" : true
+      }
+    },
+    {
+      "id" : "input:1",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "Sleep Button",
+      "physid" : "4",
+      "logicalname" : ["input1", "/dev/input/event1"],
+      "capabilities" : {
+        "platform" : true
+      }
+    },
+    {
+      "id" : "input:2",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "Video Bus",
+      "physid" : "5",
+      "logicalname" : ["input10", "/dev/input/event7"],
+      "capabilities" : {
+        "platform" : true
+      }
+    },
+    {
+      "id" : "input:3",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "Power Button",
+      "physid" : "6",
+      "logicalname" : ["input2", "/dev/input/event2"],
+      "capabilities" : {
+        "platform" : true
+      }
+    },
+    {
+      "id" : "input:4",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "AT Translated Set 2 keyboard",
+      "physid" : "7",
+      "logicalname" : ["input3", "/dev/input/event3", "input3::capslock", "input3::numlock", "input3::scrolllock"],
+      "capabilities" : {
+        "i8042" : "i8042 PC AT keyboard controller"
+      }
+    },
+    {
+      "id" : "input:5",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "ThinkPad Extra Buttons",
+      "physid" : "8",
+      "logicalname" : ["input6", "/dev/input/event4"],
+      "capabilities" : {
+        "platform" : true
+      }
+    },
+    {
+      "id" : "input:6",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "Synaptics TM3075-002",
+      "physid" : "9",
+      "logicalname" : ["input8", "/dev/input/event6", "/dev/input/mouse0"],
+      "capabilities" : {
+        "rmi" : "RMI"
+      }
+    },
+    {
+      "id" : "input:7",
+      "class" : "input",
+      "claimed" : true,
+      "product" : "TPPS/2 IBM TrackPoint",
+      "physid" : "a",
+      "logicalname" : ["input9", "/dev/input/event8", "/dev/input/mouse1"],
+      "capabilities" : {
+        "i8042" : "i8042 PC AT keyboard controller"
+      }
+    }]
+}

@@ -1,0 +1,83 @@
+
+2023-04-05 19:41:08.710990+03:00
+
+    1  sudo apt-get update
+    2  sudo apt-get upgrade
+    3  sudo apt-get update
+    4  hostname
+    5  ctlhostname
+    6  hostnamectl
+    7  hostnamectl set-hostname neptune.2023.04.05
+    8  hostnamectl
+    9  sudo hostnamectl set-hostname neptune.2023.04.05
+   10  hostnamectl
+   11  sudo reboot now
+   12  hostnamectl
+   13  sudo apt-get update
+   14  sudo apt-get upgrade
+   15  sudo apt-get autoremove
+   16  sudo apt-get install git
+   17  sudo snap install code
+   18  sudo snap install code --classic
+   19  code .
+   20  htop
+   21  sudo apt-get install htop
+   22  htop
+   23  sudo shutdown now
+   24  git clone https://github.com/tlubenov/system-init.git
+   25  cd system-init/
+   26  ls
+   27  cd scripts/
+   28  ls
+   29  ./01_setup_remote_machine 
+   30  ls
+   31  ./02_sys_init_script 
+   32  cd /srv/projects/
+   33  ls
+   34  cd /home/maps/system-init/
+   35  ls
+   36  history 
+   37  ls
+   38  cd instances/
+   39  ls
+   40  cd ../
+   41  ls
+   42  cd system_init/
+   43  ls
+   44  cd ../
+   45  ls
+   46  code .
+   47  ./01_history 
+
+
+
+
+2023-04-05 19:48:38.927878+03:00
+
+    1  sudo apt-get update
+    2  sudo apt-get upgrade
+    3  sudo apt-get update
+    4  hostname
+    5  ctlhostname
+    6  hostnamectl
+    7  hostnamectl set-hostname neptune.2023.04.05
+    8  hostnamectl
+    9  sudo hostnamectl set-hostname neptune.2023.04.05
+   10  hostnamectl
+   11  sudo reboot now
+   12  hostnamectl
+   13  sudo apt-get update
+   14  sudo apt-get upgrade
+   15  sudo apt-get autoremove
+   16  sudo apt-get install git
+   17  sudo snap install code
+   18  sudo snap install code --classic
+   19  code .
+   20  htop
+   21  sudo apt-get install htop
+   22  htop
+   23  sudo shutdown now
+   24  ./01_history 
+
+
+
